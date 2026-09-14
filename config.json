@@ -74,7 +74,7 @@
   "api": {
     "_comment": "env is derived from mode: 'api' = Kalshi DEMO (fake money), 'api-live' = PRODUCTION (real money). Never store the private key here - only a path to it, outside this repo.",
     "keyId": "YOUR-KALSHI-API-KEY-ID",
-    "privateKeyPath": "C:\\Users\\hudso\\.kalshi\\prod-key.pem",
+    "privateKeyPath": "C:\\path\\to\\your\\kalshi-key.pem",
     "postOnly": false,
     "_postOnly_note": "true = rest a maker order and collect the spread (the strategy the research supports). false = cross the spread as a taker.",
     "_key_note": "PRODUCTION key (real money). All funds on exchange 2 (Crypto).",
