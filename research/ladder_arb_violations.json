@@ -1,0 +1,22 @@
+{
+  "method": {
+    "same_timestamp_only": true,
+    "minimum_quoted_strikes": 4,
+    "contracts_per_pair": 1,
+    "fee": "ceil(0.07 * contracts * price * (1-price) * 100) / 100 per leg",
+    "payoff": "YES(K1)+NO(K2), K1<K2: minimum payout is $1.00"
+  },
+  "summary": {
+    "input_market_records": 24267,
+    "non_threshold_contracts_skipped": 200,
+    "events_loaded": 4001,
+    "eligible_event_timestamps": 12913,
+    "events_with_post_fee_violation": 0,
+    "post_fee_violations": 0,
+    "pre_fee_profitable_pairs": 257,
+    "profitable_before_fees_but_not_after": 257,
+    "malformed_or_out_of_bounds_quotes_rejected": 0,
+    "duplicate_strike_pairs_skipped": 0
+  },
+  "violations": []
+}

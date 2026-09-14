@@ -1,0 +1,725 @@
+{
+  "all_markets": 29931,
+  "audit": {
+    "global_bonferroni_count": 262,
+    "new_search_count": 148,
+    "null_redraws": 20000,
+    "one_observation_per_test_market": true,
+    "prior_search_count": 114,
+    "promoted_test_at_or_after_cut": true,
+    "test_pass_executed_once": true,
+    "train_before_cut": true
+  },
+  "cut_ts": 1786563000,
+  "data_dir": "deep",
+  "recommendation": {
+    "bankroll_floor": "$500 before live use",
+    "config": {
+      "entry": 8,
+      "max_response": 0.15,
+      "min_z": 3.0
+    },
+    "evidence": "BEST AVAILABLE; EXPERIMENTAL, NOT MULTIPLICITY-SAFE",
+    "risk_limits": "maximum 1 contract per market and 5 contracts across a simultaneous five-coin block; never average down",
+    "rule": "At minute 8, compute the last completed Coinbase 1-minute return divided by the sample standard deviation of the preceding 30 returns. If |z| >= 3.0 and Kalshi's signed mid response from the preceding minute is <= 0.15, buy YES after a positive shock or NO after a negative shock at the displayed ask; hold to settlement.",
+    "scale_condition": "do not increase size until 200 additional timestamped forward trades remain net profitable",
+    "size": "1 contract per qualifying market",
+    "strategy": "Spot-shock underreaction"
+  },
+  "results": [
+    {
+      "bonferroni_combinations": 262,
+      "config": {
+        "activation": 1,
+        "last_first": 3,
+        "trigger": 0.25
+      },
+      "corrected_market_null_p": null,
+      "raw_market_null_p": null,
+      "strategy": "Two-touch lock-in",
+      "test": null,
+      "train": {
+        "daily_lcb": -4.983655707053636,
+        "fees": 115.03,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786560300,
+        "legs": 6535,
+        "mean_cost": 0.2562693693693694,
+        "n": 5550,
+        "paired_count": 985,
+        "paired_pct": 0.17747747747747747,
+        "pnl": -184.295,
+        "pnl_per_trade": -0.033206306306306305,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.05542168674698795,
+        "week_count": 7
+      },
+      "verdict": "REJECTED ON TRAIN; TEST NOT OPENED"
+    },
+    {
+      "bonferroni_combinations": 262,
+      "config": {
+        "entry": 3,
+        "mode": "reversal",
+        "threshold": 0.3
+      },
+      "corrected_market_null_p": null,
+      "raw_market_null_p": null,
+      "strategy": "Quote impulse",
+      "test": null,
+      "train": {
+        "daily_lcb": -0.6132617812977142,
+        "fees": 18.37,
+        "first_close_ts": 1782733500,
+        "last_close_ts": 1786558500,
+        "legs": 1092,
+        "mean_cost": 0.24373992673992673,
+        "n": 1092,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -6.16400000000001,
+        "pnl_per_trade": -0.005644688644688654,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "single_win_rate": 0.23809523809523808,
+        "week_count": 7
+      },
+      "verdict": "REJECTED ON TRAIN; TEST NOT OPENED"
+    },
+    {
+      "bonferroni_combinations": 262,
+      "cluster_statistics": {
+        "ci95": [
+          -0.029153807712441946,
+          0.049349886143814525
+        ],
+        "close_time_clusters": 47,
+        "se": 0.02002645251435114,
+        "t": 0.5042350465440616
+      },
+      "config": {
+        "entry": 8,
+        "max_response": 0.15,
+        "min_z": 3.0
+      },
+      "corrected_market_null_p": 1.0,
+      "diagnostics": {
+        "best_five_pnl": 1.321,
+        "best_five_share": 2.565048543689317,
+        "drift": [
+          {
+            "label": "down_or_flat",
+            "n": 26,
+            "pnl": -0.05899999999999973,
+            "pnl_per_trade": -0.002269230769230759
+          },
+          {
+            "label": "up",
+            "n": 25,
+            "pnl": 0.5740000000000004,
+            "pnl_per_trade": 0.022960000000000015
+          }
+        ],
+        "paired": [
+          {
+            "label": "single",
+            "n": 51,
+            "pnl": 0.5150000000000007,
+            "pnl_per_trade": 0.010098039215686288
+          }
+        ],
+        "series": [
+          {
+            "label": "BTC",
+            "n": 16,
+            "pnl": 0.8090000000000003,
+            "pnl_per_trade": 0.05056250000000002
+          },
+          {
+            "label": "DOGE",
+            "n": 1,
+            "pnl": 0.0010000000000000096,
+            "pnl_per_trade": 0.0010000000000000096
+          },
+          {
+            "label": "ETH",
+            "n": 11,
+            "pnl": -0.08099999999999986,
+            "pnl_per_trade": -0.007363636363636351
+          },
+          {
+            "label": "SOL",
+            "n": 13,
+            "pnl": -0.21299999999999983,
+            "pnl_per_trade": -0.016384615384615372
+          },
+          {
+            "label": "XRP",
+            "n": 10,
+            "pnl": -0.0009999999999999194,
+            "pnl_per_trade": -9.999999999999194e-05
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 24,
+            "pnl": -0.6989999999999997,
+            "pnl_per_trade": -0.029124999999999988
+          },
+          {
+            "label": "YES",
+            "n": 27,
+            "pnl": 1.2140000000000004,
+            "pnl_per_trade": 0.044962962962962975
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W33",
+            "n": 11,
+            "pnl": 0.633,
+            "pnl_per_trade": 0.057545454545454545
+          },
+          {
+            "label": "2026-W34",
+            "n": 14,
+            "pnl": 0.4810000000000002,
+            "pnl_per_trade": 0.03435714285714287
+          },
+          {
+            "label": "2026-W35",
+            "n": 24,
+            "pnl": -0.3949999999999997,
+            "pnl_per_trade": -0.01645833333333332
+          },
+          {
+            "label": "2026-W36",
+            "n": 2,
+            "pnl": -0.20399999999999993,
+            "pnl_per_trade": -0.10199999999999997
+          }
+        ]
+      },
+      "market_null_simulations": 20000,
+      "raw_market_null_p": 0.36598170091495424,
+      "rule": "At minute 8, compute the last completed Coinbase 1-minute return divided by the sample standard deviation of the preceding 30 returns. If |z| >= 3.0 and Kalshi's signed mid response from the preceding minute is <= 0.15, buy YES after a positive shock or NO after a negative shock at the displayed ask; hold to settlement.",
+      "strategy": "Spot-shock underreaction",
+      "test": {
+        "daily_lcb": null,
+        "fees": 0.5700000000000001,
+        "first_close_ts": 1786595400,
+        "last_close_ts": 1788201900,
+        "legs": 51,
+        "mean_cost": 0.7938235294117647,
+        "n": 51,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.5150000000000007,
+        "pnl_per_trade": 0.010098039215686288,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.803921568627451,
+        "week_count": 4
+      },
+      "test_robustness": {
+        "all": false,
+        "cluster_ci": false,
+        "concentration": false,
+        "drift": false,
+        "series": false,
+        "weeks": true
+      },
+      "train": {
+        "daily_lcb": 0.011030905511059737,
+        "fees": 1.37,
+        "first_close_ts": 1782867600,
+        "last_close_ts": 1786509000,
+        "legs": 132,
+        "mean_cost": 0.8816818181818182,
+        "n": 132,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 2.618000000000002,
+        "pnl_per_trade": 0.01983333333333335,
+        "positive_series": 5,
+        "positive_weeks": 6,
+        "series_count": 5,
+        "single_win_rate": 0.9015151515151515,
+        "week_count": 7
+      },
+      "train_diagnostics": {
+        "best_five_pnl": 3.596,
+        "best_five_share": 1.3735676088617255,
+        "drift": [
+          {
+            "label": "down_or_flat",
+            "n": 64,
+            "pnl": 0.13000000000000084,
+            "pnl_per_trade": 0.002031250000000013
+          },
+          {
+            "label": "up",
+            "n": 68,
+            "pnl": 2.488000000000001,
+            "pnl_per_trade": 0.03658823529411766
+          }
+        ],
+        "paired": [
+          {
+            "label": "single",
+            "n": 132,
+            "pnl": 2.618000000000002,
+            "pnl_per_trade": 0.01983333333333335
+          }
+        ],
+        "series": [
+          {
+            "label": "BTC",
+            "n": 35,
+            "pnl": 0.7910000000000004,
+            "pnl_per_trade": 0.02260000000000001
+          },
+          {
+            "label": "DOGE",
+            "n": 7,
+            "pnl": 0.3040000000000001,
+            "pnl_per_trade": 0.04342857142857144
+          },
+          {
+            "label": "ETH",
+            "n": 36,
+            "pnl": 0.14200000000000065,
+            "pnl_per_trade": 0.003944444444444462
+          },
+          {
+            "label": "SOL",
+            "n": 30,
+            "pnl": 0.0410000000000004,
+            "pnl_per_trade": 0.0013666666666666799
+          },
+          {
+            "label": "XRP",
+            "n": 24,
+            "pnl": 1.3400000000000003,
+            "pnl_per_trade": 0.055833333333333346
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 64,
+            "pnl": 0.967000000000001,
+            "pnl_per_trade": 0.015109375000000015
+          },
+          {
+            "label": "YES",
+            "n": 68,
+            "pnl": 1.651000000000001,
+            "pnl_per_trade": 0.024279411764705897
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 15,
+            "pnl": 0.18200000000000027,
+            "pnl_per_trade": 0.012133333333333352
+          },
+          {
+            "label": "2026-W28",
+            "n": 17,
+            "pnl": 1.8030000000000004,
+            "pnl_per_trade": 0.10605882352941179
+          },
+          {
+            "label": "2026-W29",
+            "n": 22,
+            "pnl": 0.6280000000000004,
+            "pnl_per_trade": 0.028545454545454565
+          },
+          {
+            "label": "2026-W30",
+            "n": 21,
+            "pnl": 0.24100000000000027,
+            "pnl_per_trade": 0.011476190476190489
+          },
+          {
+            "label": "2026-W31",
+            "n": 27,
+            "pnl": 0.6790000000000004,
+            "pnl_per_trade": 0.025148148148148163
+          },
+          {
+            "label": "2026-W32",
+            "n": 19,
+            "pnl": -0.9239999999999998,
+            "pnl_per_trade": -0.048631578947368415
+          },
+          {
+            "label": "2026-W33",
+            "n": 11,
+            "pnl": 0.009000000000000017,
+            "pnl_per_trade": 0.0008181818181818197
+          }
+        ]
+      },
+      "train_robustness": {
+        "all": false,
+        "all_without_cluster": false,
+        "cluster_ci": false,
+        "concentration": false,
+        "drift": true,
+        "series": true,
+        "weeks": true
+      },
+      "verdict": "POSITIVE BUT UNPROVEN"
+    },
+    {
+      "bonferroni_combinations": 262,
+      "cluster_statistics": {
+        "ci95": [
+          -0.03064456287554997,
+          0.024549324780311913
+        ],
+        "close_time_clusters": 20,
+        "se": 0.014080073381597419,
+        "t": -0.21644908836925883
+      },
+      "config": {
+        "entry": 8,
+        "max_paid": 1.0,
+        "max_response": 0.15,
+        "min_z": 3.5
+      },
+      "corrected_market_null_p": 1.0,
+      "diagnostics": {
+        "best_five_pnl": 0.1850000000000002,
+        "best_five_share": null,
+        "drift": [
+          {
+            "label": "down_or_flat",
+            "n": 8,
+            "pnl": -0.32999999999999996,
+            "pnl_per_trade": -0.041249999999999995
+          },
+          {
+            "label": "up",
+            "n": 13,
+            "pnl": 0.26600000000000035,
+            "pnl_per_trade": 0.02046153846153849
+          }
+        ],
+        "paired": [
+          {
+            "label": "single",
+            "n": 21,
+            "pnl": -0.0639999999999996,
+            "pnl_per_trade": -0.0030476190476190286
+          }
+        ],
+        "series": [
+          {
+            "label": "BTC",
+            "n": 8,
+            "pnl": 0.006000000000000252,
+            "pnl_per_trade": 0.0007500000000000315
+          },
+          {
+            "label": "DOGE",
+            "n": 1,
+            "pnl": 0.0010000000000000096,
+            "pnl_per_trade": 0.0010000000000000096
+          },
+          {
+            "label": "ETH",
+            "n": 2,
+            "pnl": 0.05300000000000006,
+            "pnl_per_trade": 0.02650000000000003
+          },
+          {
+            "label": "SOL",
+            "n": 6,
+            "pnl": 0.01100000000000006,
+            "pnl_per_trade": 0.0018333333333333433
+          },
+          {
+            "label": "XRP",
+            "n": 4,
+            "pnl": -0.13499999999999998,
+            "pnl_per_trade": -0.033749999999999995
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 10,
+            "pnl": -0.03599999999999985,
+            "pnl_per_trade": -0.003599999999999985
+          },
+          {
+            "label": "YES",
+            "n": 11,
+            "pnl": -0.02799999999999975,
+            "pnl_per_trade": -0.0025454545454545226
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W33",
+            "n": 3,
+            "pnl": 0.04600000000000007,
+            "pnl_per_trade": 0.015333333333333357
+          },
+          {
+            "label": "2026-W34",
+            "n": 4,
+            "pnl": 0.0810000000000001,
+            "pnl_per_trade": 0.020250000000000025
+          },
+          {
+            "label": "2026-W35",
+            "n": 14,
+            "pnl": -0.19099999999999978,
+            "pnl_per_trade": -0.013642857142857127
+          }
+        ]
+      },
+      "market_null_simulations": 20000,
+      "raw_market_null_p": 0.6948652567371632,
+      "rule": "At minute 8, compute the last completed Coinbase 1-minute return divided by the sample standard deviation of the preceding 30 returns. If |z| >= 3.5 and Kalshi's signed mid response from the preceding minute is <= 0.15, buy the shock direction at the displayed ask only if price <= 1.00; hold to settlement.",
+      "strategy": "Filtered spot-shock",
+      "test": {
+        "daily_lcb": null,
+        "fees": 0.22,
+        "first_close_ts": 1786595400,
+        "last_close_ts": 1788075900,
+        "legs": 21,
+        "mean_cost": 0.8601904761904762,
+        "n": 21,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.0639999999999996,
+        "pnl_per_trade": -0.0030476190476190286,
+        "positive_series": 4,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.8571428571428571,
+        "week_count": 3
+      },
+      "test_robustness": {
+        "all": false,
+        "cluster_ci": false,
+        "concentration": false,
+        "drift": false,
+        "series": true,
+        "weeks": true
+      },
+      "train": {
+        "daily_lcb": 0.007075969513694247,
+        "fees": 0.74,
+        "first_close_ts": 1782878400,
+        "last_close_ts": 1786509000,
+        "legs": 74,
+        "mean_cost": 0.9512702702702703,
+        "n": 74,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.6060000000000012,
+        "pnl_per_trade": 0.008189189189189205,
+        "positive_series": 5,
+        "positive_weeks": 6,
+        "series_count": 5,
+        "single_win_rate": 0.9594594594594594,
+        "week_count": 7
+      },
+      "train_diagnostics": {
+        "best_five_pnl": 0.20600000000000013,
+        "best_five_share": 0.3399339933993395,
+        "drift": [
+          {
+            "label": "down_or_flat",
+            "n": 36,
+            "pnl": 0.16400000000000053,
+            "pnl_per_trade": 0.0045555555555555705
+          },
+          {
+            "label": "up",
+            "n": 38,
+            "pnl": 0.4420000000000007,
+            "pnl_per_trade": 0.01163157894736844
+          }
+        ],
+        "paired": [
+          {
+            "label": "single",
+            "n": 74,
+            "pnl": 0.6060000000000012,
+            "pnl_per_trade": 0.008189189189189205
+          }
+        ],
+        "series": [
+          {
+            "label": "BTC",
+            "n": 18,
+            "pnl": 0.1840000000000003,
+            "pnl_per_trade": 0.010222222222222238
+          },
+          {
+            "label": "DOGE",
+            "n": 2,
+            "pnl": 0.021000000000000033,
+            "pnl_per_trade": 0.010500000000000016
+          },
+          {
+            "label": "ETH",
+            "n": 24,
+            "pnl": 0.15300000000000044,
+            "pnl_per_trade": 0.006375000000000019
+          },
+          {
+            "label": "SOL",
+            "n": 20,
+            "pnl": 0.1450000000000003,
+            "pnl_per_trade": 0.007250000000000015
+          },
+          {
+            "label": "XRP",
+            "n": 10,
+            "pnl": 0.10300000000000017,
+            "pnl_per_trade": 0.010300000000000017
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 41,
+            "pnl": 0.3920000000000007,
+            "pnl_per_trade": 0.009560975609756115
+          },
+          {
+            "label": "YES",
+            "n": 33,
+            "pnl": 0.21400000000000055,
+            "pnl_per_trade": 0.006484848484848501
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 8,
+            "pnl": 0.10100000000000016,
+            "pnl_per_trade": 0.01262500000000002
+          },
+          {
+            "label": "2026-W28",
+            "n": 10,
+            "pnl": 0.09400000000000017,
+            "pnl_per_trade": 0.009400000000000016
+          },
+          {
+            "label": "2026-W29",
+            "n": 14,
+            "pnl": 0.06600000000000028,
+            "pnl_per_trade": 0.004714285714285734
+          },
+          {
+            "label": "2026-W30",
+            "n": 14,
+            "pnl": 0.14000000000000024,
+            "pnl_per_trade": 0.010000000000000018
+          },
+          {
+            "label": "2026-W31",
+            "n": 14,
+            "pnl": -0.014999999999999796,
+            "pnl_per_trade": -0.001071428571428557
+          },
+          {
+            "label": "2026-W32",
+            "n": 10,
+            "pnl": 0.18500000000000014,
+            "pnl_per_trade": 0.018500000000000013
+          },
+          {
+            "label": "2026-W33",
+            "n": 4,
+            "pnl": 0.035000000000000066,
+            "pnl_per_trade": 0.008750000000000016
+          }
+        ]
+      },
+      "train_robustness": {
+        "all": false,
+        "all_without_cluster": true,
+        "cluster_ci": false,
+        "concentration": true,
+        "drift": true,
+        "series": true,
+        "weeks": true
+      },
+      "verdict": "FAIL"
+    }
+  ],
+  "snapshot": {
+    "files": [
+      [
+        "KXBTC15M.json",
+        7109975,
+        1788201913677889800
+      ],
+      [
+        "spot_BTC-USD.json",
+        9690792,
+        1788208552303517600
+      ],
+      [
+        "KXETH15M.json",
+        6967972,
+        1788203483627166100
+      ],
+      [
+        "spot_ETH-USD.json",
+        9412548,
+        1788208681636809900
+      ],
+      [
+        "KXSOL15M.json",
+        6918605,
+        1788205126231197300
+      ],
+      [
+        "spot_SOL-USD.json",
+        8823977,
+        1788208810230287800
+      ],
+      [
+        "KXXRP15M.json",
+        6917673,
+        1788206777301565900
+      ],
+      [
+        "spot_XRP-USD.json",
+        9148157,
+        1788208938401042700
+      ],
+      [
+        "KXDOGE15M.json",
+        6914377,
+        1788208421702771400
+      ],
+      [
+        "spot_DOGE-USD.json",
+        8171436,
+        1788209067705924200
+      ]
+    ],
+    "sha256_metadata": "09e04dd1b90b6b6a9d5e0d7152df0138e0f4b7e20358f9ae426582742de44357"
+  },
+  "test_markets": 8981,
+  "train_markets": 20950
+}

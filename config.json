@@ -1,0 +1,83 @@
+{
+  "_comment": "Live settings. See README Findings before setting mode to 'live' - the backtest measured this strategy as losing money.",
+  "mode": "api-live",
+  "bankroll": 16.47,
+  "maxTotalLoss": 16.47,
+  "series": [
+    {
+      "ticker": "KXBTC15M",
+      "symbol": "BTC",
+      "enabled": true
+    },
+    {
+      "ticker": "KXETH15M",
+      "symbol": "ETH",
+      "enabled": true
+    },
+    {
+      "ticker": "KXSOL15M",
+      "symbol": "SOL",
+      "enabled": true
+    },
+    {
+      "ticker": "KXXRP15M",
+      "symbol": "XRP",
+      "enabled": true
+    },
+    {
+      "ticker": "KXDOGE15M",
+      "symbol": "DOGE",
+      "enabled": true
+    }
+  ],
+  "risk": {
+    "maxStakePerTrade": 2,
+    "maxConcurrentPositions": 3,
+    "maxOpenExposure": 5,
+    "maxTradesPerHour": 8,
+    "dailyLossLimit": 5,
+    "kellyFraction": 0.25,
+    "minContracts": 1,
+    "maxContracts": 40,
+    "drawdownStopPct": 0.25,
+    "_drawdown_note": "Down 25% from the day's STARTING equity -> halt all trading and flag the strategy for reevaluation. Halting is automatic; changing the strategy is not.",
+    "minBalance": 2.0,
+    "_minBalance_note": "Hard floor read from the EXCHANGE, not local books. At or below this, the kill switch fires regardless of what the bot thinks it has lost."
+  },
+  "signal": {
+    "_comment": "minEdge is net of fees, re-checked at the real order size. Note this does NOT silence the bot in paper: the model still produces 6-10c disagreements with the market, and the backtest says those disagreements LOSE money. Paper mode trades them on purpose, to build a live forecast record. Watch Brier skill, not P&L.",
+    "minEdge": 0.06,
+    "minSecondsLeft": 90,
+    "maxSecondsLeft": 780,
+    "maxSpread": 0.03,
+    "minBookSize": 50,
+    "maxIndexAgeMs": 6000,
+    "maxVenueSpread": 0.001,
+    "trackingErrorFrac": 0.0002,
+    "requireVolSamples": 30,
+    "minPrice": 0.05,
+    "maxPrice": 0.95,
+    "adverseSigmas": 2,
+    "maxPhoneSlippage": 0.03
+  },
+  "loop": {
+    "tickMs": 2000,
+    "equitySnapshotMs": 30000
+  },
+  "phone": {
+    "baseUrl": "http://127.0.0.1:8760",
+    "bundleId": "com.kalshi.mobile",
+    "actionDelayMs": 450,
+    "confirmTimeoutMs": 15000,
+    "screenshotDir": "data/shots"
+  },
+  "api": {
+    "_comment": "env is derived from mode: 'api' = Kalshi DEMO (fake money), 'api-live' = PRODUCTION (real money). Never store the private key here - only a path to it, outside this repo.",
+    "keyId": "YOUR-KALSHI-API-KEY-ID",
+    "privateKeyPath": "C:\\Users\\hudso\\.kalshi\\prod-key.pem",
+    "postOnly": false,
+    "_postOnly_note": "true = rest a maker order and collect the spread (the strategy the research supports). false = cross the spread as a taker.",
+    "_key_note": "PRODUCTION key (real money). All funds on exchange 2 (Crypto).",
+    "exchangeIndex": 2
+  }
+}

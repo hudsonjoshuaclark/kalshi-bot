@@ -1,0 +1,18 @@
+{
+  "name": "kalshi-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fair-value bot for Kalshi's 15-minute crypto and commodity markets, executing through the iPhone harness, with a desktop tracker.",
+  "main": "tracker/main.js",
+  "scripts": {
+    "start": "electron .",
+    "bot": "node bin/bot.js",
+    "run": "node bin/bot.js run",
+    "status": "node bin/bot.js status",
+    "paper:robust-rv": "node bin/robust-rv-paper.js",
+    "status:robust-rv": "node bin/robust-rv-status.js",
+    "test": "node test/safety.test.js && node test/robust-rv.test.js"
+  },
+  "bin": { "kbot": "bin/bot.js" },
+  "devDependencies": { "electron": "^33.2.0" }
+}

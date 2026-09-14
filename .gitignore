@@ -1,0 +1,18 @@
+node_modules/
+__pycache__/
+*.pyc
+
+# large captured market data (hundreds of MB, regenerable)
+data/
+research/deep/
+research/perp_history/
+research/ladders/
+research/broad/
+research/weather/
+research/tape2/
+research/__pycache__/
+
+# runtime logs and local state
+*.log
+logs-*.log
+state.json

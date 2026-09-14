@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Kalshi Bot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <span class="dot" id="runDot"></span>
+      <h1>Kalshi Bot</h1>
+      <span class="mode" id="modeBadge">paper</span>
+    </div>
+    <div class="controls">
+      <button id="btnStart" class="primary">Start</button>
+      <button id="btnStop">Stop</button>
+      <button id="btnMode">Go live</button>
+      <button id="btnKill" class="danger">Kill</button>
+    </div>
+  </header>
+
+  <div id="banner" class="banner hidden"></div>
+
+  <section class="stats">
+    <div class="stat"><label>Equity</label><b id="equity">--</b><small id="equityDelta"></small></div>
+    <div class="stat"><label>Realised</label><b id="realised">--</b><small id="todayPnl"></small></div>
+    <div class="stat"><label>Exposure</label><b id="exposure">--</b><small id="openCount"></small></div>
+    <div class="stat"><label>Hit rate</label><b id="hitRate">--</b><small id="winLoss"></small></div>
+    <div class="stat wide">
+      <label>Forecast skill vs market <span class="hint" title="Brier score of the model against the market's own price on the same resolved windows. Positive means the model forecasts better than the price it is trading against. This, not P&amp;L, is the honest scoreboard - over a few hundred 15-minute windows P&amp;L is dominated by whether the coin drifted.">?</span></label>
+      <b id="skill">--</b><small id="skillDetail">no resolved forecasts yet</small>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Equity</h2>
+    <canvas id="equityChart" height="150"></canvas>
+  </section>
+
+  <div class="columns">
+    <section class="panel">
+      <h2>Live windows</h2>
+      <table id="marketsTable">
+        <thead><tr><th>Market</th><th>Left</th><th>Index</th><th>Strike</th><th>Model</th><th>Market</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="empty" id="marketsEmpty">Engine stopped.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Open positions</h2>
+      <table id="openTable">
+        <thead><tr><th>Market</th><th>Side</th><th>Qty</th><th>Price</th><th>Cost</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="empty" id="openEmpty">None.</p>
+    </section>
+  </div>
+
+  <div class="columns">
+    <section class="panel">
+      <h2>Settled</h2>
+      <table id="settledTable">
+        <thead><tr><th>Market</th><th>Side</th><th>Qty</th><th>Entry</th><th>Result</th><th>P&amp;L</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="empty" id="settledEmpty">Nothing settled yet.</p>
+    </section>
+
+    <section class="panel">
+      <h2>Why it is not trading</h2>
+      <table id="signalTable">
+        <thead><tr><th>Market</th><th>Model</th><th>Edge</th><th>Reason</th></tr></thead>
+        <tbody></tbody>
+      </table>
+      <p class="empty" id="signalEmpty">No signals yet.</p>
+    </section>
+  </div>
+
+  <section class="panel">
+    <h2>Log</h2>
+    <pre id="log"></pre>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

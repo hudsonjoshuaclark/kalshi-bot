@@ -1,0 +1,313 @@
+{
+  "global_searches": 442,
+  "gpu_events_test": 15,
+  "gpu_events_train": 30,
+  "new_searches": 144,
+  "prior_searches": 298,
+  "profit_rate_comparison": {
+    "gpu_test_events_per_day": 0.8571428571428571,
+    "gpu_test_pnl_per_day": 0.052857142857142866,
+    "robust_rv_test_pnl_per_day": 0.39619399538106226,
+    "robust_rv_test_trades_per_day": 11.085450346420323
+  },
+  "results": [
+    {
+      "config": {
+        "entry": 7,
+        "max_paid": 0.75,
+        "mode": "continuation",
+        "streak": 3
+      },
+      "corrected_market_null_p": null,
+      "raw_market_null_p": null,
+      "strategy": "Outcome streak",
+      "test": null,
+      "train": {
+        "calendar_days": 48,
+        "daily_lcb": -2.530335392370728,
+        "fees": 65.52,
+        "first_close_ts": 1782738900,
+        "last_close_ts": 1787513400,
+        "legs": 3765,
+        "max_realized_drawdown": 94.43299999999991,
+        "max_simultaneous_block": 5,
+        "mean_cost": 0.3808241699867198,
+        "n": 3765,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -91.80300000000004,
+        "pnl_per_calendar_day": -1.9125625000000008,
+        "pnl_per_trade": -0.024383266932270928,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 9,
+        "single_win_rate": 0.35644090305444887,
+        "trades_per_calendar_day": 78.4375,
+        "week_count": 8
+      },
+      "verdict": "REJECTED ON TRAIN; TEST NOT OPENED"
+    },
+    {
+      "config": {
+        "entry": 11,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.12,
+        "volume_ratio": 2.0
+      },
+      "corrected_market_null_p": null,
+      "raw_market_null_p": null,
+      "strategy": "Volume impulse",
+      "test": null,
+      "train": {
+        "calendar_days": 48,
+        "daily_lcb": -0.7871405230636674,
+        "fees": 33.34,
+        "first_close_ts": 1782732600,
+        "last_close_ts": 1787511600,
+        "legs": 2053,
+        "max_realized_drawdown": 26.937999999999995,
+        "max_simultaneous_block": 5,
+        "mean_cost": 0.3140603994154896,
+        "n": 2053,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -17.76600000000002,
+        "pnl_per_calendar_day": -0.3701250000000004,
+        "pnl_per_trade": -0.008653677545056025,
+        "positive_series": 4,
+        "positive_weeks": 4,
+        "series_count": 9,
+        "single_win_rate": 0.3054067218704335,
+        "trades_per_calendar_day": 42.770833333333336,
+        "week_count": 8
+      },
+      "verdict": "REJECTED ON TRAIN; TEST NOT OPENED"
+    },
+    {
+      "bonferroni_combinations": 442,
+      "config": {
+        "fraction": 0.6,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "corrected_market_null_p": 1.0,
+      "diagnostics": {
+        "best_five_pnl": 1.5,
+        "best_five_share": 2.0270270270270268,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 12,
+            "pnl": 0.7400000000000001,
+            "pnl_per_trade": 0.061666666666666675
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 1,
+            "pnl": 0.04000000000000004,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "KXB200WS",
+            "n": 3,
+            "pnl": -0.17999999999999994,
+            "pnl_per_trade": -0.05999999999999998
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": 0.48,
+            "pnl_per_trade": 0.16
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": -0.059999999999999984,
+            "pnl_per_trade": -0.019999999999999993
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 2,
+            "pnl": 0.45999999999999996,
+            "pnl_per_trade": 0.22999999999999998
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 7,
+            "pnl": 0.34000000000000014,
+            "pnl_per_trade": 0.04857142857142859
+          },
+          {
+            "label": "YES",
+            "n": 5,
+            "pnl": 0.39999999999999997,
+            "pnl_per_trade": 0.07999999999999999
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W32",
+            "n": 4,
+            "pnl": 0.41,
+            "pnl_per_trade": 0.1025
+          },
+          {
+            "label": "2026-W33",
+            "n": 4,
+            "pnl": 0.5700000000000001,
+            "pnl_per_trade": 0.14250000000000002
+          },
+          {
+            "label": "2026-W34",
+            "n": 4,
+            "pnl": -0.23999999999999996,
+            "pnl_per_trade": -0.05999999999999999
+          }
+        ]
+      },
+      "market_null_simulations": 20000,
+      "raw_market_null_p": 0.39223038848057595,
+      "robustness": {
+        "concentration": false,
+        "series": true,
+        "weeks": true
+      },
+      "strategy": "GPU attention momentum",
+      "test": {
+        "daily_lcb": -0.0010114398434656058,
+        "elapsed_calendar_days": 14.0,
+        "events_per_elapsed_day": 0.8571428571428571,
+        "fees": 0.18,
+        "first_close_ts": 1786132800,
+        "last_close_ts": 1787342400,
+        "legs": 12,
+        "mean_cost": 0.7716666666666666,
+        "n": 12,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.7400000000000001,
+        "pnl_per_elapsed_day": 0.052857142857142866,
+        "pnl_per_trade": 0.061666666666666675,
+        "positive_series": 3,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.8333333333333334,
+        "week_count": 3
+      },
+      "train": {
+        "daily_lcb": 0.1918841359477527,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.3333333333333333,
+        "fees": 0.17,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 14,
+        "mean_cost": 0.665,
+        "n": 14,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 2.69,
+        "pnl_per_elapsed_day": 0.06404761904761905,
+        "pnl_per_trade": 0.19214285714285714,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "single_win_rate": 0.8571428571428571,
+        "week_count": 4
+      },
+      "train_diagnostics": {
+        "best_five_pnl": 2.66,
+        "best_five_share": 0.9888475836431228,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 14,
+            "pnl": 2.69,
+            "pnl_per_trade": 0.19214285714285714
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 2,
+            "pnl": -0.16000000000000003,
+            "pnl_per_trade": -0.08000000000000002
+          },
+          {
+            "label": "KXB200WS",
+            "n": 4,
+            "pnl": 1.98,
+            "pnl_per_trade": 0.495
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": 0.78,
+            "pnl_per_trade": 0.195
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": 0.17999999999999997,
+            "pnl_per_trade": 0.05999999999999999
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": -0.09,
+            "pnl_per_trade": -0.09
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 4,
+            "pnl": 0.31,
+            "pnl_per_trade": 0.0775
+          },
+          {
+            "label": "YES",
+            "n": 10,
+            "pnl": 2.38,
+            "pnl_per_trade": 0.238
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 5,
+            "pnl": 0.9600000000000001,
+            "pnl_per_trade": 0.192
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": 1.07,
+            "pnl_per_trade": 0.3566666666666667
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.06000000000000002,
+            "pnl_per_trade": -0.020000000000000007
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": 0.72,
+            "pnl_per_trade": 0.24
+          }
+        ]
+      },
+      "verdict": "POSITIVE BUT UNPROVEN"
+    }
+  ]
+}

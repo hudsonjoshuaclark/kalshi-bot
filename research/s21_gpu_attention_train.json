@@ -1,0 +1,2840 @@
+{
+  "candidates": [
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 1,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.07000000000000005,
+        "best_five_share": 1.0,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 4,
+            "pnl": 0.07000000000000005,
+            "pnl_per_trade": 0.017500000000000012
+          }
+        ],
+        "series": [
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": 8.326672684688674e-17,
+            "pnl_per_trade": 2.7755575615628914e-17
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 2,
+            "pnl": 0.08000000000000008,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "YES",
+            "n": 2,
+            "pnl": -0.010000000000000037,
+            "pnl_per_trade": -0.005000000000000018
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 1,
+            "pnl": 0.020000000000000025,
+            "pnl_per_trade": 0.020000000000000025
+          },
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": -0.08,
+            "pnl_per_trade": -0.08
+          },
+          {
+            "label": "2026-W31",
+            "n": 2,
+            "pnl": 0.13000000000000003,
+            "pnl_per_trade": 0.06500000000000002
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.013401261667248783,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.09523809523809523,
+        "fees": 0.04,
+        "first_close_ts": 1783108800,
+        "last_close_ts": 1785528000,
+        "legs": 4,
+        "mean_cost": 0.7325,
+        "n": 4,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.07000000000000005,
+        "pnl_per_elapsed_day": 0.0016666666666666679,
+        "pnl_per_trade": 0.017500000000000012,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 2,
+        "single_win_rate": 0.75,
+        "week_count": 3
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": -0.21,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 6,
+            "pnl": -0.42,
+            "pnl_per_trade": -0.06999999999999999
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 2,
+            "pnl": -0.07000000000000002,
+            "pnl_per_trade": -0.03500000000000001
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": -0.20999999999999994,
+            "pnl_per_trade": -0.06999999999999998
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 3,
+            "pnl": -0.11999999999999998,
+            "pnl_per_trade": -0.039999999999999994
+          },
+          {
+            "label": "YES",
+            "n": 3,
+            "pnl": -0.3,
+            "pnl_per_trade": -0.09999999999999999
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 2,
+            "pnl": -0.09,
+            "pnl_per_trade": -0.045
+          },
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": 0.05000000000000005,
+            "pnl_per_trade": 0.05000000000000005
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": -0.38,
+            "pnl_per_trade": -0.12666666666666668
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.1155920515044749,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.14285714285714285,
+        "fees": 0.07,
+        "first_close_ts": 1783108800,
+        "last_close_ts": 1785528000,
+        "legs": 6,
+        "mean_cost": 0.23666666666666666,
+        "n": 6,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.42,
+        "pnl_per_elapsed_day": -0.01,
+        "pnl_per_trade": -0.06999999999999999,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 3,
+        "single_win_rate": 0.16666666666666666,
+        "week_count": 3
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 1,
+        "mode": "momentum",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": -0.5000000000000001,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 2,
+            "pnl": -0.5000000000000001,
+            "pnl_per_trade": -0.25000000000000006
+          }
+        ],
+        "series": [
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          },
+          {
+            "label": "KXH100WS",
+            "n": 1,
+            "pnl": -0.5700000000000001,
+            "pnl_per_trade": -0.5700000000000001
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 1,
+            "pnl": -0.5700000000000001,
+            "pnl_per_trade": -0.5700000000000001
+          },
+          {
+            "label": "YES",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": -0.5700000000000001,
+            "pnl_per_trade": -0.5700000000000001
+          },
+          {
+            "label": "2026-W31",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.1551067694034713,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.047619047619047616,
+        "fees": 0.03,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 2,
+        "mean_cost": 0.75,
+        "n": 2,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.5000000000000001,
+        "pnl_per_elapsed_day": -0.011904761904761908,
+        "pnl_per_trade": -0.25000000000000006,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 2,
+        "single_win_rate": 0.5,
+        "week_count": 2
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.17999999999999994,
+        "best_five_share": 1.0,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 2,
+            "pnl": 0.17999999999999994,
+            "pnl_per_trade": 0.08999999999999997
+          }
+        ],
+        "series": [
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          },
+          {
+            "label": "KXH100WS",
+            "n": 1,
+            "pnl": 0.31999999999999995,
+            "pnl_per_trade": 0.31999999999999995
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          },
+          {
+            "label": "YES",
+            "n": 1,
+            "pnl": 0.31999999999999995,
+            "pnl_per_trade": 0.31999999999999995
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": 0.31999999999999995,
+            "pnl_per_trade": 0.31999999999999995
+          },
+          {
+            "label": "2026-W31",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.027149291757630162,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.047619047619047616,
+        "fees": 0.03,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 2,
+        "mean_cost": 0.41000000000000003,
+        "n": 2,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.17999999999999994,
+        "pnl_per_elapsed_day": 0.004285714285714284,
+        "pnl_per_trade": 0.08999999999999997,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 2,
+        "single_win_rate": 0.5,
+        "week_count": 2
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.56,
+        "best_five_share": 3.999999999999999,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 7,
+            "pnl": 0.14000000000000004,
+            "pnl_per_trade": 0.020000000000000007
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 2,
+            "pnl": 0.17000000000000004,
+            "pnl_per_trade": 0.08500000000000002
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": -0.09999999999999996,
+            "pnl_per_trade": -0.02499999999999999
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 5,
+            "pnl": -0.1799999999999999,
+            "pnl_per_trade": -0.03599999999999998
+          },
+          {
+            "label": "YES",
+            "n": 2,
+            "pnl": 0.31999999999999995,
+            "pnl_per_trade": 0.15999999999999998
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": 0.04000000000000004,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": -0.31000000000000005,
+            "pnl_per_trade": -0.15500000000000003
+          },
+          {
+            "label": "2026-W30",
+            "n": 2,
+            "pnl": 0.28,
+            "pnl_per_trade": 0.14
+          },
+          {
+            "label": "2026-W31",
+            "n": 2,
+            "pnl": 0.13000000000000003,
+            "pnl_per_trade": 0.06500000000000002
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.04729466121893644,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.16666666666666666,
+        "fees": 0.09,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 7,
+        "mean_cost": 0.8371428571428572,
+        "n": 7,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.14000000000000004,
+        "pnl_per_elapsed_day": 0.0033333333333333344,
+        "pnl_per_trade": 0.020000000000000007,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 3,
+        "single_win_rate": 0.8571428571428571,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 3,
+        "mode": "reversal",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.03999999999999994,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 9,
+            "pnl": -0.7800000000000001,
+            "pnl_per_trade": -0.08666666666666668
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 4,
+            "pnl": -0.4,
+            "pnl_per_trade": -0.1
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": -0.24000000000000005,
+            "pnl_per_trade": -0.06000000000000001
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 3,
+            "pnl": -0.4800000000000001,
+            "pnl_per_trade": -0.16000000000000003
+          },
+          {
+            "label": "YES",
+            "n": 6,
+            "pnl": -0.30000000000000004,
+            "pnl_per_trade": -0.05000000000000001
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 2,
+            "pnl": -0.11000000000000001,
+            "pnl_per_trade": -0.05500000000000001
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": 0.16999999999999996,
+            "pnl_per_trade": 0.08499999999999998
+          },
+          {
+            "label": "2026-W30",
+            "n": 2,
+            "pnl": -0.36000000000000004,
+            "pnl_per_trade": -0.18000000000000002
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": -0.48,
+            "pnl_per_trade": -0.16
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.1979053387855732,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.21428571428571427,
+        "fees": 0.12,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 9,
+        "mean_cost": 0.19777777777777777,
+        "n": 9,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.7800000000000001,
+        "pnl_per_elapsed_day": -0.018571428571428576,
+        "pnl_per_trade": -0.08666666666666668,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 3,
+        "single_win_rate": 0.1111111111111111,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.53,
+        "best_five_share": 6.625000000000002,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 6,
+            "pnl": 0.07999999999999999,
+            "pnl_per_trade": 0.01333333333333333
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 2,
+            "pnl": 0.17000000000000004,
+            "pnl_per_trade": 0.08500000000000002
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": -0.16000000000000003,
+            "pnl_per_trade": -0.053333333333333344
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 4,
+            "pnl": -0.24,
+            "pnl_per_trade": -0.06
+          },
+          {
+            "label": "YES",
+            "n": 2,
+            "pnl": 0.31999999999999995,
+            "pnl_per_trade": 0.15999999999999998
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": 0.04000000000000004,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": -0.31000000000000005,
+            "pnl_per_trade": -0.15500000000000003
+          },
+          {
+            "label": "2026-W30",
+            "n": 2,
+            "pnl": 0.28,
+            "pnl_per_trade": 0.14
+          },
+          {
+            "label": "2026-W31",
+            "n": 1,
+            "pnl": 0.06999999999999997,
+            "pnl_per_trade": 0.06999999999999997
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.05405238077923338,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.14285714285714285,
+        "fees": 0.08,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 6,
+        "mean_cost": 0.82,
+        "n": 6,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.07999999999999999,
+        "pnl_per_elapsed_day": 0.0019047619047619045,
+        "pnl_per_trade": 0.01333333333333333,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 3,
+        "single_win_rate": 0.8333333333333334,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.35,
+        "lookback": 3,
+        "mode": "reversal",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.02999999999999993,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 7,
+            "pnl": -0.4400000000000001,
+            "pnl_per_trade": -0.06285714285714288
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": -0.27,
+            "pnl_per_trade": -0.09000000000000001
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": -0.03000000000000007,
+            "pnl_per_trade": -0.010000000000000023
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 3,
+            "pnl": -0.4800000000000001,
+            "pnl_per_trade": -0.16000000000000003
+          },
+          {
+            "label": "YES",
+            "n": 4,
+            "pnl": 0.03999999999999996,
+            "pnl_per_trade": 0.00999999999999999
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 2,
+            "pnl": -0.11000000000000001,
+            "pnl_per_trade": -0.05500000000000001
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": 0.16999999999999996,
+            "pnl_per_trade": 0.08499999999999998
+          },
+          {
+            "label": "2026-W30",
+            "n": 2,
+            "pnl": -0.36000000000000004,
+            "pnl_per_trade": -0.18000000000000002
+          },
+          {
+            "label": "2026-W31",
+            "n": 1,
+            "pnl": -0.14,
+            "pnl_per_trade": -0.14
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.12506701367529266,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.16666666666666666,
+        "fees": 0.09,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 7,
+        "mean_cost": 0.20571428571428574,
+        "n": 7,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.4400000000000001,
+        "pnl_per_elapsed_day": -0.01047619047619048,
+        "pnl_per_trade": -0.06285714285714288,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 3,
+        "single_win_rate": 0.14285714285714285,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 1,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 1.0,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 10,
+            "pnl": -0.14999999999999994,
+            "pnl_per_trade": -0.014999999999999994
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": -0.33,
+            "pnl_per_trade": -0.11
+          },
+          {
+            "label": "KXB200WS",
+            "n": 2,
+            "pnl": -0.61,
+            "pnl_per_trade": -0.305
+          },
+          {
+            "label": "KXH100WS",
+            "n": 2,
+            "pnl": 0.63,
+            "pnl_per_trade": 0.315
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": 0.16000000000000006,
+            "pnl_per_trade": 0.05333333333333335
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 3,
+            "pnl": -1.2,
+            "pnl_per_trade": -0.39999999999999997
+          },
+          {
+            "label": "YES",
+            "n": 7,
+            "pnl": 1.05,
+            "pnl_per_trade": 0.15
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 1,
+            "pnl": -0.6000000000000001,
+            "pnl_per_trade": -0.6000000000000001
+          },
+          {
+            "label": "2026-W28",
+            "n": 3,
+            "pnl": 0.19000000000000009,
+            "pnl_per_trade": 0.06333333333333337
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": -0.62,
+            "pnl_per_trade": -0.31
+          },
+          {
+            "label": "2026-W30",
+            "n": 1,
+            "pnl": 0.16000000000000006,
+            "pnl_per_trade": 0.16000000000000006
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": 0.72,
+            "pnl_per_trade": 0.24
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.19879594067519862,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.23809523809523808,
+        "fees": 0.14,
+        "first_close_ts": 1783108800,
+        "last_close_ts": 1785528000,
+        "legs": 10,
+        "mean_cost": 0.8150000000000001,
+        "n": 10,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.14999999999999994,
+        "pnl_per_elapsed_day": -0.00357142857142857,
+        "pnl_per_trade": -0.014999999999999994,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 4,
+        "single_win_rate": 0.8,
+        "week_count": 5
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.8499999999999999,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 14,
+            "pnl": -0.7599999999999999,
+            "pnl_per_trade": -0.05428571428571428
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 5,
+            "pnl": -0.009999999999999967,
+            "pnl_per_trade": -0.0019999999999999935
+          },
+          {
+            "label": "KXB200WS",
+            "n": 2,
+            "pnl": 0.44000000000000006,
+            "pnl_per_trade": 0.22000000000000003
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": -0.9400000000000001,
+            "pnl_per_trade": -0.23500000000000001
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": -0.25,
+            "pnl_per_trade": -0.08333333333333333
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 9,
+            "pnl": -1.53,
+            "pnl_per_trade": -0.17
+          },
+          {
+            "label": "YES",
+            "n": 5,
+            "pnl": 0.77,
+            "pnl_per_trade": 0.154
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 2,
+            "pnl": 0.36,
+            "pnl_per_trade": 0.18
+          },
+          {
+            "label": "2026-W28",
+            "n": 3,
+            "pnl": -0.36,
+            "pnl_per_trade": -0.12
+          },
+          {
+            "label": "2026-W29",
+            "n": 4,
+            "pnl": 0.30999999999999994,
+            "pnl_per_trade": 0.07749999999999999
+          },
+          {
+            "label": "2026-W30",
+            "n": 1,
+            "pnl": -0.20999999999999994,
+            "pnl_per_trade": -0.20999999999999994
+          },
+          {
+            "label": "2026-W31",
+            "n": 4,
+            "pnl": -0.8599999999999999,
+            "pnl_per_trade": -0.21499999999999997
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.26717288432990344,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.3333333333333333,
+        "fees": 0.18,
+        "first_close_ts": 1783108800,
+        "last_close_ts": 1785528000,
+        "legs": 14,
+        "mean_cost": 0.19714285714285712,
+        "n": 14,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.7599999999999999,
+        "pnl_per_elapsed_day": -0.01809523809523809,
+        "pnl_per_trade": -0.05428571428571428,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 4,
+        "single_win_rate": 0.14285714285714285,
+        "week_count": 5
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 1,
+        "mode": "momentum",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": -0.0799999999999999,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 6,
+            "pnl": -0.68,
+            "pnl_per_trade": -0.11333333333333334
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 2,
+            "pnl": -0.44000000000000006,
+            "pnl_per_trade": -0.22000000000000003
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": 0.05000000000000005,
+            "pnl_per_trade": 0.05000000000000005
+          },
+          {
+            "label": "KXH100WS",
+            "n": 1,
+            "pnl": 0.020000000000000025,
+            "pnl_per_trade": 0.020000000000000025
+          },
+          {
+            "label": "KXH200WS",
+            "n": 2,
+            "pnl": -0.31000000000000005,
+            "pnl_per_trade": -0.15500000000000003
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 2,
+            "pnl": -0.9700000000000001,
+            "pnl_per_trade": -0.48500000000000004
+          },
+          {
+            "label": "YES",
+            "n": 4,
+            "pnl": 0.2900000000000001,
+            "pnl_per_trade": 0.07250000000000002
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 1,
+            "pnl": -0.6000000000000001,
+            "pnl_per_trade": -0.6000000000000001
+          },
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": 0.020000000000000025,
+            "pnl_per_trade": 0.020000000000000025
+          },
+          {
+            "label": "2026-W29",
+            "n": 1,
+            "pnl": -0.37,
+            "pnl_per_trade": -0.37
+          },
+          {
+            "label": "2026-W30",
+            "n": 1,
+            "pnl": 0.16000000000000006,
+            "pnl_per_trade": 0.16000000000000006
+          },
+          {
+            "label": "2026-W31",
+            "n": 2,
+            "pnl": 0.11,
+            "pnl_per_trade": 0.055
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.20280886928701342,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.14285714285714285,
+        "fees": 0.09,
+        "first_close_ts": 1783108800,
+        "last_close_ts": 1785528000,
+        "legs": 6,
+        "mean_cost": 0.7799999999999999,
+        "n": 6,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.68,
+        "pnl_per_elapsed_day": -0.016190476190476193,
+        "pnl_per_trade": -0.11333333333333334,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 4,
+        "single_win_rate": 0.6666666666666666,
+        "week_count": 5
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.6799999999999999,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 10,
+            "pnl": -0.12999999999999998,
+            "pnl_per_trade": -0.012999999999999998
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 4,
+            "pnl": 0.19000000000000003,
+            "pnl_per_trade": 0.04750000000000001
+          },
+          {
+            "label": "KXB200WS",
+            "n": 1,
+            "pnl": -0.07999999999999995,
+            "pnl_per_trade": -0.07999999999999995
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": -0.4700000000000001,
+            "pnl_per_trade": -0.1566666666666667
+          },
+          {
+            "label": "KXH200WS",
+            "n": 2,
+            "pnl": 0.22999999999999998,
+            "pnl_per_trade": 0.11499999999999999
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 6,
+            "pnl": -0.8499999999999999,
+            "pnl_per_trade": -0.14166666666666664
+          },
+          {
+            "label": "YES",
+            "n": 4,
+            "pnl": 0.72,
+            "pnl_per_trade": 0.18
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 2,
+            "pnl": 0.36,
+            "pnl_per_trade": 0.18
+          },
+          {
+            "label": "2026-W28",
+            "n": 1,
+            "pnl": -0.32000000000000006,
+            "pnl_per_trade": -0.32000000000000006
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": 0.23999999999999994,
+            "pnl_per_trade": 0.07999999999999997
+          },
+          {
+            "label": "2026-W30",
+            "n": 1,
+            "pnl": -0.20999999999999994,
+            "pnl_per_trade": -0.20999999999999994
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": -0.1999999999999999,
+            "pnl_per_trade": -0.06666666666666664
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.1125934262869726,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.23809523809523808,
+        "fees": 0.14,
+        "first_close_ts": 1783108800,
+        "last_close_ts": 1785528000,
+        "legs": 10,
+        "mean_cost": 0.213,
+        "n": 10,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.12999999999999998,
+        "pnl_per_elapsed_day": -0.0030952380952380945,
+        "pnl_per_trade": -0.012999999999999998,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 4,
+        "single_win_rate": 0.2,
+        "week_count": 5
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 2.66,
+        "best_five_share": 0.9888475836431228,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 14,
+            "pnl": 2.69,
+            "pnl_per_trade": 0.19214285714285714
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 2,
+            "pnl": -0.16000000000000003,
+            "pnl_per_trade": -0.08000000000000002
+          },
+          {
+            "label": "KXB200WS",
+            "n": 4,
+            "pnl": 1.98,
+            "pnl_per_trade": 0.495
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": 0.78,
+            "pnl_per_trade": 0.195
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": 0.17999999999999997,
+            "pnl_per_trade": 0.05999999999999999
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": -0.09,
+            "pnl_per_trade": -0.09
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 4,
+            "pnl": 0.31,
+            "pnl_per_trade": 0.0775
+          },
+          {
+            "label": "YES",
+            "n": 10,
+            "pnl": 2.38,
+            "pnl_per_trade": 0.238
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 5,
+            "pnl": 0.9600000000000001,
+            "pnl_per_trade": 0.192
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": 1.07,
+            "pnl_per_trade": 0.3566666666666667
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.06000000000000002,
+            "pnl_per_trade": -0.020000000000000007
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": 0.72,
+            "pnl_per_trade": 0.24
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": 0.1918841359477527,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.3333333333333333,
+        "fees": 0.17,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 14,
+        "mean_cost": 0.665,
+        "n": 14,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 2.69,
+        "pnl_per_elapsed_day": 0.06404761904761905,
+        "pnl_per_trade": 0.19214285714285714,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "single_win_rate": 0.8571428571428571,
+        "week_count": 4
+      },
+      "train_market_null_p": 0.015299235038248088
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 3,
+        "mode": "reversal",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.13000000000000003,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 16,
+            "pnl": -3.69,
+            "pnl_per_trade": -0.230625
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 4,
+            "pnl": 0.009999999999999988,
+            "pnl_per_trade": 0.002499999999999997
+          },
+          {
+            "label": "KXB200WS",
+            "n": 4,
+            "pnl": -2.4899999999999998,
+            "pnl_per_trade": -0.6224999999999999
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": -1.0,
+            "pnl_per_trade": -0.25
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": -0.26999999999999996,
+            "pnl_per_trade": -0.08999999999999998
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": 0.06000000000000006,
+            "pnl_per_trade": 0.06000000000000006
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 10,
+            "pnl": -2.8,
+            "pnl_per_trade": -0.27999999999999997
+          },
+          {
+            "label": "YES",
+            "n": 6,
+            "pnl": -0.8900000000000001,
+            "pnl_per_trade": -0.14833333333333334
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 5,
+            "pnl": -1.19,
+            "pnl_per_trade": -0.238
+          },
+          {
+            "label": "2026-W29",
+            "n": 4,
+            "pnl": -1.2,
+            "pnl_per_trade": -0.3
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.4400000000000001,
+            "pnl_per_trade": -0.1466666666666667
+          },
+          {
+            "label": "2026-W31",
+            "n": 4,
+            "pnl": -0.8599999999999999,
+            "pnl_per_trade": -0.21499999999999997
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.7366856052046933,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.38095238095238093,
+        "fees": 0.19,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 16,
+        "mean_cost": 0.355625,
+        "n": 16,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -3.69,
+        "pnl_per_elapsed_day": -0.08785714285714286,
+        "pnl_per_trade": -0.230625,
+        "positive_series": 2,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.125,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 1.0599999999999998,
+        "best_five_share": 0.9464285714285712,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 13,
+            "pnl": 1.12,
+            "pnl_per_trade": 0.08615384615384616
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": 0.21999999999999997,
+            "pnl_per_trade": 0.07333333333333332
+          },
+          {
+            "label": "KXB200WS",
+            "n": 3,
+            "pnl": 0.24000000000000005,
+            "pnl_per_trade": 0.08000000000000002
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": 0.48,
+            "pnl_per_trade": 0.12
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": 0.17999999999999997,
+            "pnl_per_trade": 0.05999999999999999
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 4,
+            "pnl": 0.31,
+            "pnl_per_trade": 0.0775
+          },
+          {
+            "label": "YES",
+            "n": 9,
+            "pnl": 0.81,
+            "pnl_per_trade": 0.09000000000000001
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 3,
+            "pnl": 0.14000000000000004,
+            "pnl_per_trade": 0.04666666666666668
+          },
+          {
+            "label": "2026-W29",
+            "n": 4,
+            "pnl": 0.62,
+            "pnl_per_trade": 0.155
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.06000000000000002,
+            "pnl_per_trade": -0.020000000000000007
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": 0.41999999999999993,
+            "pnl_per_trade": 0.13999999999999999
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": 0.061826198820177924,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.30952380952380953,
+        "fees": 0.17,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 13,
+        "mean_cost": 0.836923076923077,
+        "n": 13,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 1.12,
+        "pnl_per_elapsed_day": 0.02666666666666667,
+        "pnl_per_trade": 0.08615384615384616,
+        "positive_series": 4,
+        "positive_weeks": 3,
+        "series_count": 4,
+        "single_win_rate": 0.9230769230769231,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.6,
+        "lookback": 3,
+        "mode": "reversal",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": -0.010000000000000071,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 14,
+            "pnl": -2.0700000000000003,
+            "pnl_per_trade": -0.14785714285714288
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 4,
+            "pnl": -0.38000000000000006,
+            "pnl_per_trade": -0.09500000000000001
+          },
+          {
+            "label": "KXB200WS",
+            "n": 3,
+            "pnl": -0.7200000000000001,
+            "pnl_per_trade": -0.24000000000000002
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": -0.7000000000000001,
+            "pnl_per_trade": -0.17500000000000002
+          },
+          {
+            "label": "KXH200WS",
+            "n": 3,
+            "pnl": -0.26999999999999996,
+            "pnl_per_trade": -0.08999999999999998
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 9,
+            "pnl": -1.22,
+            "pnl_per_trade": -0.13555555555555554
+          },
+          {
+            "label": "YES",
+            "n": 5,
+            "pnl": -0.8500000000000001,
+            "pnl_per_trade": -0.17
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W28",
+            "n": 3,
+            "pnl": -0.31,
+            "pnl_per_trade": -0.10333333333333333
+          },
+          {
+            "label": "2026-W29",
+            "n": 4,
+            "pnl": -0.7600000000000001,
+            "pnl_per_trade": -0.19000000000000003
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.4400000000000001,
+            "pnl_per_trade": -0.1466666666666667
+          },
+          {
+            "label": "2026-W31",
+            "n": 4,
+            "pnl": -0.5599999999999998,
+            "pnl_per_trade": -0.13999999999999996
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.4120851449134353,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.3333333333333333,
+        "fees": 0.18,
+        "first_close_ts": 1783713600,
+        "last_close_ts": 1785528000,
+        "legs": 14,
+        "mean_cost": 0.2192857142857143,
+        "n": 14,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -2.0700000000000003,
+        "pnl_per_elapsed_day": -0.049285714285714294,
+        "pnl_per_trade": -0.14785714285714288,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 4,
+        "single_win_rate": 0.07142857142857142,
+        "week_count": 4
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 1,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 1.21,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 20,
+            "pnl": -1.8399999999999999,
+            "pnl_per_trade": -0.092
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 5,
+            "pnl": -0.6200000000000001,
+            "pnl_per_trade": -0.12400000000000003
+          },
+          {
+            "label": "KXB200WS",
+            "n": 3,
+            "pnl": -0.51,
+            "pnl_per_trade": -0.17
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": 0.48000000000000004,
+            "pnl_per_trade": 0.12000000000000001
+          },
+          {
+            "label": "KXH200WS",
+            "n": 4,
+            "pnl": -1.0999999999999999,
+            "pnl_per_trade": -0.27499999999999997
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 4,
+            "pnl": -0.08999999999999991,
+            "pnl_per_trade": -0.02249999999999998
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 10,
+            "pnl": -2.8,
+            "pnl_per_trade": -0.27999999999999997
+          },
+          {
+            "label": "YES",
+            "n": 10,
+            "pnl": 0.9600000000000002,
+            "pnl_per_trade": 0.09600000000000002
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 2,
+            "pnl": 0.08000000000000008,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W26",
+            "n": 1,
+            "pnl": 0.04000000000000004,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W27",
+            "n": 3,
+            "pnl": -0.9600000000000001,
+            "pnl_per_trade": -0.32
+          },
+          {
+            "label": "2026-W28",
+            "n": 4,
+            "pnl": -0.20999999999999994,
+            "pnl_per_trade": -0.052499999999999984
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": 0.21,
+            "pnl_per_trade": 0.105
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.30000000000000004,
+            "pnl_per_trade": -0.10000000000000002
+          },
+          {
+            "label": "2026-W31",
+            "n": 5,
+            "pnl": -0.7,
+            "pnl_per_trade": -0.13999999999999999
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.4257289049411632,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.47619047619047616,
+        "fees": 0.31,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 20,
+        "mean_cost": 0.792,
+        "n": 20,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -1.8399999999999999,
+        "pnl_per_elapsed_day": -0.043809523809523805,
+        "pnl_per_trade": -0.092,
+        "positive_series": 1,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "single_win_rate": 0.7,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 2.6599999999999997,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 23,
+            "pnl": -0.8100000000000004,
+            "pnl_per_trade": -0.035217391304347846
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 5,
+            "pnl": -0.1800000000000001,
+            "pnl_per_trade": -0.03600000000000002
+          },
+          {
+            "label": "KXB200WS",
+            "n": 5,
+            "pnl": -0.3100000000000002,
+            "pnl_per_trade": -0.06200000000000004
+          },
+          {
+            "label": "KXH100WS",
+            "n": 5,
+            "pnl": -0.9400000000000001,
+            "pnl_per_trade": -0.188
+          },
+          {
+            "label": "KXH200WS",
+            "n": 4,
+            "pnl": 0.83,
+            "pnl_per_trade": 0.2075
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 4,
+            "pnl": -0.21000000000000005,
+            "pnl_per_trade": -0.05250000000000001
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 13,
+            "pnl": -1.9700000000000002,
+            "pnl_per_trade": -0.15153846153846157
+          },
+          {
+            "label": "YES",
+            "n": 10,
+            "pnl": 1.1599999999999997,
+            "pnl_per_trade": 0.11599999999999996
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 3,
+            "pnl": -0.19000000000000006,
+            "pnl_per_trade": -0.06333333333333335
+          },
+          {
+            "label": "2026-W26",
+            "n": 1,
+            "pnl": -0.13,
+            "pnl_per_trade": -0.13
+          },
+          {
+            "label": "2026-W27",
+            "n": 4,
+            "pnl": 0.62,
+            "pnl_per_trade": 0.155
+          },
+          {
+            "label": "2026-W28",
+            "n": 4,
+            "pnl": -0.21000000000000008,
+            "pnl_per_trade": -0.05250000000000002
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": -0.74,
+            "pnl_per_trade": -0.24666666666666667
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.13000000000000003,
+            "pnl_per_trade": -0.04333333333333334
+          },
+          {
+            "label": "2026-W31",
+            "n": 5,
+            "pnl": -0.03000000000000025,
+            "pnl_per_trade": -0.0060000000000000496
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.2663614158666031,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.5476190476190477,
+        "fees": 0.38,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 23,
+        "mean_cost": 0.29608695652173916,
+        "n": 23,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -0.8100000000000004,
+        "pnl_per_elapsed_day": -0.019285714285714295,
+        "pnl_per_trade": -0.035217391304347846,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "single_win_rate": 0.2608695652173913,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 1,
+        "mode": "momentum",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 0.4400000000000001,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 10,
+            "pnl": -2.31,
+            "pnl_per_trade": -0.231
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": -1.1900000000000002,
+            "pnl_per_trade": -0.3966666666666667
+          },
+          {
+            "label": "KXB200WS",
+            "n": 2,
+            "pnl": -0.73,
+            "pnl_per_trade": -0.365
+          },
+          {
+            "label": "KXH100WS",
+            "n": 2,
+            "pnl": 0.21,
+            "pnl_per_trade": 0.105
+          },
+          {
+            "label": "KXH200WS",
+            "n": 2,
+            "pnl": -0.6199999999999999,
+            "pnl_per_trade": -0.30999999999999994
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": 0.020000000000000025,
+            "pnl_per_trade": 0.020000000000000025
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 8,
+            "pnl": -2.52,
+            "pnl_per_trade": -0.315
+          },
+          {
+            "label": "YES",
+            "n": 2,
+            "pnl": 0.21,
+            "pnl_per_trade": 0.105
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 2,
+            "pnl": 0.08000000000000008,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W27",
+            "n": 1,
+            "pnl": -0.6000000000000001,
+            "pnl_per_trade": -0.6000000000000001
+          },
+          {
+            "label": "2026-W28",
+            "n": 2,
+            "pnl": -0.86,
+            "pnl_per_trade": -0.43
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": 0.21,
+            "pnl_per_trade": 0.105
+          },
+          {
+            "label": "2026-W30",
+            "n": 2,
+            "pnl": -0.4600000000000001,
+            "pnl_per_trade": -0.23000000000000004
+          },
+          {
+            "label": "2026-W31",
+            "n": 1,
+            "pnl": -0.6799999999999999,
+            "pnl_per_trade": -0.6799999999999999
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.48899985025449677,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.23809523809523808,
+        "fees": 0.14,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 10,
+        "mean_cost": 0.8310000000000001,
+        "n": 10,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -2.31,
+        "pnl_per_elapsed_day": -0.055,
+        "pnl_per_trade": -0.231,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.6,
+        "week_count": 6
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 1,
+        "mode": "reversal",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 2.1599999999999997,
+        "best_five_share": 2.842105263157895,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 13,
+            "pnl": 0.7599999999999998,
+            "pnl_per_trade": 0.05846153846153845
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": 0.5699999999999998,
+            "pnl_per_trade": 0.18999999999999995
+          },
+          {
+            "label": "KXB200WS",
+            "n": 4,
+            "pnl": 0.24999999999999983,
+            "pnl_per_trade": 0.06249999999999996
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": -0.49999999999999994,
+            "pnl_per_trade": -0.16666666666666666
+          },
+          {
+            "label": "KXH200WS",
+            "n": 2,
+            "pnl": 0.49,
+            "pnl_per_trade": 0.245
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": -0.05000000000000004,
+            "pnl_per_trade": -0.05000000000000004
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 5,
+            "pnl": -0.5700000000000001,
+            "pnl_per_trade": -0.11400000000000002
+          },
+          {
+            "label": "YES",
+            "n": 8,
+            "pnl": 1.3299999999999998,
+            "pnl_per_trade": 0.16624999999999998
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 3,
+            "pnl": -0.19000000000000006,
+            "pnl_per_trade": -0.06333333333333335
+          },
+          {
+            "label": "2026-W27",
+            "n": 2,
+            "pnl": 0.36,
+            "pnl_per_trade": 0.18
+          },
+          {
+            "label": "2026-W28",
+            "n": 2,
+            "pnl": 0.6099999999999999,
+            "pnl_per_trade": 0.30499999999999994
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": -0.74,
+            "pnl_per_trade": -0.24666666666666667
+          },
+          {
+            "label": "2026-W30",
+            "n": 2,
+            "pnl": 0.11999999999999994,
+            "pnl_per_trade": 0.05999999999999997
+          },
+          {
+            "label": "2026-W31",
+            "n": 1,
+            "pnl": 0.6,
+            "pnl_per_trade": 0.6
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.07251561405394187,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.30952380952380953,
+        "fees": 0.2,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 13,
+        "mean_cost": 0.24923076923076926,
+        "n": 13,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.7599999999999998,
+        "pnl_per_elapsed_day": 0.01809523809523809,
+        "pnl_per_trade": 0.05846153846153845,
+        "positive_series": 3,
+        "positive_weeks": 4,
+        "series_count": 5,
+        "single_win_rate": 0.3076923076923077,
+        "week_count": 6
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 1.8900000000000001,
+        "best_five_share": 8.217391304347817,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 18,
+            "pnl": 0.23000000000000026,
+            "pnl_per_trade": 0.012777777777777792
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": -0.81,
+            "pnl_per_trade": -0.27
+          },
+          {
+            "label": "KXB200WS",
+            "n": 3,
+            "pnl": -0.33999999999999997,
+            "pnl_per_trade": -0.11333333333333333
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": 0.7200000000000001,
+            "pnl_per_trade": 0.24000000000000002
+          },
+          {
+            "label": "KXH200WS",
+            "n": 5,
+            "pnl": 0.2000000000000001,
+            "pnl_per_trade": 0.04000000000000002
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 4,
+            "pnl": 0.46000000000000013,
+            "pnl_per_trade": 0.11500000000000003
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 9,
+            "pnl": -1.45,
+            "pnl_per_trade": -0.1611111111111111
+          },
+          {
+            "label": "YES",
+            "n": 9,
+            "pnl": 1.6800000000000002,
+            "pnl_per_trade": 0.18666666666666668
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 2,
+            "pnl": 0.08000000000000008,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W26",
+            "n": 1,
+            "pnl": 0.35,
+            "pnl_per_trade": 0.35
+          },
+          {
+            "label": "2026-W27",
+            "n": 2,
+            "pnl": 0.25000000000000006,
+            "pnl_per_trade": 0.12500000000000003
+          },
+          {
+            "label": "2026-W28",
+            "n": 4,
+            "pnl": -0.24999999999999997,
+            "pnl_per_trade": -0.06249999999999999
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": 0.08000000000000002,
+            "pnl_per_trade": 0.026666666666666672
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.30000000000000004,
+            "pnl_per_trade": -0.10000000000000002
+          },
+          {
+            "label": "2026-W31",
+            "n": 3,
+            "pnl": 0.02000000000000013,
+            "pnl_per_trade": 0.00666666666666671
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.05753128575631894,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.42857142857142855,
+        "fees": 0.28,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 18,
+        "mean_cost": 0.765,
+        "n": 18,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": 0.23000000000000026,
+        "pnl_per_elapsed_day": 0.005476190476190483,
+        "pnl_per_trade": 0.012777777777777792,
+        "positive_series": 3,
+        "positive_weeks": 5,
+        "series_count": 5,
+        "single_win_rate": 0.7777777777777778,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 3,
+        "mode": "reversal",
+        "threshold": 0.03
+      },
+      "diagnostics": {
+        "best_five_pnl": 1.72,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 22,
+            "pnl": -2.2100000000000004,
+            "pnl_per_trade": -0.10045454545454548
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 4,
+            "pnl": 0.16999999999999996,
+            "pnl_per_trade": 0.04249999999999999
+          },
+          {
+            "label": "KXB200WS",
+            "n": 5,
+            "pnl": -0.21000000000000013,
+            "pnl_per_trade": -0.04200000000000002
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": -0.93,
+            "pnl_per_trade": -0.2325
+          },
+          {
+            "label": "KXH200WS",
+            "n": 5,
+            "pnl": -0.55,
+            "pnl_per_trade": -0.11000000000000001
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 4,
+            "pnl": -0.69,
+            "pnl_per_trade": -0.1725
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 11,
+            "pnl": -2.68,
+            "pnl_per_trade": -0.24363636363636365
+          },
+          {
+            "label": "YES",
+            "n": 11,
+            "pnl": 0.46999999999999986,
+            "pnl_per_trade": 0.04272727272727272
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 3,
+            "pnl": -0.19000000000000006,
+            "pnl_per_trade": -0.06333333333333335
+          },
+          {
+            "label": "2026-W26",
+            "n": 1,
+            "pnl": -0.49,
+            "pnl_per_trade": -0.49
+          },
+          {
+            "label": "2026-W27",
+            "n": 2,
+            "pnl": -0.32999999999999996,
+            "pnl_per_trade": -0.16499999999999998
+          },
+          {
+            "label": "2026-W28",
+            "n": 5,
+            "pnl": -0.1900000000000001,
+            "pnl_per_trade": -0.03800000000000002
+          },
+          {
+            "label": "2026-W29",
+            "n": 4,
+            "pnl": -0.5599999999999999,
+            "pnl_per_trade": -0.13999999999999999
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.13000000000000003,
+            "pnl_per_trade": -0.04333333333333334
+          },
+          {
+            "label": "2026-W31",
+            "n": 4,
+            "pnl": -0.3200000000000002,
+            "pnl_per_trade": -0.08000000000000004
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.3767317361010454,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.5238095238095238,
+        "fees": 0.34,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 22,
+        "mean_cost": 0.2822727272727273,
+        "n": 22,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -2.2100000000000004,
+        "pnl_per_elapsed_day": -0.05261904761904763,
+        "pnl_per_trade": -0.10045454545454548,
+        "positive_series": 1,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.18181818181818182,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 3,
+        "mode": "momentum",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 1.5,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 16,
+            "pnl": -1.04,
+            "pnl_per_trade": -0.065
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 3,
+            "pnl": -0.81,
+            "pnl_per_trade": -0.27
+          },
+          {
+            "label": "KXB200WS",
+            "n": 4,
+            "pnl": -0.11999999999999997,
+            "pnl_per_trade": -0.029999999999999992
+          },
+          {
+            "label": "KXH100WS",
+            "n": 3,
+            "pnl": -0.33,
+            "pnl_per_trade": -0.11
+          },
+          {
+            "label": "KXH200WS",
+            "n": 5,
+            "pnl": 0.2000000000000001,
+            "pnl_per_trade": 0.04000000000000002
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": 0.020000000000000025,
+            "pnl_per_trade": 0.020000000000000025
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 9,
+            "pnl": -1.28,
+            "pnl_per_trade": -0.14222222222222222
+          },
+          {
+            "label": "YES",
+            "n": 7,
+            "pnl": 0.24000000000000002,
+            "pnl_per_trade": 0.03428571428571429
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 2,
+            "pnl": 0.08000000000000008,
+            "pnl_per_trade": 0.04000000000000004
+          },
+          {
+            "label": "2026-W26",
+            "n": 1,
+            "pnl": 0.35,
+            "pnl_per_trade": 0.35
+          },
+          {
+            "label": "2026-W27",
+            "n": 1,
+            "pnl": 0.08999999999999998,
+            "pnl_per_trade": 0.08999999999999998
+          },
+          {
+            "label": "2026-W28",
+            "n": 3,
+            "pnl": -0.48,
+            "pnl_per_trade": -0.16
+          },
+          {
+            "label": "2026-W29",
+            "n": 2,
+            "pnl": 0.02999999999999997,
+            "pnl_per_trade": 0.014999999999999986
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": -0.9100000000000001,
+            "pnl_per_trade": -0.3033333333333334
+          },
+          {
+            "label": "2026-W31",
+            "n": 4,
+            "pnl": -0.1999999999999999,
+            "pnl_per_trade": -0.049999999999999975
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.3090681066475476,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.38095238095238093,
+        "fees": 0.24,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 16,
+        "mean_cost": 0.7525,
+        "n": 16,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -1.04,
+        "pnl_per_elapsed_day": -0.024761904761904763,
+        "pnl_per_trade": -0.065,
+        "positive_series": 2,
+        "positive_weeks": 4,
+        "series_count": 5,
+        "single_win_rate": 0.6875,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "fraction": 0.8,
+        "lookback": 3,
+        "mode": "reversal",
+        "threshold": 0.08
+      },
+      "diagnostics": {
+        "best_five_pnl": 2.1399999999999997,
+        "best_five_share": null,
+        "drift": [],
+        "paired": [
+          {
+            "label": "single",
+            "n": 19,
+            "pnl": -1.0400000000000005,
+            "pnl_per_trade": -0.05473684210526318
+          }
+        ],
+        "series": [
+          {
+            "label": "KXA100WS",
+            "n": 4,
+            "pnl": 0.15999999999999995,
+            "pnl_per_trade": 0.03999999999999999
+          },
+          {
+            "label": "KXB200WS",
+            "n": 5,
+            "pnl": -0.7300000000000001,
+            "pnl_per_trade": -0.14600000000000002
+          },
+          {
+            "label": "KXH100WS",
+            "n": 4,
+            "pnl": 0.12999999999999987,
+            "pnl_per_trade": 0.032499999999999966
+          },
+          {
+            "label": "KXH200WS",
+            "n": 5,
+            "pnl": -0.55,
+            "pnl_per_trade": -0.11000000000000001
+          },
+          {
+            "label": "KXRTX5090WS",
+            "n": 1,
+            "pnl": -0.05000000000000004,
+            "pnl_per_trade": -0.05000000000000004
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 8,
+            "pnl": -1.0200000000000002,
+            "pnl_per_trade": -0.12750000000000003
+          },
+          {
+            "label": "YES",
+            "n": 11,
+            "pnl": -0.020000000000000205,
+            "pnl_per_trade": -0.0018181818181818368
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 3,
+            "pnl": -0.19000000000000006,
+            "pnl_per_trade": -0.06333333333333335
+          },
+          {
+            "label": "2026-W26",
+            "n": 1,
+            "pnl": -0.49,
+            "pnl_per_trade": -0.49
+          },
+          {
+            "label": "2026-W27",
+            "n": 1,
+            "pnl": -0.12,
+            "pnl_per_trade": -0.12
+          },
+          {
+            "label": "2026-W28",
+            "n": 4,
+            "pnl": 0.14999999999999986,
+            "pnl_per_trade": 0.037499999999999964
+          },
+          {
+            "label": "2026-W29",
+            "n": 3,
+            "pnl": -0.4799999999999999,
+            "pnl_per_trade": -0.15999999999999998
+          },
+          {
+            "label": "2026-W30",
+            "n": 3,
+            "pnl": 0.5199999999999998,
+            "pnl_per_trade": 0.17333333333333326
+          },
+          {
+            "label": "2026-W31",
+            "n": 4,
+            "pnl": -0.43000000000000016,
+            "pnl_per_trade": -0.10750000000000004
+          }
+        ]
+      },
+      "metrics": {
+        "daily_lcb": -0.2903530945805658,
+        "elapsed_calendar_days": 42.0,
+        "events_per_elapsed_day": 0.4523809523809524,
+        "fees": 0.29,
+        "first_close_ts": 1781899200,
+        "last_close_ts": 1785528000,
+        "legs": 19,
+        "mean_cost": 0.3178947368421053,
+        "n": 19,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -1.0400000000000005,
+        "pnl_per_elapsed_day": -0.024761904761904773,
+        "pnl_per_trade": -0.05473684210526318,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.2631578947368421,
+        "week_count": 7
+      }
+    }
+  ],
+  "cut_iso": "2026-08-07T20:00:00+00:00",
+  "cut_ts": 1786132800,
+  "events_train": 30,
+  "idea": "GPU attention-flow price continuation/reversal",
+  "sealed_events_test": 15,
+  "search_count": 24,
+  "series": [
+    "KXRTX5090WS",
+    "KXH100WS",
+    "KXH200WS",
+    "KXA100WS",
+    "KXB200WS"
+  ],
+  "unit_of_observation": "one selected contract per GPU-series weekly event",
+  "winner": {
+    "config": {
+      "fraction": 0.6,
+      "lookback": 3,
+      "mode": "momentum",
+      "threshold": 0.03
+    },
+    "diagnostics": {
+      "best_five_pnl": 2.66,
+      "best_five_share": 0.9888475836431228,
+      "drift": [],
+      "paired": [
+        {
+          "label": "single",
+          "n": 14,
+          "pnl": 2.69,
+          "pnl_per_trade": 0.19214285714285714
+        }
+      ],
+      "series": [
+        {
+          "label": "KXA100WS",
+          "n": 2,
+          "pnl": -0.16000000000000003,
+          "pnl_per_trade": -0.08000000000000002
+        },
+        {
+          "label": "KXB200WS",
+          "n": 4,
+          "pnl": 1.98,
+          "pnl_per_trade": 0.495
+        },
+        {
+          "label": "KXH100WS",
+          "n": 4,
+          "pnl": 0.78,
+          "pnl_per_trade": 0.195
+        },
+        {
+          "label": "KXH200WS",
+          "n": 3,
+          "pnl": 0.17999999999999997,
+          "pnl_per_trade": 0.05999999999999999
+        },
+        {
+          "label": "KXRTX5090WS",
+          "n": 1,
+          "pnl": -0.09,
+          "pnl_per_trade": -0.09
+        }
+      ],
+      "sides": [
+        {
+          "label": "NO",
+          "n": 4,
+          "pnl": 0.31,
+          "pnl_per_trade": 0.0775
+        },
+        {
+          "label": "YES",
+          "n": 10,
+          "pnl": 2.38,
+          "pnl_per_trade": 0.238
+        }
+      ],
+      "weeks": [
+        {
+          "label": "2026-W28",
+          "n": 5,
+          "pnl": 0.9600000000000001,
+          "pnl_per_trade": 0.192
+        },
+        {
+          "label": "2026-W29",
+          "n": 3,
+          "pnl": 1.07,
+          "pnl_per_trade": 0.3566666666666667
+        },
+        {
+          "label": "2026-W30",
+          "n": 3,
+          "pnl": -0.06000000000000002,
+          "pnl_per_trade": -0.020000000000000007
+        },
+        {
+          "label": "2026-W31",
+          "n": 3,
+          "pnl": 0.72,
+          "pnl_per_trade": 0.24
+        }
+      ]
+    },
+    "metrics": {
+      "daily_lcb": 0.1918841359477527,
+      "elapsed_calendar_days": 42.0,
+      "events_per_elapsed_day": 0.3333333333333333,
+      "fees": 0.17,
+      "first_close_ts": 1783713600,
+      "last_close_ts": 1785528000,
+      "legs": 14,
+      "mean_cost": 0.665,
+      "n": 14,
+      "paired_count": 0,
+      "paired_pct": 0.0,
+      "pnl": 2.69,
+      "pnl_per_elapsed_day": 0.06404761904761905,
+      "pnl_per_trade": 0.19214285714285714,
+      "positive_series": 3,
+      "positive_weeks": 3,
+      "series_count": 5,
+      "single_win_rate": 0.8571428571428571,
+      "week_count": 4
+    },
+    "train_market_null_p": 0.015299235038248088
+  }
+}

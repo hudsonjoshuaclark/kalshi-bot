@@ -1,0 +1,928 @@
+{
+  "all_markets": 29931,
+  "candidates": [
+    {
+      "config": {
+        "entry": 3,
+        "mode": "momentum",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -7.3588098137460225,
+        "fees": 210.62,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 11387,
+        "mean_cost": 0.7115139193817511,
+        "n": 11387,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -259.0090000000001,
+        "pnl_per_trade": -0.02274602617019409,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.6887678932115571,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "mode": "reversal",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -9.300793614438895,
+        "fees": 214.14000000000001,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 11387,
+        "mean_cost": 0.34165170808817075,
+        "n": 11387,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -346.38800000000015,
+        "pnl_per_trade": -0.03041960129972777,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.311232106788443,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "mode": "momentum",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -3.6633372565539397,
+        "fees": 75.18,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786562100,
+        "legs": 4269,
+        "mean_cost": 0.7609676739283204,
+        "n": 4269,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -123.57100000000003,
+        "pnl_per_trade": -0.02894612321386742,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.7320215507144531,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "mode": "reversal",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -2.978905533606289,
+        "fees": 77.14,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786562100,
+        "legs": 4269,
+        "mean_cost": 0.28951370344342936,
+        "n": 4269,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -91.93400000000005,
+        "pnl_per_trade": -0.02153525415788242,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.267978449285547,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "mode": "momentum",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -1.4753511968357322,
+        "fees": 17.7,
+        "first_close_ts": 1782733500,
+        "last_close_ts": 1786558500,
+        "legs": 1092,
+        "mean_cost": 0.8035540293040293,
+        "n": 1092,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -45.481,
+        "pnl_per_trade": -0.0416492673992674,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "single_win_rate": 0.7619047619047619,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "mode": "reversal",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -0.6132617812977142,
+        "fees": 18.37,
+        "first_close_ts": 1782733500,
+        "last_close_ts": 1786558500,
+        "legs": 1092,
+        "mean_cost": 0.24373992673992673,
+        "n": 1092,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -6.16400000000001,
+        "pnl_per_trade": -0.005644688644688654,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "single_win_rate": 0.23809523809523808,
+        "week_count": 7
+      },
+      "train_diagnostics": {
+        "best_five_pnl": 4.616,
+        "best_five_share": null,
+        "drift": [
+          {
+            "label": "down_or_flat",
+            "n": 515,
+            "pnl": -15.815000000000005,
+            "pnl_per_trade": -0.03070873786407768
+          },
+          {
+            "label": "up",
+            "n": 558,
+            "pnl": 8.860999999999994,
+            "pnl_per_trade": 0.015879928315412174
+          }
+        ],
+        "paired": [
+          {
+            "label": "single",
+            "n": 1092,
+            "pnl": -6.16400000000001,
+            "pnl_per_trade": -0.005644688644688654
+          }
+        ],
+        "series": [
+          {
+            "label": "BTC",
+            "n": 208,
+            "pnl": -1.4240000000000024,
+            "pnl_per_trade": -0.006846153846153858
+          },
+          {
+            "label": "DOGE",
+            "n": 238,
+            "pnl": -3.863000000000002,
+            "pnl_per_trade": -0.0162310924369748
+          },
+          {
+            "label": "ETH",
+            "n": 208,
+            "pnl": 1.8329999999999982,
+            "pnl_per_trade": 0.00881249999999999
+          },
+          {
+            "label": "SOL",
+            "n": 216,
+            "pnl": -10.468000000000002,
+            "pnl_per_trade": -0.04846296296296297
+          },
+          {
+            "label": "XRP",
+            "n": 222,
+            "pnl": 7.757999999999998,
+            "pnl_per_trade": 0.03494594594594594
+          }
+        ],
+        "sides": [
+          {
+            "label": "NO",
+            "n": 528,
+            "pnl": -19.584000000000003,
+            "pnl_per_trade": -0.0370909090909091
+          },
+          {
+            "label": "YES",
+            "n": 564,
+            "pnl": 13.419999999999993,
+            "pnl_per_trade": 0.023794326241134738
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W27",
+            "n": 181,
+            "pnl": -3.760000000000002,
+            "pnl_per_trade": -0.020773480662983436
+          },
+          {
+            "label": "2026-W28",
+            "n": 184,
+            "pnl": -2.863000000000001,
+            "pnl_per_trade": -0.015559782608695658
+          },
+          {
+            "label": "2026-W29",
+            "n": 142,
+            "pnl": -7.348000000000002,
+            "pnl_per_trade": -0.05174647887323945
+          },
+          {
+            "label": "2026-W30",
+            "n": 198,
+            "pnl": 5.608999999999998,
+            "pnl_per_trade": 0.02832828282828282
+          },
+          {
+            "label": "2026-W31",
+            "n": 153,
+            "pnl": 9.582999999999998,
+            "pnl_per_trade": 0.06263398692810457
+          },
+          {
+            "label": "2026-W32",
+            "n": 153,
+            "pnl": -10.666000000000002,
+            "pnl_per_trade": -0.06971241830065361
+          },
+          {
+            "label": "2026-W33",
+            "n": 81,
+            "pnl": 3.2809999999999993,
+            "pnl_per_trade": 0.040506172839506166
+          }
+        ]
+      },
+      "train_market_null_p": 0.19484025798710064
+    },
+    {
+      "config": {
+        "entry": 5,
+        "mode": "momentum",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -6.417532588206128,
+        "fees": 242.69,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786561200,
+        "legs": 14390,
+        "mean_cost": 0.7623228630993746,
+        "n": 14390,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -201.8260000000001,
+        "pnl_per_trade": -0.01402543432939542,
+        "positive_series": 1,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "single_win_rate": 0.7482974287699792,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "mode": "reversal",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -13.327408539676739,
+        "fees": 249.04,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786561200,
+        "legs": 14390,
+        "mean_cost": 0.28724336344683804,
+        "n": 14390,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -511.43200000000013,
+        "pnl_per_trade": -0.035540792216817246,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.2517025712300208,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "mode": "momentum",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -4.060362734484903,
+        "fees": 128.72,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786561200,
+        "legs": 8222,
+        "mean_cost": 0.8080698126976404,
+        "n": 8222,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -129.95000000000005,
+        "pnl_per_trade": -0.015805156896132332,
+        "positive_series": 0,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.7922646558015082,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "mode": "reversal",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -6.755583031304967,
+        "fees": 133.44,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786561200,
+        "legs": 8222,
+        "mean_cost": 0.23821260034054975,
+        "n": 8222,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -250.58400000000006,
+        "pnl_per_trade": -0.0304772561420579,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.20773534419849185,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "mode": "momentum",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -1.6016920941959554,
+        "fees": 49.18,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786557600,
+        "legs": 3449,
+        "mean_cost": 0.8445755291388809,
+        "n": 3449,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -38.94100000000002,
+        "pnl_per_trade": -0.011290518991011892,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.8332850101478689,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "mode": "reversal",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -3.1245138983386815,
+        "fees": 51.24,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786557600,
+        "legs": 3449,
+        "mean_cost": 0.19771643954769497,
+        "n": 3449,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -106.92400000000002,
+        "pnl_per_trade": -0.031001449695563937,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.16671498985213104,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 7,
+        "mode": "momentum",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -4.831410766090423,
+        "fees": 249.95000000000002,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 16520,
+        "mean_cost": 0.8113460653753026,
+        "n": 16520,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -135.43700000000007,
+        "pnl_per_trade": -0.008198365617433418,
+        "positive_series": 0,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.8031476997578693,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 7,
+        "mode": "reversal",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -15.405841892985014,
+        "fees": 256.78000000000003,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 16520,
+        "mean_cost": 0.23371797820823245,
+        "n": 16520,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -609.0210000000002,
+        "pnl_per_trade": -0.036865677966101705,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.19685230024213074,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 7,
+        "mode": "momentum",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -3.5128996629512095,
+        "fees": 159.82,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786562100,
+        "legs": 11507,
+        "mean_cost": 0.8516156252715738,
+        "n": 11507,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -94.54100000000001,
+        "pnl_per_trade": -0.008215955505344574,
+        "positive_series": 0,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.8433996697662293,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 7,
+        "mode": "reversal",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -9.912940405324251,
+        "fees": 165.24,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786562100,
+        "legs": 11507,
+        "mean_cost": 0.1897676197097419,
+        "n": 11507,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -381.65600000000006,
+        "pnl_per_trade": -0.033167289475971154,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.15660033023377073,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 7,
+        "mode": "momentum",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -2.4440655445234176,
+        "fees": 81.58,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786561200,
+        "legs": 6481,
+        "mean_cost": 0.8843743249498535,
+        "n": 6481,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -69.63,
+        "pnl_per_trade": -0.010743712390063262,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "single_win_rate": 0.8736306125597901,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 7,
+        "mode": "reversal",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -4.747894225632135,
+        "fees": 84.45,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786561200,
+        "legs": 6481,
+        "mean_cost": 0.15298318160777657,
+        "n": 6481,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -172.48400000000004,
+        "pnl_per_trade": -0.026613794167566738,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.12636938744020984,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 9,
+        "mode": "momentum",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -5.383663511721118,
+        "fees": 244.72,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 17846,
+        "mean_cost": 0.8553281967948,
+        "n": 17846,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -190.18699999999998,
+        "pnl_per_trade": -0.010657122044155552,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.8446710747506444,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 9,
+        "mode": "reversal",
+        "threshold": 0.1
+      },
+      "metrics": {
+        "daily_lcb": -13.121117309378022,
+        "fees": 251.33,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 17846,
+        "mean_cost": 0.18540479659307407,
+        "n": 17846,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -536.7340000000002,
+        "pnl_per_trade": -0.030075871343718488,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.1553289252493556,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 9,
+        "mode": "momentum",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -4.3122814829772125,
+        "fees": 178.14000000000001,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 14046,
+        "mean_cost": 0.8885640039869002,
+        "n": 14046,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -151.76999999999995,
+        "pnl_per_trade": -0.0108052114480991,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.8777587925388011,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 9,
+        "mode": "reversal",
+        "threshold": 0.2
+      },
+      "metrics": {
+        "daily_lcb": -9.28191998105765,
+        "fees": 183.57,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "legs": 14046,
+        "mean_cost": 0.14887782998718496,
+        "n": 14046,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -374.1380000000001,
+        "pnl_per_trade": -0.026636622525986052,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "single_win_rate": 0.12224120746119892,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 9,
+        "mode": "momentum",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -2.7335664410341214,
+        "fees": 110.57000000000001,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786562100,
+        "legs": 9448,
+        "mean_cost": 0.914151248941575,
+        "n": 9448,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -88.90099999999995,
+        "pnl_per_trade": -0.009409504657070274,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "single_win_rate": 0.9047417442845047,
+        "week_count": 7
+      }
+    },
+    {
+      "config": {
+        "entry": 9,
+        "mode": "reversal",
+        "threshold": 0.3
+      },
+      "metrics": {
+        "daily_lcb": -5.988431728442869,
+        "fees": 113.9,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786562100,
+        "legs": 9448,
+        "mean_cost": 0.11995808636748519,
+        "n": 9448,
+        "paired_count": 0,
+        "paired_pct": 0.0,
+        "pnl": -233.36400000000006,
+        "pnl_per_trade": -0.024699830651989847,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "single_win_rate": 0.09525825571549534,
+        "week_count": 7
+      }
+    }
+  ],
+  "cut_iso": "2026-08-12T19:30:00+00:00",
+  "cut_ts": 1786563000,
+  "data_dir": "deep",
+  "execution": "measure completed minute-1 to entry mid move; cross current displayed ask",
+  "idea": "Kalshi quote impulse continuation or reversal",
+  "sealed_test_markets": 8981,
+  "search_count": 24,
+  "selection_objective": "max mean daily train P&L minus one daily standard error",
+  "snapshot": {
+    "files": [
+      [
+        "KXBTC15M.json",
+        7109975,
+        1788201913677889800
+      ],
+      [
+        "spot_BTC-USD.json",
+        9690792,
+        1788208552303517600
+      ],
+      [
+        "KXETH15M.json",
+        6967972,
+        1788203483627166100
+      ],
+      [
+        "spot_ETH-USD.json",
+        9412548,
+        1788208681636809900
+      ],
+      [
+        "KXSOL15M.json",
+        6918605,
+        1788205126231197300
+      ],
+      [
+        "spot_SOL-USD.json",
+        8823977,
+        1788208810230287800
+      ],
+      [
+        "KXXRP15M.json",
+        6917673,
+        1788206777301565900
+      ],
+      [
+        "spot_XRP-USD.json",
+        9148157,
+        1788208938401042700
+      ],
+      [
+        "KXDOGE15M.json",
+        6914377,
+        1788208421702771400
+      ],
+      [
+        "spot_DOGE-USD.json",
+        8171436,
+        1788209067705924200
+      ]
+    ],
+    "sha256_metadata": "09e04dd1b90b6b6a9d5e0d7152df0138e0f4b7e20358f9ae426582742de44357"
+  },
+  "train_markets": 20950,
+  "winner": {
+    "config": {
+      "entry": 3,
+      "mode": "reversal",
+      "threshold": 0.3
+    },
+    "metrics": {
+      "daily_lcb": -0.6132617812977142,
+      "fees": 18.37,
+      "first_close_ts": 1782733500,
+      "last_close_ts": 1786558500,
+      "legs": 1092,
+      "mean_cost": 0.24373992673992673,
+      "n": 1092,
+      "paired_count": 0,
+      "paired_pct": 0.0,
+      "pnl": -6.16400000000001,
+      "pnl_per_trade": -0.005644688644688654,
+      "positive_series": 2,
+      "positive_weeks": 3,
+      "series_count": 5,
+      "single_win_rate": 0.23809523809523808,
+      "week_count": 7
+    },
+    "train_diagnostics": {
+      "best_five_pnl": 4.616,
+      "best_five_share": null,
+      "drift": [
+        {
+          "label": "down_or_flat",
+          "n": 515,
+          "pnl": -15.815000000000005,
+          "pnl_per_trade": -0.03070873786407768
+        },
+        {
+          "label": "up",
+          "n": 558,
+          "pnl": 8.860999999999994,
+          "pnl_per_trade": 0.015879928315412174
+        }
+      ],
+      "paired": [
+        {
+          "label": "single",
+          "n": 1092,
+          "pnl": -6.16400000000001,
+          "pnl_per_trade": -0.005644688644688654
+        }
+      ],
+      "series": [
+        {
+          "label": "BTC",
+          "n": 208,
+          "pnl": -1.4240000000000024,
+          "pnl_per_trade": -0.006846153846153858
+        },
+        {
+          "label": "DOGE",
+          "n": 238,
+          "pnl": -3.863000000000002,
+          "pnl_per_trade": -0.0162310924369748
+        },
+        {
+          "label": "ETH",
+          "n": 208,
+          "pnl": 1.8329999999999982,
+          "pnl_per_trade": 0.00881249999999999
+        },
+        {
+          "label": "SOL",
+          "n": 216,
+          "pnl": -10.468000000000002,
+          "pnl_per_trade": -0.04846296296296297
+        },
+        {
+          "label": "XRP",
+          "n": 222,
+          "pnl": 7.757999999999998,
+          "pnl_per_trade": 0.03494594594594594
+        }
+      ],
+      "sides": [
+        {
+          "label": "NO",
+          "n": 528,
+          "pnl": -19.584000000000003,
+          "pnl_per_trade": -0.0370909090909091
+        },
+        {
+          "label": "YES",
+          "n": 564,
+          "pnl": 13.419999999999993,
+          "pnl_per_trade": 0.023794326241134738
+        }
+      ],
+      "weeks": [
+        {
+          "label": "2026-W27",
+          "n": 181,
+          "pnl": -3.760000000000002,
+          "pnl_per_trade": -0.020773480662983436
+        },
+        {
+          "label": "2026-W28",
+          "n": 184,
+          "pnl": -2.863000000000001,
+          "pnl_per_trade": -0.015559782608695658
+        },
+        {
+          "label": "2026-W29",
+          "n": 142,
+          "pnl": -7.348000000000002,
+          "pnl_per_trade": -0.05174647887323945
+        },
+        {
+          "label": "2026-W30",
+          "n": 198,
+          "pnl": 5.608999999999998,
+          "pnl_per_trade": 0.02832828282828282
+        },
+        {
+          "label": "2026-W31",
+          "n": 153,
+          "pnl": 9.582999999999998,
+          "pnl_per_trade": 0.06263398692810457
+        },
+        {
+          "label": "2026-W32",
+          "n": 153,
+          "pnl": -10.666000000000002,
+          "pnl_per_trade": -0.06971241830065361
+        },
+        {
+          "label": "2026-W33",
+          "n": 81,
+          "pnl": 3.2809999999999993,
+          "pnl_per_trade": 0.040506172839506166
+        }
+      ]
+    },
+    "train_market_null_p": 0.19484025798710064
+  }
+}

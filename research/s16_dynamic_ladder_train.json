@@ -1,0 +1,6715 @@
+{
+  "all_events": 332,
+  "candidates": [
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.61,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 36,
+            "pnl": 20.55,
+            "pnl_per_event": 0.5708333333333333
+          },
+          {
+            "label": "single",
+            "n": 190,
+            "pnl": -35.04,
+            "pnl_per_event": -0.18442105263157893
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 111,
+            "pnl": -4.88,
+            "pnl_per_event": -0.043963963963963966
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 115,
+            "pnl": -9.610000000000001,
+            "pnl_per_event": -0.08356521739130436
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 48,
+            "pnl": -5.01,
+            "pnl_per_event": -0.104375
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.16000000000000006,
+            "pnl_per_event": -0.005517241379310347
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.1102230246251565e-16,
+            "pnl_per_event": -1.586032892321652e-17
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.01,
+            "pnl_per_event": -0.1442857142857143
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 0.3799999999999998,
+            "pnl_per_event": 0.01310344827586206
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.84,
+            "pnl_per_event": -0.12
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -5.01,
+            "pnl_per_event": -0.23857142857142857
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": 0.55,
+            "pnl_per_event": 0.09166666666666667
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 0.3499999999999998,
+            "pnl_per_event": 0.012068965517241372
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.72,
+            "pnl_per_event": -0.24571428571428572
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -2.02,
+            "pnl_per_event": -0.05611111111111111
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.01000000000000005,
+            "pnl_per_event": -0.0007142857142857179
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -0.37999999999999984,
+            "pnl_per_event": -0.014074074074074069
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -5.55,
+            "pnl_per_event": -0.185
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -0.9000000000000004,
+            "pnl_per_event": -0.027272727272727282
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -4.55,
+            "pnl_per_event": -0.1421875
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -0.3900000000000001,
+            "pnl_per_event": -0.011818181818181821
+          },
+          {
+            "label": "2026-W31",
+            "n": 33,
+            "pnl": -4.62,
+            "pnl_per_event": -0.14
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": 1.91,
+            "pnl_per_event": 0.07958333333333333
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.86,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 226,
+        "paired_count": 36,
+        "paired_pct": 0.1592920353982301,
+        "pnl": -14.49,
+        "pnl_per_event": -0.0641150442477876,
+        "positive_series": 3,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.7689172504059014
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.66,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 51,
+            "pnl": 20.75,
+            "pnl_per_event": 0.4068627450980392
+          },
+          {
+            "label": "single",
+            "n": 171,
+            "pnl": -43.31,
+            "pnl_per_event": -0.2532748538011696
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 112,
+            "pnl": -10.02,
+            "pnl_per_event": -0.0894642857142857
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -12.540000000000001,
+            "pnl_per_event": -0.114
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 45,
+            "pnl": -6.92,
+            "pnl_per_event": -0.15377777777777776
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.69,
+            "pnl_per_event": -0.05827586206896552
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.2099999999999999,
+            "pnl_per_event": -0.03499999999999998
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": 0.99,
+            "pnl_per_event": 0.14142857142857143
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.9700000000000002,
+            "pnl_per_event": -0.06793103448275863
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -3.97,
+            "pnl_per_event": -0.18904761904761905
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -0.8500000000000001,
+            "pnl_per_event": -0.1416666666666667
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.5000000000000007,
+            "pnl_per_event": -0.01724137931034485
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.76,
+            "pnl_per_event": -0.25142857142857145
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -4.6000000000000005,
+            "pnl_per_event": -0.1277777777777778
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 0.49000000000000005,
+            "pnl_per_event": 0.0376923076923077
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": -4.180000000000001,
+            "pnl_per_event": -0.1492857142857143
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -2.3100000000000005,
+            "pnl_per_event": -0.07965517241379312
+          },
+          {
+            "label": "2026-W28",
+            "n": 32,
+            "pnl": -2.4800000000000004,
+            "pnl_per_event": -0.07750000000000001
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.760000000000001,
+            "pnl_per_event": -0.17454545454545456
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -1.55,
+            "pnl_per_event": -0.0484375
+          },
+          {
+            "label": "2026-W31",
+            "n": 32,
+            "pnl": -4.07,
+            "pnl_per_event": -0.1271875
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -2.7,
+            "pnl_per_event": -0.11739130434782609
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.24,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 222,
+        "paired_count": 51,
+        "paired_pct": 0.22972972972972974,
+        "pnl": -22.560000000000002,
+        "pnl_per_event": -0.10162162162162164,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.4883508488382864
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.21,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 90,
+            "pnl": 26.449999999999996,
+            "pnl_per_event": 0.29388888888888887
+          },
+          {
+            "label": "single",
+            "n": 132,
+            "pnl": -35.27,
+            "pnl_per_event": -0.2671969696969697
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 113,
+            "pnl": -2.6000000000000023,
+            "pnl_per_event": -0.023008849557522144
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 109,
+            "pnl": -6.220000000000003,
+            "pnl_per_event": -0.05706422018348627
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 45,
+            "pnl": -4.130000000000001,
+            "pnl_per_event": -0.09177777777777779
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.720000000000001,
+            "pnl_per_event": -0.059310344827586244
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 1.1199999999999999,
+            "pnl_per_event": 0.15999999999999998
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.6800000000000004,
+            "pnl_per_event": -0.0971428571428572
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 3.759999999999999,
+            "pnl_per_event": 0.12965517241379307
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 6,
+            "pnl": -1.8100000000000003,
+            "pnl_per_event": -0.3016666666666667
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -2.01,
+            "pnl_per_event": -0.09571428571428571
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -2.54,
+            "pnl_per_event": -0.42333333333333334
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 2.9799999999999986,
+            "pnl_per_event": 0.10275862068965512
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -0.37999999999999995,
+            "pnl_per_event": -0.05428571428571428
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.4100000000000006,
+            "pnl_per_event": -0.09472222222222224
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.3700000000000002,
+            "pnl_per_event": -0.026428571428571444
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -3.2200000000000006,
+            "pnl_per_event": -0.11925925925925929
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 2.7999999999999994,
+            "pnl_per_event": 0.09333333333333331
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -1.0500000000000007,
+            "pnl_per_event": -0.03181818181818184
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -3.7800000000000007,
+            "pnl_per_event": -0.11812500000000002
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -0.7500000000000007,
+            "pnl_per_event": -0.02343750000000002
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.5700000000000005,
+            "pnl_per_event": -0.0506451612903226
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -0.8800000000000006,
+            "pnl_per_event": -0.03826086956521742
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 6.13,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 222,
+        "paired_count": 90,
+        "paired_pct": 0.40540540540540543,
+        "pnl": -8.820000000000006,
+        "pnl_per_event": -0.039729729729729754,
+        "positive_series": 3,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.8072536296972364
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 3.9,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 19,
+            "pnl": 9.91,
+            "pnl_per_event": 0.521578947368421
+          },
+          {
+            "label": "single",
+            "n": 207,
+            "pnl": -27.56,
+            "pnl_per_event": -0.1331400966183575
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 111,
+            "pnl": -6.64,
+            "pnl_per_event": -0.05981981981981982
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 115,
+            "pnl": -11.01,
+            "pnl_per_event": -0.0957391304347826
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 48,
+            "pnl": -4.859999999999999,
+            "pnl_per_event": -0.10124999999999999
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.3800000000000001,
+            "pnl_per_event": -0.013103448275862073
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.3799999999999999,
+            "pnl_per_event": 0.05428571428571427
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.81,
+            "pnl_per_event": -0.25857142857142856
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -0.56,
+            "pnl_per_event": -0.019310344827586208
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.64,
+            "pnl_per_event": -0.23428571428571426
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -5.11,
+            "pnl_per_event": -0.24333333333333335
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": 0.5800000000000001,
+            "pnl_per_event": 0.09666666666666668
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.6900000000000002,
+            "pnl_per_event": -0.023793103448275867
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.72,
+            "pnl_per_event": -0.24571428571428572
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -1.8400000000000003,
+            "pnl_per_event": -0.05111111111111112
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.85,
+            "pnl_per_event": -0.060714285714285714
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -0.56,
+            "pnl_per_event": -0.020740740740740744
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -5.49,
+            "pnl_per_event": -0.183
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -0.8300000000000004,
+            "pnl_per_event": -0.025151515151515164
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -5.13,
+            "pnl_per_event": -0.1603125
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -0.78,
+            "pnl_per_event": -0.023636363636363636
+          },
+          {
+            "label": "2026-W31",
+            "n": 33,
+            "pnl": -5.38,
+            "pnl_per_event": -0.16303030303030303
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": 1.3699999999999999,
+            "pnl_per_event": 0.057083333333333326
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.59,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 226,
+        "paired_count": 19,
+        "paired_pct": 0.084070796460177,
+        "pnl": -17.650000000000002,
+        "pnl_per_event": -0.07809734513274337,
+        "positive_series": 2,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.1574840434178872
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.91,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 40,
+            "pnl": 20.490000000000002,
+            "pnl_per_event": 0.5122500000000001
+          },
+          {
+            "label": "single",
+            "n": 182,
+            "pnl": -38.45,
+            "pnl_per_event": -0.2112637362637363
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 113,
+            "pnl": -9.31,
+            "pnl_per_event": -0.08238938053097346
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 109,
+            "pnl": -8.65,
+            "pnl_per_event": -0.07935779816513762
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 45,
+            "pnl": -5.49,
+            "pnl_per_event": -0.12200000000000001
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -2.35,
+            "pnl_per_event": -0.0810344827586207
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.12999999999999995,
+            "pnl_per_event": -0.021666666666666657
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": 2.33,
+            "pnl_per_event": 0.33285714285714285
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -2.7600000000000002,
+            "pnl_per_event": -0.09517241379310346
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -3.82,
+            "pnl_per_event": -0.1819047619047619
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -0.8500000000000001,
+            "pnl_per_event": -0.1416666666666667
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 1.16,
+            "pnl_per_event": 0.039999999999999994
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.75,
+            "pnl_per_event": -0.25
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.22,
+            "pnl_per_event": -0.08944444444444445
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 0.0500000000000001,
+            "pnl_per_event": 0.0038461538461538537
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": -3.9400000000000004,
+            "pnl_per_event": -0.14071428571428574
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -4.16,
+            "pnl_per_event": -0.14344827586206896
+          },
+          {
+            "label": "2026-W28",
+            "n": 32,
+            "pnl": -0.76,
+            "pnl_per_event": -0.02375
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.640000000000001,
+            "pnl_per_event": -0.17090909090909093
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": 1.45,
+            "pnl_per_event": 0.0453125
+          },
+          {
+            "label": "2026-W31",
+            "n": 32,
+            "pnl": -3.23,
+            "pnl_per_event": -0.1009375
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -1.7300000000000002,
+            "pnl_per_event": -0.07521739130434783
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.03,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 222,
+        "paired_count": 40,
+        "paired_pct": 0.18018018018018017,
+        "pnl": -17.96,
+        "pnl_per_event": -0.08090090090090091,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.094653290634312
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.73,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 59,
+            "pnl": 25.089999999999996,
+            "pnl_per_event": 0.42525423728813555
+          },
+          {
+            "label": "single",
+            "n": 163,
+            "pnl": -30.78,
+            "pnl_per_event": -0.18883435582822086
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 112,
+            "pnl": -1.230000000000002,
+            "pnl_per_event": -0.010982142857142874
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -4.460000000000002,
+            "pnl_per_event": -0.04054545454545456
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 45,
+            "pnl": -2.4700000000000006,
+            "pnl_per_event": -0.054888888888888904
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.9500000000000007,
+            "pnl_per_event": -0.032758620689655196
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.7999999999999998,
+            "pnl_per_event": 0.11428571428571425
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.3300000000000001,
+            "pnl_per_event": -0.04714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 2.6899999999999995,
+            "pnl_per_event": 0.09275862068965515
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 6,
+            "pnl": -0.6900000000000002,
+            "pnl_per_event": -0.11500000000000003
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -1.3100000000000003,
+            "pnl_per_event": -0.06238095238095239
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -2.54,
+            "pnl_per_event": -0.42333333333333334
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 2.309999999999999,
+            "pnl_per_event": 0.07965517241379308
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.25999999999999995,
+            "pnl_per_event": 0.03714285714285714
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.460000000000001,
+            "pnl_per_event": -0.09611111111111113
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.52,
+            "pnl_per_event": -0.037142857142857144
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -3.91,
+            "pnl_per_event": -0.1448148148148148
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 4.68,
+            "pnl_per_event": 0.156
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -1.2300000000000004,
+            "pnl_per_event": -0.037272727272727284
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -0.7000000000000011,
+            "pnl_per_event": -0.021875000000000033
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -2.210000000000001,
+            "pnl_per_event": -0.06906250000000003
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.9800000000000004,
+            "pnl_per_event": -0.0638709677419355
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": 0.17999999999999955,
+            "pnl_per_event": 0.007826086956521719
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.5200000000000005,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 222,
+        "paired_count": 59,
+        "paired_pct": 0.26576576576576577,
+        "pnl": -5.690000000000004,
+        "pnl_per_event": -0.02563063063063065,
+        "positive_series": 4,
+        "positive_weeks": 2,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.6002069278895679
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.55,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 11,
+            "pnl": 8.3,
+            "pnl_per_event": 0.7545454545454546
+          },
+          {
+            "label": "single",
+            "n": 214,
+            "pnl": -14.770000000000001,
+            "pnl_per_event": -0.06901869158878506
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 116,
+            "pnl": -0.7900000000000001,
+            "pnl_per_event": -0.006810344827586208
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 109,
+            "pnl": -5.680000000000001,
+            "pnl_per_event": -0.05211009174311927
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 47,
+            "pnl": -0.8600000000000001,
+            "pnl_per_event": -0.018297872340425535
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 0.5,
+            "pnl_per_event": 0.017241379310344827
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.3899999999999999,
+            "pnl_per_event": 0.0557142857142857
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.84,
+            "pnl_per_event": -0.26285714285714284
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 1.22,
+            "pnl_per_event": 0.04206896551724138
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.64,
+            "pnl_per_event": -0.23428571428571426
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -5.17,
+            "pnl_per_event": -0.24619047619047618
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": 0.5800000000000001,
+            "pnl_per_event": 0.09666666666666668
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.1700000000000001,
+            "pnl_per_event": -0.005862068965517245
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.72,
+            "pnl_per_event": -0.24571428571428572
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": 2.2399999999999998,
+            "pnl_per_event": 0.062222222222222213
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.6200000000000001,
+            "pnl_per_event": -0.044285714285714296
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": 0.44999999999999996,
+            "pnl_per_event": 0.017307692307692305
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -2.2600000000000002,
+            "pnl_per_event": -0.07533333333333334
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": 1.5299999999999996,
+            "pnl_per_event": 0.04636363636363635
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -3.91,
+            "pnl_per_event": -0.1221875
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": 0.6300000000000001,
+            "pnl_per_event": 0.019090909090909096
+          },
+          {
+            "label": "2026-W31",
+            "n": 33,
+            "pnl": -5.06,
+            "pnl_per_event": -0.15333333333333332
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": 2.77,
+            "pnl_per_event": 0.11541666666666667
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.4,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 225,
+        "paired_count": 11,
+        "paired_pct": 0.04888888888888889,
+        "pnl": -6.470000000000001,
+        "pnl_per_event": -0.02875555555555556,
+        "positive_series": 5,
+        "positive_weeks": 4,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.7701876094088032
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": true
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.9399999999999995,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 19,
+            "pnl": 8.719999999999999,
+            "pnl_per_event": 0.45894736842105255
+          },
+          {
+            "label": "single",
+            "n": 203,
+            "pnl": -24.200000000000003,
+            "pnl_per_event": -0.11921182266009854
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 112,
+            "pnl": -5.7700000000000005,
+            "pnl_per_event": -0.05151785714285715
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -9.710000000000003,
+            "pnl_per_event": -0.0882727272727273
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 45,
+            "pnl": -3.880000000000001,
+            "pnl_per_event": -0.08622222222222224
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.5800000000000003,
+            "pnl_per_event": -0.054482758620689666
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.12999999999999995,
+            "pnl_per_event": -0.021666666666666657
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": 2.31,
+            "pnl_per_event": 0.33
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -2.5600000000000005,
+            "pnl_per_event": -0.08827586206896554
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -1.84,
+            "pnl_per_event": -0.08761904761904762
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -0.8500000000000001,
+            "pnl_per_event": -0.1416666666666667
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -2.4700000000000006,
+            "pnl_per_event": -0.08517241379310347
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.95,
+            "pnl_per_event": -0.2785714285714286
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -1.4500000000000004,
+            "pnl_per_event": -0.04027777777777779
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": -0.71,
+            "pnl_per_event": -0.054615384615384614
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": -1.2000000000000008,
+            "pnl_per_event": -0.042857142857142885
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -4.840000000000001,
+            "pnl_per_event": -0.16689655172413795
+          },
+          {
+            "label": "2026-W28",
+            "n": 32,
+            "pnl": -0.8800000000000002,
+            "pnl_per_event": -0.027500000000000007
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.05,
+            "pnl_per_event": -0.15303030303030302
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": 2.0399999999999996,
+            "pnl_per_event": 0.06374999999999999
+          },
+          {
+            "label": "2026-W31",
+            "n": 32,
+            "pnl": -4.6000000000000005,
+            "pnl_per_event": -0.14375000000000002
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -0.24000000000000038,
+            "pnl_per_event": -0.010434782608695669
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.66,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 222,
+        "paired_count": 19,
+        "paired_pct": 0.08558558558558559,
+        "pnl": -15.480000000000002,
+        "pnl_per_event": -0.06972972972972974,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.8518268258354076
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.55,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 45,
+            "pnl": 21.95,
+            "pnl_per_event": 0.48777777777777775
+          },
+          {
+            "label": "single",
+            "n": 176,
+            "pnl": -28.91,
+            "pnl_per_event": -0.16426136363636365
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 112,
+            "pnl": -3.9300000000000015,
+            "pnl_per_event": -0.035089285714285726
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 109,
+            "pnl": -3.030000000000002,
+            "pnl_per_event": -0.027798165137614697
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 44,
+            "pnl": -3.2900000000000005,
+            "pnl_per_event": -0.07477272727272728
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -3.1600000000000006,
+            "pnl_per_event": -0.10896551724137933
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.2,
+            "pnl_per_event": 0.028571428571428574
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.5200000000000002,
+            "pnl_per_event": -0.07428571428571432
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 3.2399999999999993,
+            "pnl_per_event": 0.11172413793103446
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 6,
+            "pnl": -0.6900000000000002,
+            "pnl_per_event": -0.11500000000000003
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -0.4099999999999999,
+            "pnl_per_event": -0.01952380952380952
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -2.54,
+            "pnl_per_event": -0.42333333333333334
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 4.039999999999999,
+            "pnl_per_event": 0.13931034482758617
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.13000000000000006,
+            "pnl_per_event": 0.01857142857142858
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.96,
+            "pnl_per_event": -0.11
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -1.3000000000000003,
+            "pnl_per_event": -0.09285714285714287
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -5.29,
+            "pnl_per_event": -0.19592592592592592
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 3.5999999999999996,
+            "pnl_per_event": 0.11999999999999998
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": 0.04999999999999953,
+            "pnl_per_event": 0.0015151515151515008
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -2.670000000000001,
+            "pnl_per_event": -0.08343750000000003
+          },
+          {
+            "label": "2026-W30",
+            "n": 31,
+            "pnl": 0.4599999999999994,
+            "pnl_per_event": 0.014838709677419336
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.9600000000000006,
+            "pnl_per_event": -0.06322580645161292
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": 0.1499999999999998,
+            "pnl_per_event": 0.006521739130434774
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.22,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 221,
+        "paired_count": 45,
+        "paired_pct": 0.20361990950226244,
+        "pnl": -6.9600000000000035,
+        "pnl_per_event": -0.031493212669683274,
+        "positive_series": 4,
+        "positive_weeks": 4,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.7937539870395307
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": true
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.61,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 36,
+            "pnl": 20.55,
+            "pnl_per_event": 0.5708333333333333
+          },
+          {
+            "label": "single",
+            "n": 192,
+            "pnl": -35.38,
+            "pnl_per_event": -0.18427083333333336
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 112,
+            "pnl": -5.109999999999999,
+            "pnl_per_event": -0.04562499999999999
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 116,
+            "pnl": -9.72,
+            "pnl_per_event": -0.08379310344827587
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 48,
+            "pnl": -5.01,
+            "pnl_per_event": -0.104375
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.16000000000000006,
+            "pnl_per_event": -0.005517241379310347
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.1102230246251565e-16,
+            "pnl_per_event": -1.586032892321652e-17
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.01,
+            "pnl_per_event": -0.1442857142857143
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 0.3799999999999998,
+            "pnl_per_event": 0.01310344827586206
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.84,
+            "pnl_per_event": -0.12
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -5.12,
+            "pnl_per_event": -0.23272727272727273
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.32000000000000006,
+            "pnl_per_event": 0.04571428571428572
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 0.3499999999999998,
+            "pnl_per_event": 0.012068965517241372
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.72,
+            "pnl_per_event": -0.24571428571428572
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -2.02,
+            "pnl_per_event": -0.05611111111111111
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.01000000000000005,
+            "pnl_per_event": -0.0007142857142857179
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -0.37999999999999984,
+            "pnl_per_event": -0.014074074074074069
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -5.55,
+            "pnl_per_event": -0.185
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -0.9000000000000004,
+            "pnl_per_event": -0.027272727272727282
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -4.78,
+            "pnl_per_event": -0.14484848484848487
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -0.3900000000000001,
+            "pnl_per_event": -0.011818181818181821
+          },
+          {
+            "label": "2026-W31",
+            "n": 33,
+            "pnl": -4.62,
+            "pnl_per_event": -0.14
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": 1.8,
+            "pnl_per_event": 0.07200000000000001
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.89,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 228,
+        "paired_count": 36,
+        "paired_pct": 0.15789473684210525,
+        "pnl": -14.83,
+        "pnl_per_event": -0.0650438596491228,
+        "positive_series": 3,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.815990572644314
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.66,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 51,
+            "pnl": 20.75,
+            "pnl_per_event": 0.4068627450980392
+          },
+          {
+            "label": "single",
+            "n": 176,
+            "pnl": -43.59,
+            "pnl_per_event": -0.24767045454545455
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 115,
+            "pnl": -9.83,
+            "pnl_per_event": -0.08547826086956521
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 112,
+            "pnl": -13.010000000000002,
+            "pnl_per_event": -0.1161607142857143
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 47,
+            "pnl": -6.65,
+            "pnl_per_event": -0.14148936170212767
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.69,
+            "pnl_per_event": -0.05827586206896552
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.51,
+            "pnl_per_event": -0.07285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": 0.99,
+            "pnl_per_event": 0.14142857142857143
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.9700000000000002,
+            "pnl_per_event": -0.06793103448275863
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -4.08,
+            "pnl_per_event": -0.18545454545454546
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": -0.9900000000000001,
+            "pnl_per_event": -0.14142857142857143
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.5000000000000007,
+            "pnl_per_event": -0.01724137931034485
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.76,
+            "pnl_per_event": -0.25142857142857145
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -4.6000000000000005,
+            "pnl_per_event": -0.1277777777777778
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 0.13,
+            "pnl_per_event": 0.009285714285714286
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": -4.180000000000001,
+            "pnl_per_event": -0.1492857142857143
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -1.6800000000000002,
+            "pnl_per_event": -0.05600000000000001
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -2.7800000000000002,
+            "pnl_per_event": -0.08424242424242424
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.760000000000001,
+            "pnl_per_event": -0.17454545454545456
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -1.6900000000000002,
+            "pnl_per_event": -0.051212121212121216
+          },
+          {
+            "label": "2026-W31",
+            "n": 32,
+            "pnl": -4.07,
+            "pnl_per_event": -0.1271875
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": -2.81,
+            "pnl_per_event": -0.11708333333333333
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.32,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 227,
+        "paired_count": 51,
+        "paired_pct": 0.22466960352422907,
+        "pnl": -22.840000000000003,
+        "pnl_per_event": -0.10061674008810574,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.500404081619747
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.21,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 91,
+            "pnl": 26.969999999999995,
+            "pnl_per_event": 0.2963736263736263
+          },
+          {
+            "label": "single",
+            "n": 135,
+            "pnl": -36.26,
+            "pnl_per_event": -0.2685925925925926
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 116,
+            "pnl": -2.960000000000002,
+            "pnl_per_event": -0.025517241379310364
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -6.330000000000003,
+            "pnl_per_event": -0.05754545454545457
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 46,
+            "pnl": -4.5600000000000005,
+            "pnl_per_event": -0.0991304347826087
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.720000000000001,
+            "pnl_per_event": -0.059310344827586244
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 1.1199999999999999,
+            "pnl_per_event": 0.15999999999999998
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.6800000000000004,
+            "pnl_per_event": -0.0971428571428572
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 3.759999999999999,
+            "pnl_per_event": 0.12965517241379307
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.2900000000000003,
+            "pnl_per_event": -0.18428571428571433
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -2.1199999999999997,
+            "pnl_per_event": -0.09636363636363635
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": -2.99,
+            "pnl_per_event": -0.42714285714285716
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 2.9799999999999986,
+            "pnl_per_event": 0.10275862068965512
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -0.37999999999999995,
+            "pnl_per_event": -0.05428571428571428
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.4100000000000006,
+            "pnl_per_event": -0.09472222222222224
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.3700000000000002,
+            "pnl_per_event": -0.026428571428571444
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -3.2200000000000006,
+            "pnl_per_event": -0.11925925925925929
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 2.7999999999999994,
+            "pnl_per_event": 0.09333333333333331
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -1.0500000000000007,
+            "pnl_per_event": -0.03181818181818184
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -4.23,
+            "pnl_per_event": -0.1281818181818182
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -0.23000000000000065,
+            "pnl_per_event": -0.006969696969696989
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.5700000000000005,
+            "pnl_per_event": -0.0506451612903226
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": -1.4200000000000006,
+            "pnl_per_event": -0.056800000000000024
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 6.21,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 226,
+        "paired_count": 91,
+        "paired_pct": 0.4026548672566372,
+        "pnl": -9.290000000000004,
+        "pnl_per_event": -0.0411061946902655,
+        "positive_series": 3,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.906315762917227
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 3.9,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 19,
+            "pnl": 9.91,
+            "pnl_per_event": 0.521578947368421
+          },
+          {
+            "label": "single",
+            "n": 209,
+            "pnl": -27.9,
+            "pnl_per_event": -0.13349282296650716
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 112,
+            "pnl": -6.87,
+            "pnl_per_event": -0.061339285714285714
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 116,
+            "pnl": -11.120000000000001,
+            "pnl_per_event": -0.09586206896551724
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 48,
+            "pnl": -4.859999999999999,
+            "pnl_per_event": -0.10124999999999999
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.3800000000000001,
+            "pnl_per_event": -0.013103448275862073
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.3799999999999999,
+            "pnl_per_event": 0.05428571428571427
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.81,
+            "pnl_per_event": -0.25857142857142856
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -0.56,
+            "pnl_per_event": -0.019310344827586208
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.64,
+            "pnl_per_event": -0.23428571428571426
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -5.220000000000001,
+            "pnl_per_event": -0.2372727272727273
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.3500000000000001,
+            "pnl_per_event": 0.05000000000000001
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.6900000000000002,
+            "pnl_per_event": -0.023793103448275867
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.72,
+            "pnl_per_event": -0.24571428571428572
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -1.8400000000000003,
+            "pnl_per_event": -0.05111111111111112
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.85,
+            "pnl_per_event": -0.060714285714285714
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -0.56,
+            "pnl_per_event": -0.020740740740740744
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -5.49,
+            "pnl_per_event": -0.183
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -0.8300000000000004,
+            "pnl_per_event": -0.025151515151515164
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.36,
+            "pnl_per_event": -0.16242424242424244
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -0.78,
+            "pnl_per_event": -0.023636363636363636
+          },
+          {
+            "label": "2026-W31",
+            "n": 33,
+            "pnl": -5.38,
+            "pnl_per_event": -0.16303030303030303
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": 1.26,
+            "pnl_per_event": 0.0504
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.62,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 228,
+        "paired_count": 19,
+        "paired_pct": 0.08333333333333333,
+        "pnl": -17.990000000000002,
+        "pnl_per_event": -0.07890350877192984,
+        "positive_series": 2,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.205680430185124
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.91,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 40,
+            "pnl": 20.490000000000002,
+            "pnl_per_event": 0.5122500000000001
+          },
+          {
+            "label": "single",
+            "n": 187,
+            "pnl": -38.730000000000004,
+            "pnl_per_event": -0.20711229946524065
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 116,
+            "pnl": -9.12,
+            "pnl_per_event": -0.07862068965517241
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 111,
+            "pnl": -9.120000000000001,
+            "pnl_per_event": -0.08216216216216217
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 47,
+            "pnl": -5.220000000000001,
+            "pnl_per_event": -0.11106382978723406
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -2.35,
+            "pnl_per_event": -0.0810344827586207
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.43,
+            "pnl_per_event": -0.06142857142857143
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": 2.33,
+            "pnl_per_event": 0.33285714285714285
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -2.7600000000000002,
+            "pnl_per_event": -0.09517241379310346
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -3.93,
+            "pnl_per_event": -0.17863636363636365
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": -0.9900000000000001,
+            "pnl_per_event": -0.14142857142857143
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 1.16,
+            "pnl_per_event": 0.039999999999999994
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.75,
+            "pnl_per_event": -0.25
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.22,
+            "pnl_per_event": -0.08944444444444445
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.30999999999999994,
+            "pnl_per_event": -0.022142857142857138
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": -3.9400000000000004,
+            "pnl_per_event": -0.14071428571428574
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -3.5300000000000002,
+            "pnl_per_event": -0.11766666666666667
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -1.06,
+            "pnl_per_event": -0.03212121212121212
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.640000000000001,
+            "pnl_per_event": -0.17090909090909093
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": 1.31,
+            "pnl_per_event": 0.039696969696969696
+          },
+          {
+            "label": "2026-W31",
+            "n": 32,
+            "pnl": -3.23,
+            "pnl_per_event": -0.1009375
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": -1.8400000000000003,
+            "pnl_per_event": -0.07666666666666667
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.11,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 227,
+        "paired_count": 40,
+        "paired_pct": 0.1762114537444934,
+        "pnl": -18.240000000000002,
+        "pnl_per_event": -0.080352422907489,
+        "positive_series": 2,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.070131092197455
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.73,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 60,
+            "pnl": 26.249999999999996,
+            "pnl_per_event": 0.43749999999999994
+          },
+          {
+            "label": "single",
+            "n": 166,
+            "pnl": -31.770000000000003,
+            "pnl_per_event": -0.1913855421686747
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 115,
+            "pnl": -0.9500000000000021,
+            "pnl_per_event": -0.00826086956521741
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 111,
+            "pnl": -4.570000000000002,
+            "pnl_per_event": -0.04117117117117119
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 46,
+            "pnl": -2.9000000000000004,
+            "pnl_per_event": -0.06304347826086958
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.9500000000000007,
+            "pnl_per_event": -0.032758620689655196
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.7999999999999998,
+            "pnl_per_event": 0.11428571428571425
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.3300000000000001,
+            "pnl_per_event": -0.04714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 2.6899999999999995,
+            "pnl_per_event": 0.09275862068965515
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.4699999999999998,
+            "pnl_per_event": 0.06714285714285712
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -1.4200000000000004,
+            "pnl_per_event": -0.06454545454545456
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": -2.99,
+            "pnl_per_event": -0.42714285714285716
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 2.309999999999999,
+            "pnl_per_event": 0.07965517241379308
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.25999999999999995,
+            "pnl_per_event": 0.03714285714285714
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.460000000000001,
+            "pnl_per_event": -0.09611111111111113
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.52,
+            "pnl_per_event": -0.037142857142857144
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -3.91,
+            "pnl_per_event": -0.1448148148148148
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 4.68,
+            "pnl_per_event": 0.156
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -1.2300000000000004,
+            "pnl_per_event": -0.037272727272727284
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -1.1500000000000012,
+            "pnl_per_event": -0.034848484848484886
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": -1.0500000000000012,
+            "pnl_per_event": -0.03181818181818186
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.9800000000000004,
+            "pnl_per_event": -0.0638709677419355
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": -0.3600000000000005,
+            "pnl_per_event": -0.014400000000000019
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.61,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 226,
+        "paired_count": 60,
+        "paired_pct": 0.26548672566371684,
+        "pnl": -5.520000000000004,
+        "pnl_per_event": -0.024424778761061965,
+        "positive_series": 5,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.5523058787758723
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.55,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 11,
+            "pnl": 8.3,
+            "pnl_per_event": 0.7545454545454546
+          },
+          {
+            "label": "single",
+            "n": 216,
+            "pnl": -15.110000000000001,
+            "pnl_per_event": -0.06995370370370371
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 117,
+            "pnl": -1.0200000000000002,
+            "pnl_per_event": -0.00871794871794872
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -5.790000000000001,
+            "pnl_per_event": -0.05263636363636365
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 47,
+            "pnl": -0.8600000000000001,
+            "pnl_per_event": -0.018297872340425535
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 0.5,
+            "pnl_per_event": 0.017241379310344827
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.3899999999999999,
+            "pnl_per_event": 0.0557142857142857
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.84,
+            "pnl_per_event": -0.26285714285714284
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 1.22,
+            "pnl_per_event": 0.04206896551724138
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.64,
+            "pnl_per_event": -0.23428571428571426
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -5.28,
+            "pnl_per_event": -0.24000000000000002
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.3500000000000001,
+            "pnl_per_event": 0.05000000000000001
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.1700000000000001,
+            "pnl_per_event": -0.005862068965517245
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.72,
+            "pnl_per_event": -0.24571428571428572
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": 2.2399999999999998,
+            "pnl_per_event": 0.062222222222222213
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -0.6200000000000001,
+            "pnl_per_event": -0.044285714285714296
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": 0.44999999999999996,
+            "pnl_per_event": 0.017307692307692305
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -2.2600000000000002,
+            "pnl_per_event": -0.07533333333333334
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": 1.5299999999999996,
+            "pnl_per_event": 0.04636363636363635
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -4.14,
+            "pnl_per_event": -0.12545454545454546
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": 0.6300000000000001,
+            "pnl_per_event": 0.019090909090909096
+          },
+          {
+            "label": "2026-W31",
+            "n": 33,
+            "pnl": -5.06,
+            "pnl_per_event": -0.15333333333333332
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": 2.66,
+            "pnl_per_event": 0.10640000000000001
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.43,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 227,
+        "paired_count": 11,
+        "paired_pct": 0.048458149779735685,
+        "pnl": -6.8100000000000005,
+        "pnl_per_event": -0.030000000000000002,
+        "positive_series": 5,
+        "positive_weeks": 4,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.819072366929268
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": true
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.9399999999999995,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 19,
+            "pnl": 8.719999999999999,
+            "pnl_per_event": 0.45894736842105255
+          },
+          {
+            "label": "single",
+            "n": 208,
+            "pnl": -24.480000000000004,
+            "pnl_per_event": -0.11769230769230771
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 115,
+            "pnl": -5.58,
+            "pnl_per_event": -0.04852173913043478
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 112,
+            "pnl": -10.180000000000003,
+            "pnl_per_event": -0.09089285714285718
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 47,
+            "pnl": -3.6100000000000008,
+            "pnl_per_event": -0.07680851063829788
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.5800000000000003,
+            "pnl_per_event": -0.054482758620689666
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.43,
+            "pnl_per_event": -0.06142857142857143
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": 2.31,
+            "pnl_per_event": 0.33
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -2.5600000000000005,
+            "pnl_per_event": -0.08827586206896554
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -1.9500000000000002,
+            "pnl_per_event": -0.08863636363636364
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": -0.9900000000000001,
+            "pnl_per_event": -0.14142857142857143
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -2.4700000000000006,
+            "pnl_per_event": -0.08517241379310347
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -1.95,
+            "pnl_per_event": -0.2785714285714286
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -1.4500000000000004,
+            "pnl_per_event": -0.04027777777777779
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -1.0699999999999998,
+            "pnl_per_event": -0.07642857142857142
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": -1.2000000000000008,
+            "pnl_per_event": -0.042857142857142885
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -4.21,
+            "pnl_per_event": -0.14033333333333334
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": -1.1800000000000004,
+            "pnl_per_event": -0.035757575757575766
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -5.05,
+            "pnl_per_event": -0.15303030303030302
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": 1.8999999999999995,
+            "pnl_per_event": 0.05757575757575756
+          },
+          {
+            "label": "2026-W31",
+            "n": 32,
+            "pnl": -4.6000000000000005,
+            "pnl_per_event": -0.14375000000000002
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": -0.35000000000000037,
+            "pnl_per_event": -0.01458333333333335
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.74,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 227,
+        "paired_count": 19,
+        "paired_pct": 0.08370044052863436,
+        "pnl": -15.760000000000003,
+        "pnl_per_event": -0.06942731277533042,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.826166706063386
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.1,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.55,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 45,
+            "pnl": 21.95,
+            "pnl_per_event": 0.48777777777777775
+          },
+          {
+            "label": "single",
+            "n": 181,
+            "pnl": -28.630000000000003,
+            "pnl_per_event": -0.15817679558011052
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 116,
+            "pnl": -3.5400000000000014,
+            "pnl_per_event": -0.030517241379310358
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -3.140000000000002,
+            "pnl_per_event": -0.02854545454545456
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 46,
+            "pnl": -3.0700000000000003,
+            "pnl_per_event": -0.06673913043478262
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -3.1600000000000006,
+            "pnl_per_event": -0.10896551724137933
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": 0.2,
+            "pnl_per_event": 0.028571428571428574
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.5200000000000002,
+            "pnl_per_event": -0.07428571428571432
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 3.2399999999999993,
+            "pnl_per_event": 0.11172413793103446
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.07000000000000012,
+            "pnl_per_event": -0.010000000000000018
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -0.5199999999999999,
+            "pnl_per_event": -0.023636363636363632
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": -2.99,
+            "pnl_per_event": -0.42714285714285716
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": 4.039999999999999,
+            "pnl_per_event": 0.13931034482758617
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.13000000000000006,
+            "pnl_per_event": 0.01857142857142858
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.96,
+            "pnl_per_event": -0.11
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": -1.3000000000000003,
+            "pnl_per_event": -0.09285714285714287
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -5.29,
+            "pnl_per_event": -0.19592592592592592
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 3.5999999999999996,
+            "pnl_per_event": 0.11999999999999998
+          },
+          {
+            "label": "2026-W28",
+            "n": 33,
+            "pnl": 0.04999999999999953,
+            "pnl_per_event": 0.0015151515151515008
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -3.120000000000001,
+            "pnl_per_event": -0.09454545454545457
+          },
+          {
+            "label": "2026-W30",
+            "n": 33,
+            "pnl": 1.7299999999999995,
+            "pnl_per_event": 0.05242424242424241
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.9600000000000006,
+            "pnl_per_event": -0.06322580645161292
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": -0.39000000000000024,
+            "pnl_per_event": -0.01560000000000001
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.3100000000000005,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 226,
+        "paired_count": 45,
+        "paired_pct": 0.19911504424778761,
+        "pnl": -6.680000000000003,
+        "pnl_per_event": -0.029557522123893818,
+        "positive_series": 4,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.8149763116670588
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.97,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 31,
+            "pnl": 17.89,
+            "pnl_per_event": 0.5770967741935484
+          },
+          {
+            "label": "single",
+            "n": 180,
+            "pnl": -23.73,
+            "pnl_per_event": -0.13183333333333333
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 102,
+            "pnl": 0.6400000000000001,
+            "pnl_per_event": 0.00627450980392157
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 109,
+            "pnl": -6.48,
+            "pnl_per_event": -0.059449541284403676
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 36,
+            "pnl": 0.16000000000000014,
+            "pnl_per_event": 0.004444444444444449
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.9,
+            "pnl_per_event": -0.03103448275862069
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.49,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.7500000000000001,
+            "pnl_per_event": -0.10714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -0.44999999999999984,
+            "pnl_per_event": -0.01551724137931034
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.24999999999999997,
+            "pnl_per_event": 0.03571428571428571
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -3.97,
+            "pnl_per_event": -0.18904761904761905
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 5,
+            "pnl": 0.7799999999999999,
+            "pnl_per_event": 0.15599999999999997
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -1.7500000000000002,
+            "pnl_per_event": -0.060344827586206906
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 6,
+            "pnl": 0.7,
+            "pnl_per_event": 0.11666666666666665
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": 1.5799999999999998,
+            "pnl_per_event": 0.04514285714285714
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 3.21,
+            "pnl_per_event": 0.2292857142857143
+          },
+          {
+            "label": "2026-W26",
+            "n": 25,
+            "pnl": -1.49,
+            "pnl_per_event": -0.0596
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -1.9700000000000002,
+            "pnl_per_event": -0.06793103448275863
+          },
+          {
+            "label": "2026-W28",
+            "n": 29,
+            "pnl": -3.54,
+            "pnl_per_event": -0.12206896551724138
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -0.91,
+            "pnl_per_event": -0.0284375
+          },
+          {
+            "label": "2026-W30",
+            "n": 30,
+            "pnl": -1.0,
+            "pnl_per_event": -0.03333333333333333
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -0.05000000000000007,
+            "pnl_per_event": -0.0017241379310344853
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -0.09000000000000008,
+            "pnl_per_event": -0.003913043478260873
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.54,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 211,
+        "paired_count": 31,
+        "paired_pct": 0.14691943127962084,
+        "pnl": -5.840000000000001,
+        "pnl_per_event": -0.027677725118483414,
+        "positive_series": 5,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.41806405432717
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.72,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 41,
+            "pnl": 17.79,
+            "pnl_per_event": 0.43390243902439024
+          },
+          {
+            "label": "single",
+            "n": 161,
+            "pnl": -36.38,
+            "pnl_per_event": -0.22596273291925467
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 108,
+            "pnl": -6.34,
+            "pnl_per_event": -0.0587037037037037
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 94,
+            "pnl": -12.250000000000002,
+            "pnl_per_event": -0.13031914893617022
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 34,
+            "pnl": -3.1000000000000005,
+            "pnl_per_event": -0.0911764705882353
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 28,
+            "pnl": -2.9900000000000007,
+            "pnl_per_event": -0.1067857142857143
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.14000000000000007,
+            "pnl_per_event": -0.023333333333333345
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 6,
+            "pnl": -1.16,
+            "pnl_per_event": -0.19333333333333333
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.05,
+            "pnl_per_event": -0.03620689655172414
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.3400000000000003,
+            "pnl_per_event": -0.04857142857142861
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -5.69,
+            "pnl_per_event": -0.27095238095238094
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 4,
+            "pnl": -1.11,
+            "pnl_per_event": -0.2775
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 28,
+            "pnl": -2.7600000000000002,
+            "pnl_per_event": -0.09857142857142857
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 5,
+            "pnl": 0.4099999999999998,
+            "pnl_per_event": 0.08199999999999996
+          },
+          {
+            "label": "KXWTI",
+            "n": 34,
+            "pnl": -0.6600000000000005,
+            "pnl_per_event": -0.019411764705882368
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 11,
+            "pnl": 1.66,
+            "pnl_per_event": 0.1509090909090909
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": 0.7199999999999993,
+            "pnl_per_event": 0.027692307692307665
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -5.6000000000000005,
+            "pnl_per_event": -0.1931034482758621
+          },
+          {
+            "label": "2026-W28",
+            "n": 26,
+            "pnl": -2.2500000000000004,
+            "pnl_per_event": -0.08653846153846155
+          },
+          {
+            "label": "2026-W29",
+            "n": 31,
+            "pnl": -6.11,
+            "pnl_per_event": -0.1970967741935484
+          },
+          {
+            "label": "2026-W30",
+            "n": 28,
+            "pnl": -2.68,
+            "pnl_per_event": -0.09571428571428572
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -1.0400000000000005,
+            "pnl_per_event": -0.03586206896551726
+          },
+          {
+            "label": "2026-W32",
+            "n": 22,
+            "pnl": -3.29,
+            "pnl_per_event": -0.14954545454545454
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.76,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 202,
+        "paired_count": 41,
+        "paired_pct": 0.20297029702970298,
+        "pnl": -18.590000000000003,
+        "pnl_per_event": -0.09202970297029704,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.295844457307813
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.01,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 75,
+            "pnl": 20.569999999999997,
+            "pnl_per_event": 0.2742666666666666
+          },
+          {
+            "label": "single",
+            "n": 128,
+            "pnl": -31.82,
+            "pnl_per_event": -0.24859375
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 106,
+            "pnl": -2.4200000000000013,
+            "pnl_per_event": -0.022830188679245293
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 97,
+            "pnl": -8.830000000000002,
+            "pnl_per_event": -0.09103092783505157
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 32,
+            "pnl": -0.29000000000000065,
+            "pnl_per_event": -0.00906250000000002
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 1.9899999999999993,
+            "pnl_per_event": 0.06862068965517239
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.6400000000000001,
+            "pnl_per_event": -0.10666666666666669
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.31,
+            "pnl_per_event": -0.18714285714285714
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.3300000000000007,
+            "pnl_per_event": -0.04586206896551727
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 6,
+            "pnl": -0.6299999999999999,
+            "pnl_per_event": -0.10499999999999998
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -4.67,
+            "pnl_per_event": -0.22238095238095237
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 5,
+            "pnl": 0.010000000000000064,
+            "pnl_per_event": 0.002000000000000013
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 27,
+            "pnl": 0.20999999999999946,
+            "pnl_per_event": 0.007777777777777758
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 6,
+            "pnl": -0.8200000000000001,
+            "pnl_per_event": -0.1366666666666667
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": -3.7700000000000014,
+            "pnl_per_event": -0.10771428571428575
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.3499999999999999,
+            "pnl_per_event": 0.10384615384615384
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": -2.8100000000000005,
+            "pnl_per_event": -0.1080769230769231
+          },
+          {
+            "label": "2026-W27",
+            "n": 28,
+            "pnl": 2.6699999999999995,
+            "pnl_per_event": 0.09535714285714283
+          },
+          {
+            "label": "2026-W28",
+            "n": 27,
+            "pnl": -6.3500000000000005,
+            "pnl_per_event": -0.2351851851851852
+          },
+          {
+            "label": "2026-W29",
+            "n": 29,
+            "pnl": -3.920000000000001,
+            "pnl_per_event": -0.13517241379310346
+          },
+          {
+            "label": "2026-W30",
+            "n": 29,
+            "pnl": 1.189999999999999,
+            "pnl_per_event": 0.041034482758620656
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -2.6000000000000005,
+            "pnl_per_event": -0.08965517241379312
+          },
+          {
+            "label": "2026-W32",
+            "n": 22,
+            "pnl": -0.7800000000000005,
+            "pnl_per_event": -0.035454545454545475
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.53,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 203,
+        "paired_count": 75,
+        "paired_pct": 0.3694581280788177,
+        "pnl": -11.250000000000004,
+        "pnl_per_event": -0.055418719211822676,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.4877551309236985
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.16,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 15,
+            "pnl": 7.96,
+            "pnl_per_event": 0.5306666666666666
+          },
+          {
+            "label": "single",
+            "n": 196,
+            "pnl": -13.75,
+            "pnl_per_event": -0.07015306122448979
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 102,
+            "pnl": 1.8,
+            "pnl_per_event": 0.01764705882352941
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 109,
+            "pnl": -7.590000000000001,
+            "pnl_per_event": -0.06963302752293579
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 36,
+            "pnl": 1.4500000000000002,
+            "pnl_per_event": 0.04027777777777778
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 0.7500000000000001,
+            "pnl_per_event": 0.025862068965517244
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.49,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.7500000000000001,
+            "pnl_per_event": -0.10714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.87,
+            "pnl_per_event": -0.06448275862068965
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.24999999999999997,
+            "pnl_per_event": 0.03571428571428571
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -4.03,
+            "pnl_per_event": -0.1919047619047619
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 5,
+            "pnl": 0.8099999999999999,
+            "pnl_per_event": 0.16199999999999998
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -3.14,
+            "pnl_per_event": -0.10827586206896553
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 6,
+            "pnl": 0.7,
+            "pnl_per_event": 0.11666666666666665
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": 1.5299999999999998,
+            "pnl_per_event": 0.043714285714285706
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 2.66,
+            "pnl_per_event": 0.19
+          },
+          {
+            "label": "2026-W26",
+            "n": 25,
+            "pnl": -0.20000000000000015,
+            "pnl_per_event": -0.008000000000000005
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -1.0400000000000003,
+            "pnl_per_event": -0.03586206896551725
+          },
+          {
+            "label": "2026-W28",
+            "n": 29,
+            "pnl": -3.14,
+            "pnl_per_event": -0.10827586206896553
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -1.5400000000000003,
+            "pnl_per_event": -0.04812500000000001
+          },
+          {
+            "label": "2026-W30",
+            "n": 30,
+            "pnl": -0.9000000000000002,
+            "pnl_per_event": -0.03000000000000001
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -1.6,
+            "pnl_per_event": -0.055172413793103454
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -0.029999999999999916,
+            "pnl_per_event": -0.001304347826086953
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.3,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 211,
+        "paired_count": 15,
+        "paired_pct": 0.07109004739336493,
+        "pnl": -5.790000000000001,
+        "pnl_per_event": -0.027440758293838866,
+        "positive_series": 6,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.3154905847521845
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 7.1,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 33,
+            "pnl": 18.09,
+            "pnl_per_event": 0.5481818181818182
+          },
+          {
+            "label": "single",
+            "n": 169,
+            "pnl": -31.080000000000002,
+            "pnl_per_event": -0.183905325443787
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 107,
+            "pnl": -3.6500000000000004,
+            "pnl_per_event": -0.03411214953271029
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 95,
+            "pnl": -9.340000000000002,
+            "pnl_per_event": -0.09831578947368423
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 34,
+            "pnl": -2.7500000000000004,
+            "pnl_per_event": -0.08088235294117649
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 28,
+            "pnl": -2.3400000000000003,
+            "pnl_per_event": -0.08357142857142859
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": 0.01999999999999985,
+            "pnl_per_event": 0.0033333333333333084
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 6,
+            "pnl": -1.14,
+            "pnl_per_event": -0.18999999999999997
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 1.12,
+            "pnl_per_event": 0.038620689655172416
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.3400000000000003,
+            "pnl_per_event": -0.04857142857142861
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -5.57,
+            "pnl_per_event": -0.2652380952380953
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 4,
+            "pnl": -1.11,
+            "pnl_per_event": -0.2775
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 28,
+            "pnl": -2.5000000000000004,
+            "pnl_per_event": -0.0892857142857143
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 5,
+            "pnl": 0.4099999999999998,
+            "pnl_per_event": 0.08199999999999996
+          },
+          {
+            "label": "KXWTI",
+            "n": 34,
+            "pnl": 1.21,
+            "pnl_per_event": 0.03558823529411764
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 11,
+            "pnl": 1.39,
+            "pnl_per_event": 0.12636363636363634
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": 2.0399999999999996,
+            "pnl_per_event": 0.07846153846153844
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -5.49,
+            "pnl_per_event": -0.1893103448275862
+          },
+          {
+            "label": "2026-W28",
+            "n": 26,
+            "pnl": -0.2900000000000002,
+            "pnl_per_event": -0.011153846153846162
+          },
+          {
+            "label": "2026-W29",
+            "n": 31,
+            "pnl": -5.300000000000001,
+            "pnl_per_event": -0.1709677419354839
+          },
+          {
+            "label": "2026-W30",
+            "n": 28,
+            "pnl": -2.0700000000000003,
+            "pnl_per_event": -0.07392857142857144
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": 0.16999999999999985,
+            "pnl_per_event": 0.005862068965517236
+          },
+          {
+            "label": "2026-W32",
+            "n": 22,
+            "pnl": -3.44,
+            "pnl_per_event": -0.15636363636363637
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.61,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 202,
+        "paired_count": 33,
+        "paired_pct": 0.16336633663366337,
+        "pnl": -12.990000000000002,
+        "pnl_per_event": -0.06430693069306932,
+        "positive_series": 4,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.654204021813409
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.23,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 49,
+            "pnl": 19.529999999999998,
+            "pnl_per_event": 0.3985714285714285
+          },
+          {
+            "label": "single",
+            "n": 154,
+            "pnl": -26.27,
+            "pnl_per_event": -0.1705844155844156
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 106,
+            "pnl": -1.0400000000000011,
+            "pnl_per_event": -0.009811320754716992
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 97,
+            "pnl": -5.700000000000002,
+            "pnl_per_event": -0.058762886597938165
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 32,
+            "pnl": -0.6500000000000004,
+            "pnl_per_event": -0.02031250000000001
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 0.9599999999999993,
+            "pnl_per_event": 0.03310344827586204
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.22000000000000014,
+            "pnl_per_event": -0.03666666666666669
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.5300000000000002,
+            "pnl_per_event": -0.2185714285714286
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 3.1599999999999997,
+            "pnl_per_event": 0.1089655172413793
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 6,
+            "pnl": -0.6299999999999999,
+            "pnl_per_event": -0.10499999999999998
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -5.26,
+            "pnl_per_event": -0.25047619047619046
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 5,
+            "pnl": 0.010000000000000064,
+            "pnl_per_event": 0.002000000000000013
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 27,
+            "pnl": -1.0900000000000005,
+            "pnl_per_event": -0.04037037037037039
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 6,
+            "pnl": -0.5800000000000001,
+            "pnl_per_event": -0.09666666666666668
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": -0.9100000000000008,
+            "pnl_per_event": -0.026000000000000023
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 0.27999999999999986,
+            "pnl_per_event": 0.021538461538461527
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": -0.3800000000000006,
+            "pnl_per_event": -0.01461538461538464
+          },
+          {
+            "label": "2026-W27",
+            "n": 28,
+            "pnl": 3.61,
+            "pnl_per_event": 0.12892857142857142
+          },
+          {
+            "label": "2026-W28",
+            "n": 27,
+            "pnl": -5.63,
+            "pnl_per_event": -0.20851851851851852
+          },
+          {
+            "label": "2026-W29",
+            "n": 29,
+            "pnl": -5.4,
+            "pnl_per_event": -0.18620689655172415
+          },
+          {
+            "label": "2026-W30",
+            "n": 29,
+            "pnl": 2.0399999999999996,
+            "pnl_per_event": 0.07034482758620689
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -0.8800000000000007,
+            "pnl_per_event": -0.03034482758620692
+          },
+          {
+            "label": "2026-W32",
+            "n": 22,
+            "pnl": -0.3800000000000004,
+            "pnl_per_event": -0.01727272727272729
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.01,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 203,
+        "paired_count": 49,
+        "paired_pct": 0.2413793103448276,
+        "pnl": -6.740000000000003,
+        "pnl_per_event": -0.03320197044334977,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.9882510792987658
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.16,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 8,
+            "pnl": 4.1,
+            "pnl_per_event": 0.5125
+          },
+          {
+            "label": "single",
+            "n": 200,
+            "pnl": -7.070000000000001,
+            "pnl_per_event": -0.035350000000000006
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 98,
+            "pnl": 5.68,
+            "pnl_per_event": 0.05795918367346938
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 110,
+            "pnl": -8.65,
+            "pnl_per_event": -0.07863636363636364
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 34,
+            "pnl": 1.6800000000000002,
+            "pnl_per_event": 0.049411764705882356
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 1.24,
+            "pnl_per_event": 0.04275862068965517
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.49,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.7500000000000001,
+            "pnl_per_event": -0.10714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.35,
+            "pnl_per_event": -0.04655172413793104
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.24999999999999997,
+            "pnl_per_event": 0.03571428571428571
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -4.04,
+            "pnl_per_event": -0.19238095238095237
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 5,
+            "pnl": 0.8099999999999999,
+            "pnl_per_event": 0.16199999999999998
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -2.8600000000000003,
+            "pnl_per_event": -0.09862068965517243
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 6,
+            "pnl": 0.7,
+            "pnl_per_event": 0.11666666666666665
+          },
+          {
+            "label": "KXWTI",
+            "n": 34,
+            "pnl": 2.84,
+            "pnl_per_event": 0.08352941176470588
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 2.66,
+            "pnl_per_event": 0.19
+          },
+          {
+            "label": "2026-W26",
+            "n": 23,
+            "pnl": 0.27999999999999986,
+            "pnl_per_event": 0.012173913043478255
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": 0.019999999999999823,
+            "pnl_per_event": 0.000689655172413787
+          },
+          {
+            "label": "2026-W28",
+            "n": 29,
+            "pnl": -2.18,
+            "pnl_per_event": -0.07517241379310345
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -1.0100000000000002,
+            "pnl_per_event": -0.03156250000000001
+          },
+          {
+            "label": "2026-W30",
+            "n": 29,
+            "pnl": -1.4700000000000002,
+            "pnl_per_event": -0.0506896551724138
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -1.86,
+            "pnl_per_event": -0.06413793103448276
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": 0.59,
+            "pnl_per_event": 0.025652173913043478
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.15,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 208,
+        "paired_count": 8,
+        "paired_pct": 0.038461538461538464,
+        "pnl": -2.970000000000001,
+        "pnl_per_event": -0.01427884615384616,
+        "positive_series": 6,
+        "positive_weeks": 4,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -0.9349255573275921
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": true
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.49,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 17,
+            "pnl": 9.2,
+            "pnl_per_event": 0.5411764705882353
+          },
+          {
+            "label": "single",
+            "n": 184,
+            "pnl": -17.46,
+            "pnl_per_event": -0.0948913043478261
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 108,
+            "pnl": -1.0600000000000005,
+            "pnl_per_event": -0.00981481481481482
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 93,
+            "pnl": -7.200000000000003,
+            "pnl_per_event": -0.07741935483870971
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 33,
+            "pnl": -2.3800000000000003,
+            "pnl_per_event": -0.07212121212121213
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 28,
+            "pnl": -1.0400000000000005,
+            "pnl_per_event": -0.03714285714285716
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": 0.01999999999999985,
+            "pnl_per_event": 0.0033333333333333084
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 6,
+            "pnl": -1.11,
+            "pnl_per_event": -0.18500000000000003
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 2.13,
+            "pnl_per_event": 0.07344827586206897
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.3400000000000003,
+            "pnl_per_event": -0.04857142857142861
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -3.16,
+            "pnl_per_event": -0.15047619047619049
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 4,
+            "pnl": -1.11,
+            "pnl_per_event": -0.2775
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 28,
+            "pnl": -2.9000000000000004,
+            "pnl_per_event": -0.10357142857142858
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 5,
+            "pnl": 0.4099999999999998,
+            "pnl_per_event": 0.08199999999999996
+          },
+          {
+            "label": "KXWTI",
+            "n": 34,
+            "pnl": 1.2199999999999995,
+            "pnl_per_event": 0.035882352941176456
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 11,
+            "pnl": 1.39,
+            "pnl_per_event": 0.12636363636363634
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": 2.4299999999999993,
+            "pnl_per_event": 0.09346153846153843
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -5.15,
+            "pnl_per_event": -0.17758620689655175
+          },
+          {
+            "label": "2026-W28",
+            "n": 26,
+            "pnl": -0.6600000000000004,
+            "pnl_per_event": -0.025384615384615398
+          },
+          {
+            "label": "2026-W29",
+            "n": 31,
+            "pnl": -5.540000000000001,
+            "pnl_per_event": -0.17870967741935487
+          },
+          {
+            "label": "2026-W30",
+            "n": 27,
+            "pnl": -0.8000000000000002,
+            "pnl_per_event": -0.029629629629629634
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": 1.5699999999999994,
+            "pnl_per_event": 0.054137931034482736
+          },
+          {
+            "label": "2026-W32",
+            "n": 22,
+            "pnl": -1.5000000000000002,
+            "pnl_per_event": -0.06818181818181819
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.29,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 201,
+        "paired_count": 17,
+        "paired_pct": 0.0845771144278607,
+        "pnl": -8.260000000000003,
+        "pnl_per_event": -0.0410945273631841,
+        "positive_series": 4,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.0873624656459118
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.6,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.57,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 31,
+            "pnl": 12.5,
+            "pnl_per_event": 0.4032258064516129
+          },
+          {
+            "label": "single",
+            "n": 171,
+            "pnl": -17.09,
+            "pnl_per_event": -0.09994152046783626
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 107,
+            "pnl": -0.05000000000000081,
+            "pnl_per_event": -0.0004672897196261758
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 95,
+            "pnl": -4.540000000000001,
+            "pnl_per_event": -0.047789473684210534
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 31,
+            "pnl": -0.40000000000000047,
+            "pnl_per_event": -0.012903225806451629
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.09000000000000008,
+            "pnl_per_event": -0.003103448275862072
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 6,
+            "pnl": -0.22000000000000014,
+            "pnl_per_event": -0.03666666666666669
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 2.5,
+            "pnl_per_event": 0.08620689655172414
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 6,
+            "pnl": -0.6299999999999999,
+            "pnl_per_event": -0.10499999999999998
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 21,
+            "pnl": -4.47,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 5,
+            "pnl": 0.010000000000000064,
+            "pnl_per_event": 0.002000000000000013
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 27,
+            "pnl": -1.4900000000000002,
+            "pnl_per_event": -0.05518518518518519
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 6,
+            "pnl": -0.5800000000000001,
+            "pnl_per_event": -0.09666666666666668
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": 1.8599999999999994,
+            "pnl_per_event": 0.053142857142857124
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.18,
+            "pnl_per_event": 0.09076923076923077
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": -0.4100000000000002,
+            "pnl_per_event": -0.01576923076923078
+          },
+          {
+            "label": "2026-W27",
+            "n": 28,
+            "pnl": 2.6299999999999994,
+            "pnl_per_event": 0.0939285714285714
+          },
+          {
+            "label": "2026-W28",
+            "n": 27,
+            "pnl": -4.05,
+            "pnl_per_event": -0.15
+          },
+          {
+            "label": "2026-W29",
+            "n": 29,
+            "pnl": -5.29,
+            "pnl_per_event": -0.18241379310344827
+          },
+          {
+            "label": "2026-W30",
+            "n": 28,
+            "pnl": 4.08,
+            "pnl_per_event": 0.1457142857142857
+          },
+          {
+            "label": "2026-W31",
+            "n": 29,
+            "pnl": -1.4100000000000006,
+            "pnl_per_event": -0.04862068965517243
+          },
+          {
+            "label": "2026-W32",
+            "n": 22,
+            "pnl": -1.3200000000000003,
+            "pnl_per_event": -0.06000000000000001
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.63,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 202,
+        "paired_count": 31,
+        "paired_pct": 0.15346534653465346,
+        "pnl": -4.590000000000002,
+        "pnl_per_event": -0.022722772277227733,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.6966240825921415
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.97,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 31,
+            "pnl": 17.89,
+            "pnl_per_event": 0.5770967741935484
+          },
+          {
+            "label": "single",
+            "n": 189,
+            "pnl": -24.66,
+            "pnl_per_event": -0.13047619047619047
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 108,
+            "pnl": -0.6699999999999997,
+            "pnl_per_event": -0.006203703703703701
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 112,
+            "pnl": -6.1000000000000005,
+            "pnl_per_event": -0.05446428571428572
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 40,
+            "pnl": -0.8099999999999997,
+            "pnl_per_event": -0.020249999999999994
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.9,
+            "pnl_per_event": -0.03103448275862069
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.49,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.7500000000000001,
+            "pnl_per_event": -0.10714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -0.44999999999999984,
+            "pnl_per_event": -0.01551724137931034
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.24999999999999997,
+            "pnl_per_event": 0.03571428571428571
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -4.08,
+            "pnl_per_event": -0.18545454545454546
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.41,
+            "pnl_per_event": 0.058571428571428566
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -1.7500000000000002,
+            "pnl_per_event": -0.060344827586206906
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.47000000000000003,
+            "pnl_per_event": 0.06714285714285714
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": 2.33,
+            "pnl_per_event": 0.06472222222222222
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 3.21,
+            "pnl_per_event": 0.2292857142857143
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -2.02,
+            "pnl_per_event": -0.07481481481481482
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -1.9700000000000002,
+            "pnl_per_event": -0.06793103448275863
+          },
+          {
+            "label": "2026-W28",
+            "n": 30,
+            "pnl": -2.79,
+            "pnl_per_event": -0.093
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -1.1400000000000001,
+            "pnl_per_event": -0.034545454545454546
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -1.37,
+            "pnl_per_event": -0.0428125
+          },
+          {
+            "label": "2026-W31",
+            "n": 30,
+            "pnl": -0.26,
+            "pnl_per_event": -0.008666666666666666
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": -0.43000000000000005,
+            "pnl_per_event": -0.017200000000000003
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.7,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 220,
+        "paired_count": 31,
+        "paired_pct": 0.1409090909090909,
+        "pnl": -6.7700000000000005,
+        "pnl_per_event": -0.030772727272727275,
+        "positive_series": 4,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.4974766927554053
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.72,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 43,
+            "pnl": 18.71,
+            "pnl_per_event": 0.43511627906976746
+          },
+          {
+            "label": "single",
+            "n": 175,
+            "pnl": -37.63,
+            "pnl_per_event": -0.21502857142857143
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 117,
+            "pnl": -4.460000000000001,
+            "pnl_per_event": -0.038119658119658124
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 101,
+            "pnl": -14.460000000000003,
+            "pnl_per_event": -0.14316831683168318
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 40,
+            "pnl": -2.1600000000000006,
+            "pnl_per_event": -0.05400000000000001
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -3.3600000000000008,
+            "pnl_per_event": -0.11586206896551726
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.4400000000000001,
+            "pnl_per_event": -0.06285714285714288
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.52,
+            "pnl_per_event": -0.21714285714285714
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.05,
+            "pnl_per_event": -0.03620689655172414
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.3400000000000003,
+            "pnl_per_event": -0.04857142857142861
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -5.800000000000001,
+            "pnl_per_event": -0.26363636363636367
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -0.7100000000000002,
+            "pnl_per_event": -0.11833333333333336
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -3.0900000000000003,
+            "pnl_per_event": -0.10655172413793104
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.5599999999999998,
+            "pnl_per_event": 0.07999999999999997
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": -1.0100000000000005,
+            "pnl_per_event": -0.02885714285714287
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.9699999999999998,
+            "pnl_per_event": 0.1515384615384615
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": 0.06999999999999929,
+            "pnl_per_event": 0.0024999999999999745
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -4.970000000000001,
+            "pnl_per_event": -0.16566666666666668
+          },
+          {
+            "label": "2026-W28",
+            "n": 30,
+            "pnl": -2.7400000000000007,
+            "pnl_per_event": -0.09133333333333335
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -5.73,
+            "pnl_per_event": -0.1790625
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -2.75,
+            "pnl_per_event": -0.0859375
+          },
+          {
+            "label": "2026-W31",
+            "n": 30,
+            "pnl": -1.3700000000000006,
+            "pnl_per_event": -0.04566666666666668
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -3.4000000000000004,
+            "pnl_per_event": -0.14782608695652175
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.09,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 218,
+        "paired_count": 43,
+        "paired_pct": 0.19724770642201836,
+        "pnl": -18.92,
+        "pnl_per_event": -0.08678899082568808,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -3.2632204629154256
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 1,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.01,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 79,
+            "pnl": 22.319999999999997,
+            "pnl_per_event": 0.28253164556962024
+          },
+          {
+            "label": "single",
+            "n": 140,
+            "pnl": -33.58,
+            "pnl_per_event": -0.23985714285714285
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 115,
+            "pnl": -1.6800000000000017,
+            "pnl_per_event": -0.014608695652173927
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 104,
+            "pnl": -9.580000000000004,
+            "pnl_per_event": -0.09211538461538465
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 39,
+            "pnl": -1.3000000000000007,
+            "pnl_per_event": -0.033333333333333354
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 1.9899999999999993,
+            "pnl_per_event": 0.06862068965517239
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.9400000000000002,
+            "pnl_per_event": -0.1342857142857143
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.31,
+            "pnl_per_event": -0.18714285714285714
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.3300000000000007,
+            "pnl_per_event": -0.04586206896551727
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.10999999999999993,
+            "pnl_per_event": -0.015714285714285705
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -4.78,
+            "pnl_per_event": -0.21727272727272728
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.09999999999999992,
+            "pnl_per_event": 0.014285714285714275
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -0.06000000000000061,
+            "pnl_per_event": -0.0020689655172414
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": -0.33000000000000007,
+            "pnl_per_event": -0.04714285714285715
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -3.1900000000000013,
+            "pnl_per_event": -0.08861111111111114
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.3499999999999999,
+            "pnl_per_event": 0.10384615384615384
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": -2.8100000000000005,
+            "pnl_per_event": -0.1080769230769231
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 2.7899999999999996,
+            "pnl_per_event": 0.09299999999999999
+          },
+          {
+            "label": "2026-W28",
+            "n": 31,
+            "pnl": -5.95,
+            "pnl_per_event": -0.19193548387096776
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -4.350000000000001,
+            "pnl_per_event": -0.13593750000000004
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": 1.7899999999999991,
+            "pnl_per_event": 0.05593749999999997
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -2.7600000000000002,
+            "pnl_per_event": -0.08903225806451613
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": -1.3200000000000005,
+            "pnl_per_event": -0.05500000000000002
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.89,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 219,
+        "paired_count": 79,
+        "paired_pct": 0.3607305936073059,
+        "pnl": -11.260000000000005,
+        "pnl_per_event": -0.05141552511415527,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.513840089148515
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": false,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.16,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 15,
+            "pnl": 7.96,
+            "pnl_per_event": 0.5306666666666666
+          },
+          {
+            "label": "single",
+            "n": 205,
+            "pnl": -14.68,
+            "pnl_per_event": -0.07160975609756097
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 108,
+            "pnl": 0.49000000000000027,
+            "pnl_per_event": 0.00453703703703704
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 112,
+            "pnl": -7.210000000000001,
+            "pnl_per_event": -0.064375
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 40,
+            "pnl": 0.4800000000000002,
+            "pnl_per_event": 0.012000000000000005
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 0.7500000000000001,
+            "pnl_per_event": 0.025862068965517244
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.49,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.7500000000000001,
+            "pnl_per_event": -0.10714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.87,
+            "pnl_per_event": -0.06448275862068965
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.24999999999999997,
+            "pnl_per_event": 0.03571428571428571
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -4.140000000000001,
+            "pnl_per_event": -0.1881818181818182
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.44,
+            "pnl_per_event": 0.06285714285714286
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -3.14,
+            "pnl_per_event": -0.10827586206896553
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.47000000000000003,
+            "pnl_per_event": 0.06714285714285714
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": 2.28,
+            "pnl_per_event": 0.06333333333333332
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 2.66,
+            "pnl_per_event": 0.19
+          },
+          {
+            "label": "2026-W26",
+            "n": 27,
+            "pnl": -0.7300000000000002,
+            "pnl_per_event": -0.027037037037037043
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": -1.0400000000000003,
+            "pnl_per_event": -0.03586206896551725
+          },
+          {
+            "label": "2026-W28",
+            "n": 30,
+            "pnl": -2.39,
+            "pnl_per_event": -0.07966666666666668
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -1.77,
+            "pnl_per_event": -0.053636363636363635
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -1.2700000000000002,
+            "pnl_per_event": -0.03968750000000001
+          },
+          {
+            "label": "2026-W31",
+            "n": 30,
+            "pnl": -1.81,
+            "pnl_per_event": -0.060333333333333336
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": -0.3699999999999999,
+            "pnl_per_event": -0.014799999999999995
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.46,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 220,
+        "paired_count": 15,
+        "paired_pct": 0.06818181818181818,
+        "pnl": -6.720000000000001,
+        "pnl_per_event": -0.03054545454545455,
+        "positive_series": 6,
+        "positive_weeks": 1,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.3896135005619858
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 7.1,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 33,
+            "pnl": 18.09,
+            "pnl_per_event": 0.5481818181818182
+          },
+          {
+            "label": "single",
+            "n": 185,
+            "pnl": -30.890000000000004,
+            "pnl_per_event": -0.166972972972973
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 116,
+            "pnl": -1.2500000000000004,
+            "pnl_per_event": -0.010775862068965521
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 102,
+            "pnl": -11.550000000000002,
+            "pnl_per_event": -0.11323529411764709
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 40,
+            "pnl": -1.8100000000000007,
+            "pnl_per_event": -0.04525000000000002
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -2.71,
+            "pnl_per_event": -0.09344827586206897
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.2800000000000002,
+            "pnl_per_event": -0.04000000000000003
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.5,
+            "pnl_per_event": -0.21428571428571427
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 1.12,
+            "pnl_per_event": 0.038620689655172416
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.3400000000000003,
+            "pnl_per_event": -0.04857142857142861
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -5.680000000000001,
+            "pnl_per_event": -0.25818181818181823
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -0.5600000000000002,
+            "pnl_per_event": -0.09333333333333337
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -2.8300000000000005,
+            "pnl_per_event": -0.09758620689655174
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.9299999999999998,
+            "pnl_per_event": 0.13285714285714284
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": 0.8599999999999999,
+            "pnl_per_event": 0.024571428571428567
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.6999999999999997,
+            "pnl_per_event": 0.13076923076923075
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": 1.3899999999999997,
+            "pnl_per_event": 0.049642857142857134
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -4.86,
+            "pnl_per_event": -0.162
+          },
+          {
+            "label": "2026-W28",
+            "n": 30,
+            "pnl": -0.6300000000000003,
+            "pnl_per_event": -0.02100000000000001
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -4.550000000000001,
+            "pnl_per_event": -0.14218750000000002
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -2.14,
+            "pnl_per_event": -0.066875
+          },
+          {
+            "label": "2026-W31",
+            "n": 30,
+            "pnl": -0.16000000000000023,
+            "pnl_per_event": -0.005333333333333341
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -3.5500000000000003,
+            "pnl_per_event": -0.15434782608695655
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.91,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 218,
+        "paired_count": 33,
+        "paired_pct": 0.15137614678899083,
+        "pnl": -12.800000000000002,
+        "pnl_per_event": -0.05871559633027524,
+        "positive_series": 3,
+        "positive_weeks": 2,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -2.508971160944379
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 3,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.25,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 50,
+            "pnl": 20.689999999999998,
+            "pnl_per_event": 0.41379999999999995
+          },
+          {
+            "label": "single",
+            "n": 169,
+            "pnl": -26.19,
+            "pnl_per_event": -0.15497041420118343
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 115,
+            "pnl": 0.9499999999999986,
+            "pnl_per_event": 0.008260869565217379
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 104,
+            "pnl": -6.450000000000002,
+            "pnl_per_event": -0.062019230769230785
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 39,
+            "pnl": -1.6600000000000004,
+            "pnl_per_event": -0.04256410256410258
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 0.9599999999999993,
+            "pnl_per_event": 0.03310344827586204
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.5200000000000002,
+            "pnl_per_event": -0.07428571428571432
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.5300000000000002,
+            "pnl_per_event": -0.2185714285714286
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 3.1599999999999997,
+            "pnl_per_event": 0.1089655172413793
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.53,
+            "pnl_per_event": 0.07571428571428572
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -5.37,
+            "pnl_per_event": -0.2440909090909091
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.24999999999999994,
+            "pnl_per_event": 0.035714285714285705
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -1.0300000000000005,
+            "pnl_per_event": -0.03551724137931036
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.039999999999999925,
+            "pnl_per_event": 0.005714285714285704
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": -0.33000000000000085,
+            "pnl_per_event": -0.009166666666666691
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 0.27999999999999986,
+            "pnl_per_event": 0.021538461538461527
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": -0.3800000000000006,
+            "pnl_per_event": -0.01461538461538464
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 3.7299999999999995,
+            "pnl_per_event": 0.12433333333333332
+          },
+          {
+            "label": "2026-W28",
+            "n": 31,
+            "pnl": -5.08,
+            "pnl_per_event": -0.1638709677419355
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -5.7,
+            "pnl_per_event": -0.178125
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": 3.2799999999999994,
+            "pnl_per_event": 0.10249999999999998
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -0.7100000000000006,
+            "pnl_per_event": -0.022903225806451634
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": -0.9200000000000005,
+            "pnl_per_event": -0.03833333333333335
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 5.34,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 219,
+        "paired_count": 50,
+        "paired_pct": 0.228310502283105,
+        "pnl": -5.5000000000000036,
+        "pnl_per_event": -0.02511415525114157,
+        "positive_series": 5,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.8883906664876464
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.25
+      },
+      "diagnostics": {
+        "best_five_pnl": 4.2,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 8,
+            "pnl": 4.1,
+            "pnl_per_event": 0.5125
+          },
+          {
+            "label": "single",
+            "n": 211,
+            "pnl": -6.380000000000001,
+            "pnl_per_event": -0.030236966824644555
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 105,
+            "pnl": 5.15,
+            "pnl_per_event": 0.04904761904761905
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 114,
+            "pnl": -7.430000000000001,
+            "pnl_per_event": -0.06517543859649123
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 39,
+            "pnl": 1.4900000000000002,
+            "pnl_per_event": 0.03820512820512821
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": 1.24,
+            "pnl_per_event": 0.04275862068965517
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -1.49,
+            "pnl_per_event": -0.21285714285714286
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -0.7500000000000001,
+            "pnl_per_event": -0.10714285714285716
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": -1.35,
+            "pnl_per_event": -0.04655172413793104
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": 0.24999999999999997,
+            "pnl_per_event": 0.03571428571428571
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -4.15,
+            "pnl_per_event": -0.18863636363636366
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.44,
+            "pnl_per_event": 0.06285714285714286
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -2.8600000000000003,
+            "pnl_per_event": -0.09862068965517243
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.47000000000000003,
+            "pnl_per_event": 0.06714285714285714
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": 4.43,
+            "pnl_per_event": 0.12305555555555554
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 14,
+            "pnl": 2.66,
+            "pnl_per_event": 0.19
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": 0.5899999999999999,
+            "pnl_per_event": 0.022692307692307685
+          },
+          {
+            "label": "2026-W27",
+            "n": 29,
+            "pnl": 0.019999999999999823,
+            "pnl_per_event": 0.000689655172413787
+          },
+          {
+            "label": "2026-W28",
+            "n": 30,
+            "pnl": -1.43,
+            "pnl_per_event": -0.04766666666666666
+          },
+          {
+            "label": "2026-W29",
+            "n": 33,
+            "pnl": -1.2400000000000002,
+            "pnl_per_event": -0.03757575757575758
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -1.0600000000000003,
+            "pnl_per_event": -0.03312500000000001
+          },
+          {
+            "label": "2026-W31",
+            "n": 30,
+            "pnl": -2.0700000000000003,
+            "pnl_per_event": -0.069
+          },
+          {
+            "label": "2026-W32",
+            "n": 25,
+            "pnl": 0.25,
+            "pnl_per_event": 0.01
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.34,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 219,
+        "paired_count": 8,
+        "paired_pct": 0.0365296803652968,
+        "pnl": -2.2800000000000007,
+        "pnl_per_event": -0.010410958904109592,
+        "positive_series": 6,
+        "positive_weeks": 4,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -0.8166383034679554
+      },
+      "train_market_null_p": 0.39638018099095046,
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": true
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.35
+      },
+      "diagnostics": {
+        "best_five_pnl": 5.52,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 17,
+            "pnl": 9.2,
+            "pnl_per_event": 0.5411764705882353
+          },
+          {
+            "label": "single",
+            "n": 201,
+            "pnl": -16.620000000000005,
+            "pnl_per_event": -0.08268656716417913
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 118,
+            "pnl": 1.9899999999999993,
+            "pnl_per_event": 0.01686440677966101
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 100,
+            "pnl": -9.410000000000002,
+            "pnl_per_event": -0.09410000000000002
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 40,
+            "pnl": -0.7900000000000007,
+            "pnl_per_event": -0.019750000000000018
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -1.4100000000000006,
+            "pnl_per_event": -0.04862068965517243
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.2800000000000002,
+            "pnl_per_event": -0.04000000000000003
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.4700000000000002,
+            "pnl_per_event": -0.21000000000000002
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 2.13,
+            "pnl_per_event": 0.07344827586206897
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.3400000000000003,
+            "pnl_per_event": -0.04857142857142861
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -3.2700000000000005,
+            "pnl_per_event": -0.14863636363636365
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 6,
+            "pnl": -0.5600000000000002,
+            "pnl_per_event": -0.09333333333333337
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -3.2300000000000004,
+            "pnl_per_event": -0.1113793103448276
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.9299999999999998,
+            "pnl_per_event": 0.13285714285714284
+          },
+          {
+            "label": "KXWTI",
+            "n": 35,
+            "pnl": 0.8699999999999996,
+            "pnl_per_event": 0.024857142857142845
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.6999999999999997,
+            "pnl_per_event": 0.13076923076923075
+          },
+          {
+            "label": "2026-W26",
+            "n": 28,
+            "pnl": 1.7799999999999994,
+            "pnl_per_event": 0.06357142857142854
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": -4.5200000000000005,
+            "pnl_per_event": -0.15066666666666667
+          },
+          {
+            "label": "2026-W28",
+            "n": 30,
+            "pnl": -1.0000000000000004,
+            "pnl_per_event": -0.03333333333333335
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -4.790000000000001,
+            "pnl_per_event": -0.14968750000000003
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": -0.22000000000000008,
+            "pnl_per_event": -0.006875000000000003
+          },
+          {
+            "label": "2026-W31",
+            "n": 30,
+            "pnl": 1.2399999999999993,
+            "pnl_per_event": 0.04133333333333331
+          },
+          {
+            "label": "2026-W32",
+            "n": 23,
+            "pnl": -1.6100000000000003,
+            "pnl_per_event": -0.07000000000000002
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.61,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 218,
+        "paired_count": 17,
+        "paired_pct": 0.0779816513761468,
+        "pnl": -7.4200000000000035,
+        "pnl_per_event": -0.034036697247706436,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.8507024039025404
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    },
+    {
+      "config": {
+        "activation": 0.35,
+        "last_first": 0.8,
+        "min_paid": 0.05,
+        "rank_gap": 5,
+        "trigger": 0.45
+      },
+      "diagnostics": {
+        "best_five_pnl": 6.57,
+        "best_five_share": null,
+        "completion": [
+          {
+            "label": "paired",
+            "n": 31,
+            "pnl": 12.5,
+            "pnl_per_event": 0.4032258064516129
+          },
+          {
+            "label": "single",
+            "n": 188,
+            "pnl": -15.740000000000002,
+            "pnl_per_event": -0.08372340425531916
+          }
+        ],
+        "first_side": [
+          {
+            "label": "NO_FIRST",
+            "n": 117,
+            "pnl": 2.049999999999999,
+            "pnl_per_event": 0.01752136752136751
+          },
+          {
+            "label": "YES_FIRST",
+            "n": 102,
+            "pnl": -5.290000000000001,
+            "pnl_per_event": -0.051862745098039224
+          }
+        ],
+        "series": [
+          {
+            "label": "KXAAAGASD",
+            "n": 39,
+            "pnl": -0.7600000000000005,
+            "pnl_per_event": -0.0194871794871795
+          },
+          {
+            "label": "KXBRENTD",
+            "n": 29,
+            "pnl": -0.09000000000000008,
+            "pnl_per_event": -0.003103448275862072
+          },
+          {
+            "label": "KXBRENTW",
+            "n": 7,
+            "pnl": -0.5200000000000002,
+            "pnl_per_event": -0.07428571428571432
+          },
+          {
+            "label": "KXCOPPERW",
+            "n": 7,
+            "pnl": -1.08,
+            "pnl_per_event": -0.1542857142857143
+          },
+          {
+            "label": "KXGOLDD",
+            "n": 29,
+            "pnl": 2.5,
+            "pnl_per_event": 0.08620689655172414
+          },
+          {
+            "label": "KXGOLDW",
+            "n": 7,
+            "pnl": -0.009999999999999953,
+            "pnl_per_event": -0.0014285714285714218
+          },
+          {
+            "label": "KXNATGASD",
+            "n": 22,
+            "pnl": -4.58,
+            "pnl_per_event": -0.2081818181818182
+          },
+          {
+            "label": "KXNATGASW",
+            "n": 7,
+            "pnl": 0.24999999999999994,
+            "pnl_per_event": 0.035714285714285705
+          },
+          {
+            "label": "KXSILVERD",
+            "n": 29,
+            "pnl": -1.4300000000000002,
+            "pnl_per_event": -0.049310344827586214
+          },
+          {
+            "label": "KXSILVERW",
+            "n": 7,
+            "pnl": 0.039999999999999925,
+            "pnl_per_event": 0.005714285714285704
+          },
+          {
+            "label": "KXWTI",
+            "n": 36,
+            "pnl": 2.4399999999999995,
+            "pnl_per_event": 0.06777777777777777
+          }
+        ],
+        "weeks": [
+          {
+            "label": "2026-W25",
+            "n": 13,
+            "pnl": 1.18,
+            "pnl_per_event": 0.09076923076923077
+          },
+          {
+            "label": "2026-W26",
+            "n": 26,
+            "pnl": -0.4100000000000002,
+            "pnl_per_event": -0.01576923076923078
+          },
+          {
+            "label": "2026-W27",
+            "n": 30,
+            "pnl": 2.7499999999999996,
+            "pnl_per_event": 0.09166666666666665
+          },
+          {
+            "label": "2026-W28",
+            "n": 31,
+            "pnl": -3.5,
+            "pnl_per_event": -0.11290322580645161
+          },
+          {
+            "label": "2026-W29",
+            "n": 32,
+            "pnl": -5.590000000000001,
+            "pnl_per_event": -0.17468750000000002
+          },
+          {
+            "label": "2026-W30",
+            "n": 32,
+            "pnl": 5.43,
+            "pnl_per_event": 0.1696875
+          },
+          {
+            "label": "2026-W31",
+            "n": 31,
+            "pnl": -1.2400000000000004,
+            "pnl_per_event": -0.040000000000000015
+          },
+          {
+            "label": "2026-W32",
+            "n": 24,
+            "pnl": -1.8600000000000003,
+            "pnl_per_event": -0.07750000000000001
+          }
+        ]
+      },
+      "metrics": {
+        "fees": 4.96,
+        "first_close_ts": 1781721000,
+        "last_close_ts": 1786127400,
+        "n": 219,
+        "paired_count": 31,
+        "paired_pct": 0.1415525114155251,
+        "pnl": -3.240000000000002,
+        "pnl_per_event": -0.014794520547945214,
+        "positive_series": 4,
+        "positive_weeks": 3,
+        "series_count": 11,
+        "week_count": 8,
+        "weekly_lcb": -1.6427326621113072
+      },
+      "train_robustness": {
+        "all": false,
+        "completion": false,
+        "concentration": false,
+        "series": true,
+        "weeks": false
+      }
+    }
+  ],
+  "cut_iso": "2026-08-07T21:00:00+00:00",
+  "cut_ts": 1786136400,
+  "data_dir": "ladders",
+  "global_search_count_after_this_stage": 298,
+  "idea": "sequential cross-strike guaranteed-minimum ladder pair",
+  "prior_global_search_count": 262,
+  "robust_candidates": 0,
+  "sealed_test_events": 101,
+  "search_count": 36,
+  "selection_objective": "train robustness gates, then max weekly P&L lower bound",
+  "train_events": 231,
+  "winner": {
+    "config": {
+      "activation": 0.35,
+      "last_first": 0.8,
+      "min_paid": 0.05,
+      "rank_gap": 5,
+      "trigger": 0.25
+    },
+    "diagnostics": {
+      "best_five_pnl": 4.2,
+      "best_five_share": null,
+      "completion": [
+        {
+          "label": "paired",
+          "n": 8,
+          "pnl": 4.1,
+          "pnl_per_event": 0.5125
+        },
+        {
+          "label": "single",
+          "n": 211,
+          "pnl": -6.380000000000001,
+          "pnl_per_event": -0.030236966824644555
+        }
+      ],
+      "first_side": [
+        {
+          "label": "NO_FIRST",
+          "n": 105,
+          "pnl": 5.15,
+          "pnl_per_event": 0.04904761904761905
+        },
+        {
+          "label": "YES_FIRST",
+          "n": 114,
+          "pnl": -7.430000000000001,
+          "pnl_per_event": -0.06517543859649123
+        }
+      ],
+      "series": [
+        {
+          "label": "KXAAAGASD",
+          "n": 39,
+          "pnl": 1.4900000000000002,
+          "pnl_per_event": 0.03820512820512821
+        },
+        {
+          "label": "KXBRENTD",
+          "n": 29,
+          "pnl": 1.24,
+          "pnl_per_event": 0.04275862068965517
+        },
+        {
+          "label": "KXBRENTW",
+          "n": 7,
+          "pnl": -1.49,
+          "pnl_per_event": -0.21285714285714286
+        },
+        {
+          "label": "KXCOPPERW",
+          "n": 7,
+          "pnl": -0.7500000000000001,
+          "pnl_per_event": -0.10714285714285716
+        },
+        {
+          "label": "KXGOLDD",
+          "n": 29,
+          "pnl": -1.35,
+          "pnl_per_event": -0.04655172413793104
+        },
+        {
+          "label": "KXGOLDW",
+          "n": 7,
+          "pnl": 0.24999999999999997,
+          "pnl_per_event": 0.03571428571428571
+        },
+        {
+          "label": "KXNATGASD",
+          "n": 22,
+          "pnl": -4.15,
+          "pnl_per_event": -0.18863636363636366
+        },
+        {
+          "label": "KXNATGASW",
+          "n": 7,
+          "pnl": 0.44,
+          "pnl_per_event": 0.06285714285714286
+        },
+        {
+          "label": "KXSILVERD",
+          "n": 29,
+          "pnl": -2.8600000000000003,
+          "pnl_per_event": -0.09862068965517243
+        },
+        {
+          "label": "KXSILVERW",
+          "n": 7,
+          "pnl": 0.47000000000000003,
+          "pnl_per_event": 0.06714285714285714
+        },
+        {
+          "label": "KXWTI",
+          "n": 36,
+          "pnl": 4.43,
+          "pnl_per_event": 0.12305555555555554
+        }
+      ],
+      "weeks": [
+        {
+          "label": "2026-W25",
+          "n": 14,
+          "pnl": 2.66,
+          "pnl_per_event": 0.19
+        },
+        {
+          "label": "2026-W26",
+          "n": 26,
+          "pnl": 0.5899999999999999,
+          "pnl_per_event": 0.022692307692307685
+        },
+        {
+          "label": "2026-W27",
+          "n": 29,
+          "pnl": 0.019999999999999823,
+          "pnl_per_event": 0.000689655172413787
+        },
+        {
+          "label": "2026-W28",
+          "n": 30,
+          "pnl": -1.43,
+          "pnl_per_event": -0.04766666666666666
+        },
+        {
+          "label": "2026-W29",
+          "n": 33,
+          "pnl": -1.2400000000000002,
+          "pnl_per_event": -0.03757575757575758
+        },
+        {
+          "label": "2026-W30",
+          "n": 32,
+          "pnl": -1.0600000000000003,
+          "pnl_per_event": -0.03312500000000001
+        },
+        {
+          "label": "2026-W31",
+          "n": 30,
+          "pnl": -2.0700000000000003,
+          "pnl_per_event": -0.069
+        },
+        {
+          "label": "2026-W32",
+          "n": 25,
+          "pnl": 0.25,
+          "pnl_per_event": 0.01
+        }
+      ]
+    },
+    "metrics": {
+      "fees": 4.34,
+      "first_close_ts": 1781721000,
+      "last_close_ts": 1786127400,
+      "n": 219,
+      "paired_count": 8,
+      "paired_pct": 0.0365296803652968,
+      "pnl": -2.2800000000000007,
+      "pnl_per_event": -0.010410958904109592,
+      "positive_series": 6,
+      "positive_weeks": 4,
+      "series_count": 11,
+      "week_count": 8,
+      "weekly_lcb": -0.8166383034679554
+    },
+    "train_market_null_p": 0.39638018099095046,
+    "train_robustness": {
+      "all": false,
+      "completion": false,
+      "concentration": false,
+      "series": true,
+      "weeks": true
+    }
+  }
+}

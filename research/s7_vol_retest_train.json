@@ -1,0 +1,924 @@
+{
+  "all_markets": 29931,
+  "candidates": [
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 1.25
+      },
+      "key": "entry=1|estimator=std30|threshold=1.25|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -2.4705798009732924,
+        "fees": 97.43,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.5821258712587126,
+        "median_ratio": 1.7617767326959286,
+        "n": 4878,
+        "pnl": -70.04000000000018,
+        "pnl_per_trade": -0.01435834358343587,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5877408774087741
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 1.25
+      },
+      "key": "entry=1|estimator=std30|threshold=1.25|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -7.211667119828542,
+        "fees": 103.10000000000001,
+        "first_close_ts": 1782728100,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.3888921530730576,
+        "median_ratio": 0.5780084530172005,
+        "n": 5174,
+        "pnl": -276.22800000000007,
+        "pnl_per_trade": -0.05338770776961733,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.3554310011596444
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 1.5
+      },
+      "key": "entry=1|estimator=std30|threshold=1.5|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -1.8797517874720486,
+        "fees": 66.93,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.5629698237227367,
+        "median_ratio": 2.1474022440931817,
+        "n": 3347,
+        "pnl": -52.19000000000014,
+        "pnl_per_trade": -0.015593068419480173,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5673737675530326
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 1.5
+      },
+      "key": "entry=1|estimator=std30|threshold=1.5|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -5.024450425355445,
+        "fees": 70.52,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786560300,
+        "mean_paid": 0.40184937712344276,
+        "median_ratio": 0.4798137354438723,
+        "n": 3532,
+        "pnl": -188.85200000000006,
+        "pnl_per_trade": -0.05346885617214045,
+        "positive_series": 0,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.36834654586636467
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 2.0
+      },
+      "key": "entry=1|estimator=std30|threshold=2.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -1.0449975795718343,
+        "fees": 38.160000000000004,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.5408071278825997,
+        "median_ratio": 3.008786367235791,
+        "n": 1908,
+        "pnl": -24.02000000000009,
+        "pnl_per_trade": -0.012589098532494805,
+        "positive_series": 2,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5482180293501048
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 2.0
+      },
+      "key": "entry=1|estimator=std30|threshold=2.0|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -2.3272346310891194,
+        "fees": 37.99,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786558500,
+        "mean_paid": 0.41772870662460565,
+        "median_ratio": 0.34464767584656775,
+        "n": 1902,
+        "pnl": -83.51000000000002,
+        "pnl_per_trade": -0.04390641430073608,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.39379600420609884
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 3.0
+      },
+      "key": "entry=1|estimator=std30|threshold=3.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -1.0647555146774244,
+        "fees": 19.2,
+        "first_close_ts": 1782731700,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.5260520833333334,
+        "median_ratio": 4.859045125215374,
+        "n": 960,
+        "pnl": -31.21000000000004,
+        "pnl_per_trade": -0.03251041666666671,
+        "positive_series": 1,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5135416666666667
+      }
+    },
+    {
+      "config": {
+        "entry": 1,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 3.0
+      },
+      "key": "entry=1|estimator=std30|threshold=3.0|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.9709157289296797,
+        "fees": 17.85,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786548600,
+        "mean_paid": 0.4288017917133259,
+        "median_ratio": 0.21696971841432566,
+        "n": 893,
+        "pnl": -31.77000000000001,
+        "pnl_per_trade": -0.03557670772676373,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.4132138857782755
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 1.25
+      },
+      "key": "entry=3|estimator=std30|threshold=1.25|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -2.1263774252547116,
+        "fees": 85.31,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.6311223839854414,
+        "median_ratio": 1.6089942641014607,
+        "n": 4396,
+        "pnl": -56.72400000000012,
+        "pnl_per_trade": -0.01290354868061877,
+        "positive_series": 1,
+        "positive_weeks": 0,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.6376251137397634
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 1.25
+      },
+      "key": "entry=3|estimator=std30|threshold=1.25|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -4.3497054796734576,
+        "fees": 97.23,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786560300,
+        "mean_paid": 0.3444940679670219,
+        "median_ratio": 0.6192869768439514,
+        "n": 4973,
+        "pnl": -160.39900000000006,
+        "pnl_per_trade": -0.03225397144580737,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.3317916750452443
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 1.5
+      },
+      "key": "entry=3|estimator=std30|threshold=1.5|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -1.0215909865081272,
+        "fees": 52.230000000000004,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.59356351915055,
+        "median_ratio": 1.998587312677724,
+        "n": 2637,
+        "pnl": -19.457000000000093,
+        "pnl_per_trade": -0.007378460371634469,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.6059916571861964
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 1.5
+      },
+      "key": "entry=3|estimator=std30|threshold=1.5|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -2.4828345283790187,
+        "fees": 60.11,
+        "first_close_ts": 1782729000,
+        "last_close_ts": 1786557600,
+        "mean_paid": 0.3662372658560631,
+        "median_ratio": 0.5127024688863488,
+        "n": 3043,
+        "pnl": -86.57000000000005,
+        "pnl_per_trade": -0.02844889911271773,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.3575418994413408
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 2.0
+      },
+      "key": "entry=3|estimator=std30|threshold=2.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.675492023072147,
+        "fees": 26.26,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.5531558935361217,
+        "median_ratio": 2.9430918085150095,
+        "n": 1315,
+        "pnl": -10.660000000000057,
+        "pnl_per_trade": -0.008106463878327039,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5650190114068441
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 2.0
+      },
+      "key": "entry=3|estimator=std30|threshold=2.0|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -1.255214980969193,
+        "fees": 28.72,
+        "first_close_ts": 1782734400,
+        "last_close_ts": 1786557600,
+        "mean_paid": 0.39720124913254684,
+        "median_ratio": 0.3626111656344894,
+        "n": 1441,
+        "pnl": -37.087000000000025,
+        "pnl_per_trade": -0.025736988202637076,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.39139486467730744
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 3.0
+      },
+      "key": "entry=3|estimator=std30|threshold=3.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.4725728660514371,
+        "fees": 12.620000000000001,
+        "first_close_ts": 1782741600,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.5293343898573692,
+        "median_ratio": 4.657613886975986,
+        "n": 631,
+        "pnl": -7.630000000000026,
+        "pnl_per_trade": -0.012091917591125238,
+        "positive_series": 2,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5372424722662441
+      }
+    },
+    {
+      "config": {
+        "entry": 3,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 3.0
+      },
+      "key": "entry=3|estimator=std30|threshold=3.0|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.7477355976391773,
+        "fees": 12.4,
+        "first_close_ts": 1782734400,
+        "last_close_ts": 1786555800,
+        "mean_paid": 0.41935483870967744,
+        "median_ratio": 0.2215136738666962,
+        "n": 620,
+        "pnl": -21.40000000000001,
+        "pnl_per_trade": -0.03451612903225808,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.40483870967741936
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 1.25
+      },
+      "key": "entry=5|estimator=std30|threshold=1.25|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.8906741999445663,
+        "fees": 73.81,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.6754990113692536,
+        "median_ratio": 1.5454400074434287,
+        "n": 4046,
+        "pnl": -6.879000000000084,
+        "pnl_per_trade": -0.001700197726149304,
+        "positive_series": 3,
+        "positive_weeks": 3,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.6920415224913494
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 1.25
+      },
+      "key": "entry=5|estimator=std30|threshold=1.25|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -3.6333875804206315,
+        "fees": 92.67,
+        "first_close_ts": 1782733500,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.30809774284562674,
+        "median_ratio": 0.6400838237885191,
+        "n": 4962,
+        "pnl": -125.45100000000006,
+        "pnl_per_trade": -0.025282345828295055,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.3014913341394599
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 1.5
+      },
+      "key": "entry=5|estimator=std30|threshold=1.5|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.7307860588567299,
+        "fees": 42.44,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.6247636199909951,
+        "median_ratio": 1.9328032759861842,
+        "n": 2221,
+        "pnl": -8.040000000000067,
+        "pnl_per_trade": -0.003619990995047306,
+        "positive_series": 3,
+        "positive_weeks": 2,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.640252138676272
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 1.5
+      },
+      "key": "entry=5|estimator=std30|threshold=1.5|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -2.342830708882696,
+        "fees": 54.620000000000005,
+        "first_close_ts": 1782733500,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.33639187279151944,
+        "median_ratio": 0.5212146464861176,
+        "n": 2830,
+        "pnl": -76.60900000000004,
+        "pnl_per_trade": -0.027070318021201425,
+        "positive_series": 0,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.3286219081272085
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 2.0
+      },
+      "key": "entry=5|estimator=std30|threshold=2.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.11921710840028871,
+        "fees": 20.47,
+        "first_close_ts": 1782730800,
+        "last_close_ts": 1786561200,
+        "mean_paid": 0.5649571984435798,
+        "median_ratio": 2.8212356890136063,
+        "n": 1028,
+        "pnl": 11.753999999999957,
+        "pnl_per_trade": 0.011433852140077779,
+        "positive_series": 4,
+        "positive_weeks": 5,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5963035019455253
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 2.0
+      },
+      "key": "entry=5|estimator=std30|threshold=2.0|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -1.0374703606116384,
+        "fees": 25.150000000000002,
+        "first_close_ts": 1782736200,
+        "last_close_ts": 1786562100,
+        "mean_paid": 0.3747834645669291,
+        "median_ratio": 0.3662203636711472,
+        "n": 1270,
+        "pnl": -25.12500000000002,
+        "pnl_per_trade": -0.01978346456692915,
+        "positive_series": 1,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.37480314960629924
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_high",
+        "threshold": 3.0
+      },
+      "key": "entry=5|estimator=std30|threshold=3.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": 0.2360583770884397,
+        "fees": 9.26,
+        "first_close_ts": 1782738000,
+        "last_close_ts": 1786554900,
+        "mean_paid": 0.5339740820734342,
+        "median_ratio": 4.69496893852999,
+        "n": 463,
+        "pnl": 20.50999999999998,
+        "pnl_per_trade": 0.04429805615550752,
+        "positive_series": 5,
+        "positive_weeks": 6,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.5982721382289417
+      }
+    },
+    {
+      "config": {
+        "entry": 5,
+        "estimator": "std30",
+        "max_paid": 1.0,
+        "max_spread": 1.0,
+        "min_abs_z": 0.0,
+        "min_paid": 0.0,
+        "regime": "iv_low",
+        "threshold": 3.0
+      },
+      "key": "entry=5|estimator=std30|threshold=3.0|regime=iv_low|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+      "metrics": {
+        "daily_lcb": -0.5223819412646387,
+        "fees": 10.32,
+        "first_close_ts": 1782745200,
+        "last_close_ts": 1786558500,
+        "mean_paid": 0.4097480620155039,
+        "median_ratio": 0.21393122841694057,
+        "n": 516,
+        "pnl": -11.750000000000007,
+        "pnl_per_trade": -0.022771317829457377,
+        "positive_series": 2,
+        "positive_weeks": 1,
+        "series_count": 5,
+        "week_count": 7,
+        "win_rate": 0.4069767441860465
+      }
+    }
+  ],
+  "cut_iso": "2026-08-12T19:30:00+00:00",
+  "cut_ts": 1786563000,
+  "data_dir": "deep",
+  "idea": "corrected original IV/RV family",
+  "relations": {
+    "1": {
+      "iv_above_rv_pct": 48.97919120533962,
+      "mean_iv_rv": 1.3838100479672415,
+      "median_iv_rv": 0.9868245298247746,
+      "n": 15282
+    },
+    "3": {
+      "iv_above_rv_pct": 48.45532465930813,
+      "mean_iv_rv": 1.237094262811313,
+      "median_iv_rv": 0.9833268011117499,
+      "n": 16217
+    },
+    "5": {
+      "iv_above_rv_pct": 47.30825066537624,
+      "mean_iv_rv": 1.1708224429229261,
+      "median_iv_rv": 0.9764293927586691,
+      "n": 16532
+    }
+  },
+  "sealed_test_markets_before_data_checks": 8981,
+  "search_count": 24,
+  "selection_objective": "max train P&L per trade",
+  "snapshot": {
+    "files": [
+      [
+        "KXBTC15M.json",
+        7109975,
+        1788201913677889800
+      ],
+      [
+        "spot_BTC-USD.json",
+        9690792,
+        1788208552303517600
+      ],
+      [
+        "KXETH15M.json",
+        6967972,
+        1788203483627166100
+      ],
+      [
+        "spot_ETH-USD.json",
+        9412548,
+        1788208681636809900
+      ],
+      [
+        "KXSOL15M.json",
+        6918605,
+        1788205126231197300
+      ],
+      [
+        "spot_SOL-USD.json",
+        8823977,
+        1788208810230287800
+      ],
+      [
+        "KXXRP15M.json",
+        6917673,
+        1788206777301565900
+      ],
+      [
+        "spot_XRP-USD.json",
+        9148157,
+        1788208938401042700
+      ],
+      [
+        "KXDOGE15M.json",
+        6914377,
+        1788208421702771400
+      ],
+      [
+        "spot_DOGE-USD.json",
+        8171436,
+        1788209067705924200
+      ]
+    ],
+    "sha256_metadata": "09e04dd1b90b6b6a9d5e0d7152df0138e0f4b7e20358f9ae426582742de44357"
+  },
+  "timestamp_note": "Kalshi end t uses Coinbase candle keyed t-60",
+  "train_markets_before_data_checks": 20950,
+  "units_note": "IV and RV are both absolute-price volatility per sqrt(second)",
+  "winner": {
+    "config": {
+      "entry": 5,
+      "estimator": "std30",
+      "max_paid": 1.0,
+      "max_spread": 1.0,
+      "min_abs_z": 0.0,
+      "min_paid": 0.0,
+      "regime": "iv_high",
+      "threshold": 3.0
+    },
+    "key": "entry=5|estimator=std30|threshold=3.0|regime=iv_high|min_abs_z=0.0|min_paid=0.0|max_paid=1.0|max_spread=1.0",
+    "metrics": {
+      "daily_lcb": 0.2360583770884397,
+      "fees": 9.26,
+      "first_close_ts": 1782738000,
+      "last_close_ts": 1786554900,
+      "mean_paid": 0.5339740820734342,
+      "median_ratio": 4.69496893852999,
+      "n": 463,
+      "pnl": 20.50999999999998,
+      "pnl_per_trade": 0.04429805615550752,
+      "positive_series": 5,
+      "positive_weeks": 6,
+      "series_count": 5,
+      "week_count": 7,
+      "win_rate": 0.5982721382289417
+    },
+    "train_diagnostics": {
+      "best_five_pnl": 2.3499999999999996,
+      "best_five_share": 0.11457825450999522,
+      "drift": [
+        {
+          "label": "down_or_flat",
+          "n": 241,
+          "pnl": 88.55999999999999,
+          "pnl_per_trade": 0.36746887966804975
+        },
+        {
+          "label": "up",
+          "n": 220,
+          "pnl": -68.97000000000001,
+          "pnl_per_trade": -0.31350000000000006
+        }
+      ],
+      "series": [
+        {
+          "label": "BTC",
+          "n": 134,
+          "pnl": 3.439999999999994,
+          "pnl_per_trade": 0.02567164179104473
+        },
+        {
+          "label": "DOGE",
+          "n": 30,
+          "pnl": 1.1999999999999984,
+          "pnl_per_trade": 0.039999999999999945
+        },
+        {
+          "label": "ETH",
+          "n": 96,
+          "pnl": 6.3299999999999965,
+          "pnl_per_trade": 0.06593749999999997
+        },
+        {
+          "label": "SOL",
+          "n": 91,
+          "pnl": 8.629999999999995,
+          "pnl_per_trade": 0.09483516483516478
+        },
+        {
+          "label": "XRP",
+          "n": 112,
+          "pnl": 0.9099999999999946,
+          "pnl_per_trade": 0.008124999999999952
+        }
+      ],
+      "sides": [
+        {
+          "label": "NO",
+          "n": 425,
+          "pnl": 17.25999999999998,
+          "pnl_per_trade": 0.040611764705882306
+        },
+        {
+          "label": "YES",
+          "n": 38,
+          "pnl": 3.2499999999999987,
+          "pnl_per_trade": 0.08552631578947364
+        }
+      ],
+      "weeks": [
+        {
+          "label": "2026-W27",
+          "n": 63,
+          "pnl": 0.28999999999999726,
+          "pnl_per_trade": 0.00460317460317456
+        },
+        {
+          "label": "2026-W28",
+          "n": 58,
+          "pnl": 4.039999999999997,
+          "pnl_per_trade": 0.06965517241379306
+        },
+        {
+          "label": "2026-W29",
+          "n": 73,
+          "pnl": 2.4599999999999964,
+          "pnl_per_trade": 0.03369863013698625
+        },
+        {
+          "label": "2026-W30",
+          "n": 69,
+          "pnl": -0.19000000000000317,
+          "pnl_per_trade": -0.002753623188405843
+        },
+        {
+          "label": "2026-W31",
+          "n": 69,
+          "pnl": 3.059999999999997,
+          "pnl_per_trade": 0.04434782608695648
+        },
+        {
+          "label": "2026-W32",
+          "n": 99,
+          "pnl": 9.769999999999996,
+          "pnl_per_trade": 0.09868686868686864
+        },
+        {
+          "label": "2026-W33",
+          "n": 32,
+          "pnl": 1.0799999999999983,
+          "pnl_per_trade": 0.03374999999999995
+        }
+      ]
+    },
+    "train_market_null_p": 0.0024998750062496873
+  }
+}

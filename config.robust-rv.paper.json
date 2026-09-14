@@ -1,0 +1,44 @@
+{
+  "_comment": "Paper-only config for the frozen Robust RV strategy. This file contains no order credentials and does not alter config.json.",
+  "mode": "paper",
+  "strategy": "robust-rv",
+  "bankroll": 500,
+  "maxTotalLoss": 25,
+  "series": [
+    { "ticker": "KXBTC15M", "symbol": "BTC", "enabled": true },
+    { "ticker": "KXETH15M", "symbol": "ETH", "enabled": true },
+    { "ticker": "KXSOL15M", "symbol": "SOL", "enabled": true },
+    { "ticker": "KXXRP15M", "symbol": "XRP", "enabled": true },
+    { "ticker": "KXDOGE15M", "symbol": "DOGE", "enabled": true }
+  ],
+  "risk": {
+    "maxStakePerTrade": 1,
+    "maxConcurrentPositions": 5,
+    "maxOpenExposure": 5,
+    "maxTradesPerHour": 20,
+    "dailyLossLimit": 5,
+    "kellyFraction": 1,
+    "minContracts": 1,
+    "maxContracts": 1,
+    "drawdownStopPct": 0.02,
+    "minBalance": 0
+  },
+  "signal": {
+    "targetSecondsLeft": 360,
+    "entryWindowSeconds": 10,
+    "ivRvThreshold": 2,
+    "minAbsZ": 0.15,
+    "assumedNetEdge": 0.0187,
+    "minEdge": 0,
+    "maxSpread": 1,
+    "minBookSize": 1,
+    "maxIndexAgeMs": 6000,
+    "maxVenueSpread": 0.001,
+    "requireRv120Samples": 120,
+    "maxRvAgeMs": 360000
+  },
+  "loop": { "tickMs": 2000, "equitySnapshotMs": 30000 },
+  "phone": { "baseUrl": "http://127.0.0.1:8760", "bundleId": "com.kalshi.mobile", "actionDelayMs": 450, "confirmTimeoutMs": 15000, "screenshotDir": "data/shots" },
+  "api": { "postOnly": false, "exchangeIndex": 2 }
+}
+

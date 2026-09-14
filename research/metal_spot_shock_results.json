@@ -1,0 +1,117 @@
+{
+  "bonferroni_combinations": 298,
+  "config": {
+    "entry": 8,
+    "max_response": 0.15,
+    "min_z": 3.0
+  },
+  "corrected_market_null_p": null,
+  "cut_iso": "2026-08-20T22:00:00+00:00",
+  "cut_ts": 1787263200,
+  "idea": "frozen crypto spot-shock transported to Pyth metals",
+  "market_records_test": 240,
+  "market_records_train": 560,
+  "raw_market_null_p": null,
+  "test": {
+    "daily_lcb": null,
+    "fees": 0.0,
+    "first_close_ts": null,
+    "last_close_ts": null,
+    "legs": 0,
+    "mean_cost": null,
+    "n": 0,
+    "paired_count": 0,
+    "paired_pct": null,
+    "pnl": 0.0,
+    "pnl_per_trade": null,
+    "positive_series": 0,
+    "positive_weeks": 0,
+    "series_count": 0,
+    "single_win_rate": null,
+    "week_count": 0
+  },
+  "test_diagnostics": {
+    "best_five_pnl": 0,
+    "best_five_share": null,
+    "drift": [],
+    "paired": [],
+    "series": [],
+    "sides": [],
+    "weeks": []
+  },
+  "train": {
+    "daily_lcb": null,
+    "fees": 0.02,
+    "first_close_ts": 1787045400,
+    "last_close_ts": 1787143500,
+    "legs": 2,
+    "mean_cost": 0.96,
+    "n": 2,
+    "paired_count": 0,
+    "paired_pct": 0.0,
+    "pnl": 0.07999999999999999,
+    "pnl_per_trade": 0.039999999999999994,
+    "positive_series": 1,
+    "positive_weeks": 1,
+    "series_count": 1,
+    "single_win_rate": 1.0,
+    "week_count": 1
+  },
+  "train_diagnostics": {
+    "best_five_pnl": 0.07999999999999999,
+    "best_five_share": 1.0,
+    "drift": [
+      {
+        "label": "down_or_flat",
+        "n": 1,
+        "pnl": 0.07999999999999997,
+        "pnl_per_trade": 0.07999999999999997
+      },
+      {
+        "label": "up",
+        "n": 1,
+        "pnl": 8.673617379884035e-18,
+        "pnl_per_trade": 8.673617379884035e-18
+      }
+    ],
+    "paired": [
+      {
+        "label": "single",
+        "n": 2,
+        "pnl": 0.07999999999999999,
+        "pnl_per_trade": 0.039999999999999994
+      }
+    ],
+    "series": [
+      {
+        "label": "GOLD",
+        "n": 2,
+        "pnl": 0.07999999999999999,
+        "pnl_per_trade": 0.039999999999999994
+      }
+    ],
+    "sides": [
+      {
+        "label": "NO",
+        "n": 1,
+        "pnl": 0.07999999999999997,
+        "pnl_per_trade": 0.07999999999999997
+      },
+      {
+        "label": "YES",
+        "n": 1,
+        "pnl": 8.673617379884035e-18,
+        "pnl_per_trade": 8.673617379884035e-18
+      }
+    ],
+    "weeks": [
+      {
+        "label": "2026-W34",
+        "n": 2,
+        "pnl": 0.07999999999999999,
+        "pnl_per_trade": 0.039999999999999994
+      }
+    ]
+  },
+  "verdict": "FAIL"
+}
